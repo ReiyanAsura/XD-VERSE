@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/XD-VERSE',
-  assetPrefix: '/XD-VERSE/',
+  assetPrefix: './',
   images: {
     unoptimized: true,
   },
