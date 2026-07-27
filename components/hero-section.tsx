@@ -30,7 +30,7 @@ export function HeroSection() {
         {/* Full Background Minecraft Ghibli Artwork */}
         <div className="absolute inset-0 z-0">
           <img
-            src={`${process.env.NODE_ENV === 'production' ? '/XD-VERSE' : ''}/images/minecraft-warm-bg.jpg`}
+            src="./images/minecraft-warm-bg.jpg"
             alt="Warm Studio Ghibli Minecraft landscape background"
             className="absolute inset-0 h-full w-full object-cover object-center"
           />
@@ -106,7 +106,7 @@ export function HeroSection() {
             <button
               type="button"
               onClick={handleCopyIp}
-              className="flex items-center gap-2 rounded-full border border-stone-300/90 bg-white/90 px-6 py-3.5 text-sm font-bold text-stone-900 shadow-md backdrop-blur-md transition-all hover:bg-white hover:border-stone-400 active:scale-95"
+              className="flex items-center gap-2 rounded-full border border-stone-300/90 bg-white/90 px-7 py-3.5 text-sm font-bold text-stone-900 shadow-md backdrop-blur-md transition-all hover:bg-white hover:border-stone-400 active:scale-95"
             >
               {copied ? (
                 <>
@@ -116,7 +116,7 @@ export function HeroSection() {
               ) : (
                 <>
                   <Copy className="size-4 text-blue-600" />
-                  <span className="font-mono text-xs">125.16.185.22:25590</span>
+                  <span>Server IP</span>
                 </>
               )}
             </button>

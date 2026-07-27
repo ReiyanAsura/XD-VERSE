@@ -327,13 +327,9 @@ export function JoinGuideSection() {
                 04
               </div>
               <h3 className="text-xl font-bold text-stone-900 mb-2">Join & Play</h3>
-              <p className="text-sm leading-relaxed text-stone-600 mb-4">
+              <p className="text-sm leading-relaxed text-stone-600 mb-6">
                 Launch Minecraft, add our server IP, and enter the SMP world!
               </p>
-              <div className="mb-6 rounded-2xl border border-emerald-200/80 bg-emerald-50/60 p-3 flex items-center justify-between">
-                <span className="font-mono text-xs font-bold text-stone-800">125.16.185.22:25590</span>
-                <span className="inline-block size-2 rounded-full bg-emerald-500 animate-pulse" />
-              </div>
             </div>
             <button
               type="button"
@@ -348,7 +344,7 @@ export function JoinGuideSection() {
               ) : (
                 <>
                   <Copy className="size-3.5" />
-                  <span>Copy Server IP</span>
+                  <span>Server IP</span>
                 </>
               )}
             </button>
