@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  basePath: '/XD-VERSE',
+  assetPrefix: '/XD-VERSE/',
   images: {
     unoptimized: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 }
 
