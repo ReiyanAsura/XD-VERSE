@@ -30,7 +30,7 @@ export function HeroSection() {
         {/* Full Background Minecraft Ghibli Artwork */}
         <div className="absolute inset-0 z-0">
           <img
-            src="./images/minecraft-warm-bg.jpg"
+            src={`${process.env.NODE_ENV === 'production' ? '/XD-VERSE' : ''}/images/minecraft-warm-bg.jpg`}
             alt="Warm Studio Ghibli Minecraft landscape background"
             className="absolute inset-0 h-full w-full object-cover object-center"
           />

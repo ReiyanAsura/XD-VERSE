@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/XD-VERSE//_next/:path+",
+        "destination": "/XD-VERSE/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
