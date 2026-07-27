@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-silkscreen {
+  font-family: var(--font-silkscreen), cursive, monospace;
+}
+
+:root {
+  color-scheme: light;
+  --background: #f5f2eb;
+  --foreground: #1c1917;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --secondary: #f3eee6;
+  --secondary-foreground: #1c1917;
+  --card: #ffffff;
+  --card-foreground: #1c1917;
+  --muted: #e7e2d9;
+  --muted-foreground: #78716c;
+  --border: rgba(28, 25, 23, 0.08);
+  --ring: #2563eb;
+}
+
+* {
+  border-color: var(--border);
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #e5dfd3;
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphic card container inspired by sample design */
+.glass-panel-warm {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 25px 70px -15px rgba(28, 25, 23, 0.12), 0 0 1px 1px rgba(28, 25, 23, 0.06);
+}
+
+/* Glowing green online orb */
+.glow-orb-green {
+  background: #22c55e;
+  box-shadow: 0 0 10px 2px rgba(34, 197, 94, 0.8);
+  animation: orb-pulse-green 2s ease-in-out infinite;
+}
+
+/* Hide scrollbar completely across all browsers */
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+html, body, * {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+@keyframes orb-pulse-green {
+  0%, 100% {
+    box-shadow: 0 0 6px 2px rgba(34, 197, 94, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 14px 4px rgba(34, 197, 94, 0.9);
+  }
+}

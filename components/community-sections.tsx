@@ -1,0 +1,536 @@
+'use client'
+
+import { useState } from 'react'
+import { motion } from 'framer-motion'
+import {
+  ArrowRight,
+  Check,
+  CheckCircle2,
+  Copy,
+  Crown,
+  Dices,
+  Gamepad2,
+  Gem,
+  Ghost,
+  Hash,
+  Heart,
+  Mic,
+  Music,
+  Pickaxe,
+  Shield,
+  ShieldAlert,
+  Sparkles,
+  Star,
+  Sword,
+  Terminal,
+  Trophy,
+  UserCheck,
+  Users,
+  Zap,
+  type LucideIcon,
+} from 'lucide-react'
+
+const featuresList = [
+  {
+    icon: Pickaxe,
+    title: 'Vanilla Survival SMP',
+    description: 'Classic survival gameplay focused on building, exploration, and community-driven adventures.',
+  },
+  {
+    icon: Gem,
+    title: 'Quality of Life Plugin',
+    description: 'Infinite villager trading, clicking villager mechanics, and limited mace.',
+  },
+  {
+    icon: Terminal,
+    title: 'Custom Commands',
+    description: 'Essential player commands like /spawn and /home to quickly return to your base or server hub.',
+  },
+  {
+    icon: Mic,
+    title: 'Voice Channels & Chill',
+    description: 'Hop in Discord VC to chat, stream your gameplay, and play party minigames.',
+  },
+  {
+    icon: Sparkles,
+    title: 'Community Events',
+    description: 'Participate in fun events like building contests, PvP battles, and win exciting prizes!',
+  },
+  {
+    icon: Zap,
+    title: '24/7 Zero Lag',
+    description: 'Hosted on dedicated high-performance hardware for buttery-smooth gameplay.',
+  },
+]
+
+const rulesList = [
+  {
+    number: '01',
+    title: 'Respect Players & Staff',
+    description: 'Treat everyone with kindness. Harassment, toxicity, and disrespect toward players or staff are not tolerated.',
+  },
+  {
+    number: '02',
+    title: 'Fair Play (No Hacks)',
+    description: 'Cheating, X-Ray, hacking, or exploiting bugs are strictly prohibited and will lead to an immediate ban.',
+  },
+  {
+    number: '03',
+    title: 'Family-Friendly Chat',
+    description: 'Keep global chat clean and friendly. Avoid profanity, offensive language, or inappropriate topics.',
+  },
+  {
+    number: '04',
+    title: 'No Advertising',
+    description: 'Self-promotion, sharing external Discord invite links, or advertising other Minecraft servers is not allowed.',
+  },
+  {
+    number: '05',
+    title: 'Protect Personal Privacy',
+    description: 'Respect privacy. Do not share personal details, sensitive real-world info, or private data of anyone.',
+  },
+  {
+    number: '06',
+    title: 'No Chat Spam or Caps',
+    description: 'Keep chat clean and easy to read. Avoid repeating messages, spamming, or using excessive ALL-CAPS.',
+  },
+  {
+    number: '07',
+    title: 'Follow Staff Instructions',
+    description: 'Always respect and follow guidance from staff members—their decisions keep the server safe and fair.',
+  },
+  {
+    number: '08',
+    title: 'Report Issues Responsibly',
+    description: 'Report bugs, player rule violations, or server issues responsibly to staff via Discord tickets rather than public chat.',
+  },
+]
+
+const topPlayersList = [
+  {
+    rank: '1.',
+    name: 'ReiyanAsura',
+    score: '14,250 PTS',
+    playTime: '420 hrs',
+    ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
+    ribbonText: 'text-white',
+    cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
+  },
+  {
+    rank: '2.',
+    name: 'player2',
+    score: '12,890 PTS',
+    playTime: '380 hrs',
+    ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
+    ribbonText: 'text-white',
+    cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+  },
+  {
+    rank: '3.',
+    name: 'player3',
+    score: '11,400 PTS',
+    playTime: '310 hrs',
+    ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
+    ribbonText: 'text-white',
+    cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
+  },
+]
+
+const shopPackages = [
+  {
+    name: 'VIP Rank',
+    price: '$4.99/mo',
+    features: ['Colored Chat Tag', 'Fly in Hub', 'Exclusive Cosmetics', '2x XP Boost'],
+    popular: false,
+  },
+  {
+    name: 'LEGEND Rank',
+    price: '$12.99/mo',
+    features: ['All VIP Features', 'Custom Particle Trails', 'Priority Server Join', '3x XP Boost', '5 Home Warps'],
+    popular: true,
+  },
+  {
+    name: 'GOD Rank',
+    price: '$24.99/mo',
+    features: ['All LEGEND Features', 'Custom Prefix', 'Access to Beta Features', '5x XP Boost', 'Unlimited Warps'],
+    popular: false,
+  },
+]
+
+const fadeUp = {
+  initial: { opacity: 0, y: 30 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: '-60px' },
+  transition: { duration: 0.6, ease: 'easeOut' as const },
+}
+
+export function FeaturesSection() {
+  return (
+    <section
+      id="features"
+      className="relative z-40 px-6 py-20 md:py-28"
+      aria-labelledby="features-title"
+    >
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-16 text-center">
+          <span className="rounded-full bg-blue-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-blue-700">
+            Features
+          </span>
+          <motion.h2
+            id="features-title"
+            {...fadeUp}
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+          >
+            Everything You Need for Adventure
+          </motion.h2>
+          <p className="mt-4 text-sm text-stone-600 md:text-base max-w-xl mx-auto">
+            Discover a refined Minecraft SMP experience designed for community, fair play, and endless fun.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {featuresList.map(({ icon: Icon, title, description }) => (
+            <motion.article
+              key={title}
+              {...fadeUp}
+              whileHover={{ y: -6 }}
+              className="flex flex-col gap-4 rounded-3xl border border-stone-200/80 bg-white p-8 shadow-sm transition-all hover:shadow-xl"
+            >
+              <div className="flex size-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
+                <Icon className="size-6" aria-hidden="true" strokeWidth={2} />
+              </div>
+              <h3 className="text-xl font-bold tracking-tight text-stone-900">{title}</h3>
+              <p className="text-sm leading-relaxed text-stone-600">{description}</p>
+            </motion.article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export function JoinGuideSection() {
+  const [copied, setCopied] = useState(false)
+
+  const handleCopyIp = () => {
+    navigator.clipboard.writeText('125.16.185.22:25590')
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2500)
+  }
+
+  return (
+    <section
+      id="how-to-join"
+      className="relative z-40 bg-[#f5f2eb]/60 px-6 py-20 md:py-28"
+      aria-labelledby="join-title"
+    >
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-16 text-center">
+          <span className="rounded-full bg-blue-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-blue-700">
+            Whitelist Guide
+          </span>
+          <motion.h2
+            id="join-title"
+            {...fadeUp}
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+          >
+            How to Get Whitelisted & Join
+          </motion.h2>
+          <p className="mt-4 text-sm font-medium text-stone-600 md:text-base max-w-xl mx-auto">
+            Get whitelisted in 4 easy steps to start your survival adventure on XD VERSE SMP.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          {/* Step 1: Join Discord */}
+          <motion.div
+            {...fadeUp}
+            whileHover={{ y: -6 }}
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-indigo-300/80 hover:shadow-xl"
+          >
+            <div>
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-indigo-50 font-black text-indigo-600 text-sm tracking-wider">
+                01
+              </div>
+              <h3 className="text-xl font-bold text-stone-900 mb-2">Join Our Discord</h3>
+              <p className="text-sm leading-relaxed text-stone-600 mb-6">
+                Click below to join the official XD VERSE Discord community server.
+              </p>
+            </div>
+            <a
+              href="https://discord.gg/csZuFW2UM3"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#5865F2] px-5 py-3 text-xs font-bold text-white shadow-md shadow-indigo-100 transition-all hover:bg-[#4752C4] active:scale-95"
+            >
+              <span>Join Discord</span>
+              <ArrowRight className="size-3.5" />
+            </a>
+          </motion.div>
+
+          {/* Step 2: Open Whitelist Channel */}
+          <motion.div
+            {...fadeUp}
+            whileHover={{ y: -6 }}
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-blue-300/80 hover:shadow-xl"
+          >
+            <div>
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-blue-50 font-black text-blue-600 text-sm tracking-wider">
+                02
+              </div>
+              <h3 className="text-xl font-bold text-stone-900 mb-2">Open Whitelist</h3>
+              <p className="text-sm leading-relaxed text-stone-600 mb-6">
+                Inside Discord, locate and click the <strong className="text-stone-900 font-bold">whitelist channel</strong>.
+              </p>
+            </div>
+            <div className="flex items-center gap-2.5 rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 text-stone-800">
+              <Hash className="size-4 text-indigo-500 shrink-0" />
+              <span className="font-mono text-xs font-bold tracking-wide text-stone-700">whitelist</span>
+              <span className="ml-auto inline-block size-2 rounded-full bg-emerald-500 animate-pulse" />
+            </div>
+          </motion.div>
+
+          {/* Step 3: Enter Username */}
+          <motion.div
+            {...fadeUp}
+            whileHover={{ y: -6 }}
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-amber-300/80 hover:shadow-xl"
+          >
+            <div>
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-amber-50 font-black text-amber-700 text-sm tracking-wider">
+                03
+              </div>
+              <h3 className="text-xl font-bold text-stone-900 mb-2">Send Username</h3>
+              <p className="text-sm leading-relaxed text-stone-600 mb-6">
+                Type your exact Minecraft in-game username in the <span className="font-bold text-stone-900">whitelist channel</span>.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-amber-200/80 bg-amber-50/70 p-3 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <UserCheck className="size-4 text-amber-600" />
+                <span className="font-mono text-xs font-bold text-stone-800">YourUsername</span>
+              </div>
+              <span className="rounded-md bg-amber-200/80 px-2 py-0.5 text-[10px] font-extrabold text-amber-900 uppercase">
+                SEND
+              </span>
+            </div>
+          </motion.div>
+
+          {/* Step 4: Connect IP & Play */}
+          <motion.div
+            {...fadeUp}
+            whileHover={{ y: -6 }}
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-emerald-300/80 hover:shadow-xl"
+          >
+            <div>
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-emerald-50 font-black text-emerald-700 text-sm tracking-wider">
+                04
+              </div>
+              <h3 className="text-xl font-bold text-stone-900 mb-2">Join & Play</h3>
+              <p className="text-sm leading-relaxed text-stone-600 mb-4">
+                Launch Minecraft, add our server IP, and enter the SMP world!
+              </p>
+              <div className="mb-6 rounded-2xl border border-emerald-200/80 bg-emerald-50/60 p-3 flex items-center justify-between">
+                <span className="font-mono text-xs font-bold text-stone-800">125.16.185.22:25590</span>
+                <span className="inline-block size-2 rounded-full bg-emerald-500 animate-pulse" />
+              </div>
+            </div>
+            <button
+              type="button"
+              onClick={handleCopyIp}
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-5 py-3 text-xs font-bold text-white shadow-md transition-all hover:bg-stone-800 active:scale-95"
+            >
+              {copied ? (
+                <>
+                  <Check className="size-3.5 text-emerald-400" />
+                  <span>IP Copied!</span>
+                </>
+              ) : (
+                <>
+                  <Copy className="size-3.5" />
+                  <span>Copy Server IP</span>
+                </>
+              )}
+            </button>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export function RulesSection() {
+  return (
+    <section
+      id="rules"
+      className="relative z-40 px-6 py-20 md:py-28"
+      aria-labelledby="rules-title"
+    >
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-16 text-center">
+          <span className="rounded-full bg-amber-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800">
+            Community Guidelines
+          </span>
+          <motion.h2
+            id="rules-title"
+            {...fadeUp}
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+          >
+            Server Rules
+          </motion.h2>
+          <p className="mt-4 text-sm text-stone-600 md:text-base max-w-xl mx-auto">
+            Keeping XD VERSE SMP safe, friendly, and enjoyable for all players.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          {rulesList.map((rule) => (
+            <motion.div
+              key={rule.number}
+              {...fadeUp}
+              whileHover={{ scale: 1.01 }}
+              className="flex gap-6 rounded-3xl border border-stone-200 bg-white p-8 shadow-sm"
+            >
+              <span className="text-2xl font-black text-blue-600">{rule.number}</span>
+              <div>
+                <h3 className="text-lg font-bold text-stone-900 mb-2">{rule.title}</h3>
+                <p className="text-sm leading-relaxed text-stone-600">{rule.description}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export function AboutSection() {
+  return (
+    <section
+      id="about"
+      className="relative z-40 px-6 py-20 md:py-28"
+      aria-labelledby="about-title"
+    >
+      <div className="mx-auto max-w-4xl text-center">
+        <span className="rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-emerald-800">
+          About Us
+        </span>
+        <motion.h2
+          id="about-title"
+          {...fadeUp}
+          className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+        >
+          The Warm Hangout Spot
+        </motion.h2>
+        <motion.p
+          {...fadeUp}
+          className="mt-6 text-base font-normal leading-relaxed text-stone-600 md:text-lg"
+        >
+          XD VERSE is a cozy, casual Minecraft SMP community built for hanging out, building epic bases,
+          and making lifelong friends. Whether you love quiet survival building, chaotic minigames,
+          or late-night voice calls, everyone is welcome.
+        </motion.p>
+
+        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
+            <span className="text-3xl font-black text-stone-900">300+</span>
+            <p className="mt-1 text-xs font-semibold text-stone-500">Registered Players</p>
+          </div>
+          <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
+            <span className="text-3xl font-black text-blue-600">24/7</span>
+            <p className="mt-1 text-xs font-semibold text-stone-500">Active Uptime</p>
+          </div>
+          <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
+            <span className="text-3xl font-black text-emerald-600">99.9%</span>
+            <p className="mt-1 text-xs font-semibold text-stone-500">Zero Lag Score</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export function ExtraSection() {
+  return (
+    <section
+      id="extra"
+      className="relative z-40 bg-[#f5f2eb]/60 px-6 py-20 md:py-28"
+      aria-labelledby="extra-title"
+    >
+      <div className="mx-auto max-w-4xl">
+        <div className="mb-16 text-center">
+          <span className="rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800">
+            Leaderboard
+          </span>
+          <motion.h2
+            id="extra-title"
+            {...fadeUp}
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+          >
+            Top Server Players
+          </motion.h2>
+          <p className="mt-4 text-sm font-medium text-stone-600 md:text-base max-w-xl mx-auto">
+            Honoring Season legends with custom rank badges on XD VERSE SMP.
+          </p>
+        </div>
+
+        {/* Vertical Stacked Leaderboard Rows */}
+        <div className="flex flex-col gap-4 max-w-3xl mx-auto">
+          {topPlayersList.map((player) => (
+            <motion.div
+              key={player.name}
+              {...fadeUp}
+              whileHover={{ scale: 1.015, x: 4 }}
+              className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg}`}
+            >
+              {/* Left: Simple Angled Ribbon with Rank Number */}
+              <div
+                className={`relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ${player.ribbonBg}`}
+                style={{ clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0 100%)' }}
+              >
+                {/* Rank Number */}
+                <span className={`ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] ${player.ribbonText}`}>
+                  {player.rank}
+                </span>
+              </div>
+
+              {/* Center: Player Name + Score */}
+              <div className="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
+                <div className="flex flex-col">
+                  <h3 className="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">
+                    {player.name}
+                  </h3>
+                  <span className="mt-0.5 text-xs font-semibold text-stone-400">
+                    {player.playTime} played
+                  </span>
+                </div>
+                <span className="text-base md:text-lg font-black text-stone-900 tabular-nums">
+                  {player.score}
+                </span>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export function SiteFooter() {
+  return (
+    <footer className="relative z-40 border-t border-stone-200/80 bg-white px-6 py-10 text-center">
+      <div className="mx-auto max-w-6xl flex flex-col items-center justify-between gap-4 md:flex-row">
+        <span className="font-extrabold tracking-wider text-blue-600 text-lg">XD VERSE</span>
+        <p className="text-xs text-stone-500">
+          © 2026 XD VERSE SMP. All rights reserved. A friendly Minecraft Community.
+        </p>
+        <div className="flex gap-6 text-xs font-semibold text-stone-600">
+          <a href="#features" className="hover:text-blue-600">Features</a>
+          <a href="#rules" className="hover:text-blue-600">Rules</a>
+          <a href="#about" className="hover:text-blue-600">About</a>
+          <a href="#extra" className="hover:text-blue-600">Extra</a>
+        </div>
+      </div>
+    </footer>
+  )
+}
