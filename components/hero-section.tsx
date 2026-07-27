@@ -84,8 +84,8 @@ export function HeroSection() {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="mt-5 max-w-xl text-balance text-sm font-medium leading-relaxed text-stone-700 sm:text-base md:text-lg"
           >
-            Streamline your survival adventures, custom quests, community events, land claims,
-            and team operations — all in one warm, friendly place.
+            Experience classic vanilla survival enhanced with essential Quality of Life plugins,
+            community events, and custom commands — all in one warm, friendly place.
           </motion.p>
 
           {/* CTA Buttons */}
