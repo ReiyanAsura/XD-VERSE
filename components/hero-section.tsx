@@ -29,12 +29,10 @@ export function HeroSection() {
       >
         {/* Full Background Minecraft Ghibli Artwork */}
         <div className="absolute inset-0 z-0">
-          <Image
-            src={`${process.env.NODE_ENV === 'production' ? '/XD-VERSE' : ''}/images/minecraft-warm-bg.jpg`}
+          <img
+            src="./images/minecraft-warm-bg.jpg"
             alt="Warm Studio Ghibli Minecraft landscape background"
-            fill
-            priority
-            className="object-cover object-center"
+            className="absolute inset-0 h-full w-full object-cover object-center"
           />
           {/* Subtle soft white/cream backdrop gradient overlay for perfect readability */}
           <div className="absolute inset-0 bg-gradient-to-b from-white/90 via-white/80 to-white/40 backdrop-blur-[2px]" />
