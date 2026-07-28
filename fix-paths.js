@@ -5,7 +5,7 @@ function replaceInDir(dirPath) {
   if (!fs.existsSync(dirPath)) return;
   const items = fs.readdirSync(dirPath, { withFileTypes: true });
   for (const item of items) {
-    if (item.name === '.next' || item.name === 'node_modules' || item.name === '.git') continue;
+    if (item.name === '.next' || item.name === 'node_modules' || item.name === '.git' || item.name === 'package-lock.json' || item.name === 'package.json' || item.name === 'poly.js' || item.name === 'tsconfig.json') continue;
     const fullPath = path.join(dirPath, item.name);
     if (item.isDirectory()) {
       replaceInDir(fullPath);
