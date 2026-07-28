@@ -19,9 +19,12 @@ import {
   Pickaxe,
   Shield,
   ShieldAlert,
+  Clock,
+  Skull,
   Sparkles,
   Star,
   Sword,
+  Swords,
   Terminal,
   Trophy,
   UserCheck,
@@ -106,35 +109,164 @@ const rulesList = [
   },
 ]
 
-const topPlayersList = [
-  {
-    rank: '1.',
-    name: 'ReiyanAsura',
-    score: '14,250 PTS',
-    playTime: '420 hrs',
-    ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
-    ribbonText: 'text-white',
-    cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
+const leaderboardCategories = {
+  kills: {
+    id: 'kills',
+    label: 'Kills',
+    icon: Swords,
+    players: [
+      {
+        rank: '1.',
+        name: 'ReiyanAsura',
+        score: '1,420 Kills',
+        subtitle: '420 hrs played',
+        ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
+        ribbonText: 'text-white',
+        cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
+      },
+      {
+        rank: '2.',
+        name: 'VortexPvP',
+        score: '1,180 Kills',
+        subtitle: '310 hrs played',
+        ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '3.',
+        name: 'ShadowBlade',
+        score: '950 Kills',
+        subtitle: '275 hrs played',
+        ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '4.',
+        name: 'EnderKnight',
+        score: '810 Kills',
+        subtitle: '240 hrs played',
+        ribbonBg: 'from-stone-500 to-stone-600',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '5.',
+        name: 'BlazeHunter',
+        score: '690 Kills',
+        subtitle: '190 hrs played',
+        ribbonBg: 'from-stone-500 to-stone-600',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+    ],
   },
-  {
-    rank: '2.',
-    name: 'player2',
-    score: '12,890 PTS',
-    playTime: '380 hrs',
-    ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
-    ribbonText: 'text-white',
-    cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+  deaths: {
+    id: 'deaths',
+    label: 'Deaths',
+    icon: Skull,
+    players: [
+      {
+        rank: '1.',
+        name: 'CreeperMagnet',
+        score: '482 Deaths',
+        subtitle: '180 hrs played',
+        ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
+        ribbonText: 'text-white',
+        cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
+      },
+      {
+        rank: '2.',
+        name: 'LavaDiver',
+        score: '395 Deaths',
+        subtitle: '210 hrs played',
+        ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '3.',
+        name: 'AFKLegend',
+        score: '310 Deaths',
+        subtitle: '350 hrs played',
+        ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '4.',
+        name: 'NoobMaster',
+        score: '275 Deaths',
+        subtitle: '145 hrs played',
+        ribbonBg: 'from-stone-500 to-stone-600',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '5.',
+        name: 'ReiyanAsura',
+        score: '210 Deaths',
+        subtitle: '420 hrs played',
+        ribbonBg: 'from-stone-500 to-stone-600',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+    ],
   },
-  {
-    rank: '3.',
-    name: 'player3',
-    score: '11,400 PTS',
-    playTime: '310 hrs',
-    ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
-    ribbonText: 'text-white',
-    cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
+  playtime: {
+    id: 'playtime',
+    label: 'PlayTime',
+    icon: Clock,
+    players: [
+      {
+        rank: '1.',
+        name: 'ReiyanAsura',
+        score: '420 hrs',
+        subtitle: '14,250 PTS',
+        ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
+        ribbonText: 'text-white',
+        cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
+      },
+      {
+        rank: '2.',
+        name: 'CraftMaster',
+        score: '380 hrs',
+        subtitle: '12,890 PTS',
+        ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '3.',
+        name: 'BlockBuilder',
+        score: '310 hrs',
+        subtitle: '11,400 PTS',
+        ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '4.',
+        name: 'PixelQueen',
+        score: '295 hrs',
+        subtitle: '10,150 PTS',
+        ribbonBg: 'from-stone-500 to-stone-600',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+      {
+        rank: '5.',
+        name: 'RedstonePro',
+        score: '260 hrs',
+        subtitle: '9,200 PTS',
+        ribbonBg: 'from-stone-500 to-stone-600',
+        ribbonText: 'text-white',
+        cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
+      },
+    ],
   },
-]
+}
 
 const shopPackages = [
   {
@@ -447,6 +579,10 @@ export function AboutSection() {
 }
 
 export function LeaderboardSection() {
+  const [activeCategory, setActiveCategory] = useState<'kills' | 'deaths' | 'playtime'>('kills')
+
+  const currentCategory = leaderboardCategories[activeCategory]
+
   return (
     <section
       id="leaderboard"
@@ -454,7 +590,7 @@ export function LeaderboardSection() {
       aria-labelledby="leaderboard-title"
     >
       <div className="mx-auto max-w-4xl">
-        <div className="mb-16 text-center">
+        <div className="mb-12 text-center">
           <span className="rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800">
             Leaderboard
           </span>
@@ -468,14 +604,43 @@ export function LeaderboardSection() {
           <p className="mt-4 text-sm font-medium text-stone-600 md:text-base max-w-xl mx-auto">
             Honoring Season legends with custom rank badges on XD VERSE SMP.
           </p>
+
+          {/* Category Switcher Tabs */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            {(Object.keys(leaderboardCategories) as Array<keyof typeof leaderboardCategories>).map((catKey) => {
+              const cat = leaderboardCategories[catKey]
+              const Icon = cat.icon
+              const isActive = activeCategory === catKey
+              return (
+                <button
+                  key={catKey}
+                  type="button"
+                  onClick={() => setActiveCategory(catKey)}
+                  className={`relative flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer ${
+                    isActive
+                      ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/25 scale-105'
+                      : 'bg-white/90 text-stone-700 hover:bg-white hover:text-black border border-stone-200/80 shadow-sm'
+                  }`}
+                >
+                  <Icon className={`size-4.5 ${isActive ? 'text-white' : 'text-blue-600'}`} />
+                  <span>{cat.label}</span>
+                </button>
+              )
+            })}
+          </div>
         </div>
 
         {/* Vertical Stacked Leaderboard Rows */}
-        <div className="flex flex-col gap-4 max-w-3xl mx-auto">
-          {topPlayersList.map((player) => (
+        <motion.div
+          key={activeCategory}
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.25 }}
+          className="flex flex-col gap-4 max-w-3xl mx-auto"
+        >
+          {currentCategory.players.map((player) => (
             <motion.div
-              key={player.name}
-              {...fadeUp}
+              key={player.name + player.rank}
               whileHover={{ scale: 1.015, x: 4 }}
               className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg}`}
             >
@@ -490,14 +655,14 @@ export function LeaderboardSection() {
                 </span>
               </div>
 
-              {/* Center: Player Name + Score */}
+              {/* Center: Player Name + Subtitle */}
               <div className="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
                 <div className="flex flex-col">
                   <h3 className="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">
                     {player.name}
                   </h3>
                   <span className="mt-0.5 text-xs font-semibold text-stone-400">
-                    {player.playTime} played
+                    {player.subtitle}
                   </span>
                 </div>
                 <span className="text-base md:text-lg font-black text-stone-900 tabular-nums">
@@ -506,7 +671,7 @@ export function LeaderboardSection() {
               </div>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   )
