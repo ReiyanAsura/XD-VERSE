@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01:09 PM",
+  "updatedAt": "01:39 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "DudeVedant_pro",
       "score": "10 Kills",
-      "subtitle": "13.9 hrs played",
+      "subtitle": "14.4 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "DudeVedant_pro",
       "score": "12 Deaths",
-      "subtitle": "13.9 hrs played",
+      "subtitle": "14.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -141,8 +141,8 @@
     {
       "rank": "6.",
       "name": "Sontraz_255",
-      "score": "8 Deaths",
-      "subtitle": "1.0 hrs played",
+      "score": "10 Deaths",
+      "subtitle": "1.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -150,8 +150,8 @@
     {
       "rank": "7.",
       "name": "VOID",
-      "score": "7 Deaths",
-      "subtitle": "1.6 hrs played",
+      "score": "8 Deaths",
+      "subtitle": "1.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "DudeVedant_pro",
-      "score": "13.9 hrs",
+      "score": "14.4 hrs",
       "subtitle": "10 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -232,18 +232,18 @@
     },
     {
       "rank": "6.",
-      "name": "G6Gamer7",
-      "score": "3.4 hrs",
-      "subtitle": "2 Kills",
+      "name": "IllegalAzure",
+      "score": "3.7 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
-      "name": "IllegalAzure",
-      "score": "3.2 hrs",
-      "subtitle": "0 Kills",
+      "name": "G6Gamer7",
+      "score": "3.4 hrs",
+      "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
