@@ -1,0 +1,37 @@
+# ╔══════════════════════════════════════════════╗
+# ║        XD-VERSE Leaderboard Plugin           ║
+# ╚══════════════════════════════════════════════╝
+#
+# SETUP: Fill in your GitHub token and repo details below.
+# Then restart your server — that's it! Fully automatic.
+
+# ── GitHub Settings ────────────────────────────
+# Generate your token at:
+# github.com → Profile → Settings → Developer settings
+#   → Personal access tokens → Tokens (classic)
+#   → Generate new token → check "repo" → copy token
+github-token: "YOUR_GITHUB_TOKEN_HERE"
+
+# Your GitHub username
+github-owner: "ReiyanAsura"
+
+# Your repository name
+github-repo: "XD-VERSE"
+
+# Branch to push to
+github-branch: "main"
+
+# Path of the leaderboard file in your repo
+github-file-path: "leaderboard.json"
+
+# ── Minecraft Server Settings ──────────────────
+# Name of your main world folder (usually "world")
+world-name: "world"
+
+# How often to update the leaderboard (in minutes)
+# Default: 30 minutes
+update-interval-minutes: 30
+
+# Players to exclude from leaderboard (case-insensitive partial match)
+excluded-players:
+  - "PandaPlayzOP"

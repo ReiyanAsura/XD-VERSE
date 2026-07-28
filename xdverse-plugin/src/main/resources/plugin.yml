@@ -1,0 +1,18 @@
+name: XDVerseLeaderboard
+version: 1.0.0
+main: io.xdverse.leaderboard.LeaderboardPlugin
+api-version: '1.20'
+description: Automatically pushes Minecraft SMP stats to GitHub leaderboard
+authors: [XD-VERSE]
+
+commands:
+  updateleaderboard:
+    description: Manually trigger a leaderboard update
+    usage: /updateleaderboard
+    permission: xdverse.updateleaderboard
+    aliases: [ul, updateboard]
+
+permissions:
+  xdverse.updateleaderboard:
+    description: Allows triggering a manual leaderboard update
+    default: op
