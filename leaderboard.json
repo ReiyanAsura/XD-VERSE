@@ -1,11 +1,11 @@
 {
-  "updatedAt": "12:09 PM",
+  "updatedAt": "12:39 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "10 Kills",
-      "subtitle": "7.8 hrs played",
+      "subtitle": "8.3 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "DudeVedant_pro",
       "score": "10 Kills",
-      "subtitle": "12.9 hrs played",
+      "subtitle": "13.4 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "NOT_INVIXEE",
       "score": "7 Kills",
-      "subtitle": "10.3 hrs played",
+      "subtitle": "10.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "NOT_INVIXEE",
       "score": "25 Deaths",
-      "subtitle": "10.3 hrs played",
+      "subtitle": "10.8 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "DudeVedant_pro",
       "score": "12 Deaths",
-      "subtitle": "12.9 hrs played",
+      "subtitle": "13.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "VOID",
       "score": "7 Deaths",
-      "subtitle": "1.3 hrs played",
+      "subtitle": "1.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "DudeVedant_pro",
-      "score": "12.9 hrs",
+      "score": "13.4 hrs",
       "subtitle": "10 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "NOT_INVIXEE",
-      "score": "10.3 hrs",
+      "score": "10.8 hrs",
       "subtitle": "7 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "PROBotX11",
-      "score": "7.8 hrs",
+      "score": "8.3 hrs",
       "subtitle": "10 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
