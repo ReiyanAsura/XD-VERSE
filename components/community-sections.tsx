@@ -119,7 +119,7 @@ const leaderboardCategories = {
         rank: '1.',
         name: 'PROBotX11',
         score: '10 Kills',
-        subtitle: '7.2 hrs played',
+        subtitle: '7.3 hrs played',
         ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
         ribbonText: 'text-white',
         cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
