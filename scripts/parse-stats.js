@@ -102,9 +102,19 @@ function parseMinecraftStats(serverPath) {
     playtime: playtimeList
   }
 
-  const outputPath = path.join(__dirname, '..', 'public', 'leaderboard.json')
-  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2))
-  console.log(`Leaderboard successfully generated at ${outputPath}`)
+  const rootOutputPath = path.join(__dirname, '..', 'leaderboard.json')
+  const publicOutputPath = path.join(__dirname, '..', 'public', 'leaderboard.json')
+
+  const json = JSON.stringify(output, null, 2)
+  fs.writeFileSync(rootOutputPath, json)
+  console.log(`✅ Leaderboard written to: ${rootOutputPath}`)
+
+  // Also write to public/ if it exists
+  const publicDir = path.join(__dirname, '..', 'public')
+  if (fs.existsSync(publicDir)) {
+    fs.writeFileSync(publicOutputPath, json)
+    console.log(`✅ Leaderboard also written to: ${publicOutputPath}`)
+  }
 }
 
 // Take server folder path from command line arg

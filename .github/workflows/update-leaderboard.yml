@@ -1,0 +1,111 @@
+name: Auto-Update Leaderboard via SFTP
+
+on:
+  # Run every 30 minutes automatically
+  schedule:
+    - cron: "*/30 * * * *"
+  # Allow manual trigger from GitHub web UI (Actions tab → Run workflow)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "leaderboard-update"
+  cancel-in-progress: true
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # ── Download stats files from your Minecraft server via SFTP ──
+      - name: Install sshpass (for SFTP with password)
+        run: sudo apt-get install -y sshpass lftp
+
+      - name: Download Minecraft stats via SFTP
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.SFTP_PORT }}
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_PASS: ${{ secrets.SFTP_PASS }}
+          SFTP_STATS_PATH: ${{ secrets.SFTP_STATS_PATH }}
+        run: |
+          # Create local target directory
+          mkdir -p mc-server/stats
+
+          # Download all player stat JSON files from the server
+          lftp -u "$SFTP_USER","$SFTP_PASS" sftp://"$SFTP_HOST":"$SFTP_PORT" <<EOF
+          set sftp:auto-confirm yes
+          set net:reconnect-interval-base 5
+          set net:max-retries 3
+          mirror --parallel=4 --only-newer "$SFTP_STATS_PATH/stats" mc-server/stats
+          get "$SFTP_STATS_PATH/usercache.json" -o mc-server/usercache.json
+          bye
+          EOF
+
+          echo "✅ Stats downloaded successfully"
+          ls -la mc-server/stats/ | head -20
+
+      # ── Parse stats into leaderboard.json ──
+      - name: Parse stats → leaderboard.json
+        run: node scripts/parse-stats.js ./mc-server
+
+      # ── Commit updated files if anything changed ──
+      - name: Commit leaderboard update (if changed)
+        run: |
+          git config user.name "🤖 Leaderboard Bot"
+          git config user.email "bot@xd-verse.github.io"
+
+          # Stage leaderboard files
+          git add leaderboard.json mc-server/stats/ mc-server/usercache.json || true
+
+          # Only commit if there are actual changes
+          if git diff --cached --quiet; then
+            echo "ℹ️ No changes to leaderboard — skipping commit"
+          else
+            git commit -m "🏆 Auto-update leaderboard [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "✅ Leaderboard committed and pushed"
+          fi
+
+      # ── Build the site ──
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Install pnpm (required for Next.js SWC)
+        run: npm install -g pnpm
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: fetch-and-deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
