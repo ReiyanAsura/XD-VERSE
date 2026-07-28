@@ -1,11 +1,11 @@
 {
-  "updatedAt": "03:32 PM",
+  "updatedAt": "04:02 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "15 Kills",
-      "subtitle": "9.5 hrs played",
+      "subtitle": "10.0 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -77,7 +77,7 @@
       "rank": "9.",
       "name": "ARENTOIS",
       "score": "2 Kills",
-      "subtitle": "6.2 hrs played",
+      "subtitle": "6.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "PROBotX11",
-      "score": "9.5 hrs",
+      "score": "10.0 hrs",
       "subtitle": "15 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "ARENTOIS",
-      "score": "6.2 hrs",
+      "score": "6.7 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -250,6 +250,15 @@
     },
     {
       "rank": "8.",
+      "name": "ReiyanAsura",
+      "score": "2.6 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
       "name": "VelmoXRain",
       "score": "2.5 hrs",
       "subtitle": "0 Kills",
@@ -258,19 +267,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "speedboost44",
       "score": "2.4 hrs",
       "subtitle": "8 Kills",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "itz_Void16aksh",
-      "score": "2.4 hrs",
-      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
