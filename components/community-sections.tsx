@@ -607,6 +607,32 @@ export function LeaderboardSection() {
           if (data.updatedAt) {
             setLiveStatus(`Live Stats Synced • ${data.updatedAt}`)
           }
+          // Dynamically update DOM categories if data exists
+          const catKeys = ['kills', 'deaths', 'playtime']
+          catKeys.forEach((catKey) => {
+            const list = data[catKey]
+            const container = document.getElementById(`lb-cat-${catKey}`)
+            if (container && Array.isArray(list) && list.length > 0) {
+              container.innerHTML = list
+                .slice(0, 10)
+                .map(
+                  (player) => `
+                <div class="relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg || 'bg-white border-stone-200'}">
+                  <div class="relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ${player.ribbonBg || 'from-stone-500 to-stone-600'}" style="clip-path:polygon(0 0, 80% 0, 100% 100%, 0 100%)">
+                    <span class="ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] text-white">${player.rank}</span>
+                  </div>
+                  <div class="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
+                    <div class="flex flex-col">
+                      <h3 class="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">${player.name}</h3>
+                    </div>
+                    <span class="text-base md:text-lg font-black text-stone-900 tabular-nums">${player.score}</span>
+                  </div>
+                </div>
+              `
+                )
+                .join('')
+            }
+          })
         }
       } catch (err) {
         console.log('Using static fallback statistics')
