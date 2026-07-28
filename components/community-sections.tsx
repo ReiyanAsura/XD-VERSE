@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import {
   ArrowRight,
@@ -117,45 +117,45 @@ const leaderboardCategories = {
     players: [
       {
         rank: '1.',
-        name: 'ReiyanAsura',
-        score: '1,420 Kills',
-        subtitle: '420 hrs played',
+        name: 'PROBotX11',
+        score: '10 Kills',
+        subtitle: '7.2 hrs played',
         ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
         ribbonText: 'text-white',
         cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
       },
       {
         rank: '2.',
-        name: 'VortexPvP',
-        score: '1,180 Kills',
-        subtitle: '310 hrs played',
+        name: 'DudeVedant_pro',
+        score: '10 Kills',
+        subtitle: '12.6 hrs played',
         ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
       },
       {
         rank: '3.',
-        name: 'ShadowBlade',
-        score: '950 Kills',
-        subtitle: '275 hrs played',
+        name: 'Spidyy_xD',
+        score: '9 Kills',
+        subtitle: '5.9 hrs played',
         ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
       },
       {
         rank: '4.',
-        name: 'EnderKnight',
-        score: '810 Kills',
-        subtitle: '240 hrs played',
+        name: 'speedboost44',
+        score: '8 Kills',
+        subtitle: '2.4 hrs played',
         ribbonBg: 'from-stone-500 to-stone-600',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
       },
       {
         rank: '5.',
-        name: 'BlazeHunter',
-        score: '690 Kills',
-        subtitle: '190 hrs played',
+        name: 'NOT_INVIXEE',
+        score: '5 Kills',
+        subtitle: '9.3 hrs played',
         ribbonBg: 'from-stone-500 to-stone-600',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
@@ -169,45 +169,45 @@ const leaderboardCategories = {
     players: [
       {
         rank: '1.',
-        name: 'CreeperMagnet',
-        score: '482 Deaths',
-        subtitle: '180 hrs played',
+        name: 'Spidyy_xD',
+        score: '39 Deaths',
+        subtitle: '5.9 hrs played',
         ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
         ribbonText: 'text-white',
         cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
       },
       {
         rank: '2.',
-        name: 'LavaDiver',
-        score: '395 Deaths',
-        subtitle: '210 hrs played',
+        name: 'NOT_INVIXEE',
+        score: '25 Deaths',
+        subtitle: '9.3 hrs played',
         ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
       },
       {
         rank: '3.',
-        name: 'AFKLegend',
-        score: '310 Deaths',
-        subtitle: '350 hrs played',
+        name: 'DudeVedant_pro',
+        score: '12 Deaths',
+        subtitle: '12.6 hrs played',
         ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
       },
       {
         rank: '4.',
-        name: 'NoobMaster',
-        score: '275 Deaths',
-        subtitle: '145 hrs played',
+        name: 'speedboost44',
+        score: '12 Deaths',
+        subtitle: '2.4 hrs played',
         ribbonBg: 'from-stone-500 to-stone-600',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
       },
       {
         rank: '5.',
-        name: 'ReiyanAsura',
-        score: '210 Deaths',
-        subtitle: '420 hrs played',
+        name: 'G6Gamer7',
+        score: '10 Deaths',
+        subtitle: '3.4 hrs played',
         ribbonBg: 'from-stone-500 to-stone-600',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
@@ -221,45 +221,45 @@ const leaderboardCategories = {
     players: [
       {
         rank: '1.',
-        name: 'ReiyanAsura',
-        score: '420 hrs',
-        subtitle: '14,250 PTS',
+        name: 'DudeVedant_pro',
+        score: '12.6 hrs',
+        subtitle: '10 Kills',
         ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
         ribbonText: 'text-white',
         cardBg: 'bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl',
       },
       {
         rank: '2.',
-        name: 'CraftMaster',
-        score: '380 hrs',
-        subtitle: '12,890 PTS',
+        name: 'NOT_INVIXEE',
+        score: '9.3 hrs',
+        subtitle: '5 Kills',
         ribbonBg: 'from-slate-400 via-slate-300 to-slate-400',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
       },
       {
         rank: '3.',
-        name: 'BlockBuilder',
-        score: '310 hrs',
-        subtitle: '11,400 PTS',
+        name: 'PROBotX11',
+        score: '7.2 hrs',
+        subtitle: '10 Kills',
         ribbonBg: 'from-amber-700 via-amber-600 to-amber-700',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-amber-200 shadow-sm hover:shadow-md',
       },
       {
         rank: '4.',
-        name: 'PixelQueen',
-        score: '295 hrs',
-        subtitle: '10,150 PTS',
+        name: 'Spidyy_xD',
+        score: '5.9 hrs',
+        subtitle: '9 Kills',
         ribbonBg: 'from-stone-500 to-stone-600',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
       },
       {
         rank: '5.',
-        name: 'RedstonePro',
-        score: '260 hrs',
-        subtitle: '9,200 PTS',
+        name: 'ARENTOIS',
+        score: '4.4 hrs',
+        subtitle: '2 Kills',
         ribbonBg: 'from-stone-500 to-stone-600',
         ribbonText: 'text-white',
         cardBg: 'bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md',
@@ -290,10 +290,7 @@ const shopPackages = [
 ]
 
 const fadeUp = {
-  initial: { opacity: 0, y: 30 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-60px' },
-  transition: { duration: 0.6, ease: 'easeOut' as const },
+  transition: { duration: 0.4, ease: 'easeOut' as const },
 }
 
 export function FeaturesSection() {
@@ -580,8 +577,44 @@ export function AboutSection() {
 
 export function LeaderboardSection() {
   const [activeCategory, setActiveCategory] = useState<'kills' | 'deaths' | 'playtime'>('kills')
+  const [liveStatus, setLiveStatus] = useState<string>('Live Sync Active')
 
-  const currentCategory = leaderboardCategories[activeCategory]
+  useEffect(() => {
+    ;(window as any).switchLeaderboardTab = function (catKey: string) {
+      const catKeys = ['kills', 'deaths', 'playtime']
+      catKeys.forEach((key) => {
+        const el = document.getElementById(`lb-cat-${key}`)
+        const btn = document.getElementById(`lb-btn-${key}`)
+        if (el) {
+          el.style.display = key === catKey ? 'flex' : 'none'
+        }
+        if (btn) {
+          if (key === catKey) {
+            btn.classList.add('lb-tab-active')
+          } else {
+            btn.classList.remove('lb-tab-active')
+          }
+        }
+      })
+    }
+
+    // Fetch local leaderboard.json feed generated from Minecraft stats
+    const fetchLiveLeaderboard = async () => {
+      try {
+        const res = await fetch('./leaderboard.json?t=' + Date.now())
+        if (res.ok) {
+          const data = await res.json()
+          if (data.updatedAt) {
+            setLiveStatus(`Live Stats Synced • ${data.updatedAt}`)
+          }
+        }
+      } catch (err) {
+        console.log('Using static fallback statistics')
+      }
+    }
+
+    fetchLiveLeaderboard()
+  }, [])
 
   return (
     <section
@@ -589,18 +622,90 @@ export function LeaderboardSection() {
       className="relative z-40 bg-[#f5f2eb]/60 px-6 py-20 md:py-28"
       aria-labelledby="leaderboard-title"
     >
+      <style>{`
+        .lb-tab-button {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.625rem;
+          border-radius: 9999px;
+          padding: 0.75rem 1.5rem;
+          font-size: 0.875rem;
+          font-weight: 700;
+          transition: all 0.2s ease-in-out;
+          cursor: pointer;
+          background-color: rgba(255, 255, 255, 0.95);
+          color: #44403c;
+          border: 1px solid rgba(229, 231, 235, 1);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+        .lb-tab-button:hover {
+          background-color: #ffffff;
+          color: #000000;
+        }
+        .lb-tab-button .lb-tab-icon {
+          width: 1.25rem;
+          height: 1.25rem;
+          color: #2563eb;
+          transition: color 0.2s ease;
+          flex-shrink: 0;
+        }
+        .lb-tab-button.lb-tab-active {
+          background-color: #2563eb !important;
+          color: #ffffff !important;
+          border-color: #2563eb !important;
+          box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3) !important;
+          transform: scale(1.05);
+        }
+        .lb-tab-button.lb-tab-active .lb-tab-icon {
+          color: #ffffff !important;
+        }
+      `}</style>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function() {
+              function updateTab(catKey) {
+                var catKeys = ['kills', 'deaths', 'playtime'];
+                catKeys.forEach(function(key) {
+                  var el = document.getElementById('lb-cat-' + key);
+                  var btn = document.getElementById('lb-btn-' + key);
+                  if (el) {
+                    el.style.display = (key === catKey) ? 'flex' : 'none';
+                  }
+                  if (btn) {
+                    if (key === catKey) {
+                      btn.classList.add('lb-tab-active');
+                    } else {
+                      btn.classList.remove('lb-tab-active');
+                    }
+                  }
+                });
+              }
+              window.switchLeaderboardTab = updateTab;
+              if (typeof document !== 'undefined') {
+                document.addEventListener('click', function(e) {
+                  var btn = e.target && e.target.closest ? e.target.closest('[id^="lb-btn-"]') : null;
+                  if (btn && btn.id) {
+                    var catKey = btn.id.replace('lb-btn-', '');
+                    updateTab(catKey);
+                  }
+                });
+              }
+            })();
+          `,
+        }}
+      />
       <div className="mx-auto max-w-4xl">
         <div className="mb-12 text-center">
           <span className="rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800">
             Leaderboard
           </span>
-          <motion.h2
+          <h2
             id="leaderboard-title"
-            {...fadeUp}
             className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
           >
             Top Server Players
-          </motion.h2>
+          </h2>
           <p className="mt-4 text-sm font-medium text-stone-600 md:text-base max-w-xl mx-auto">
             Honoring Season legends with custom rank badges on XD VERSE SMP.
           </p>
@@ -614,15 +719,17 @@ export function LeaderboardSection() {
               return (
                 <button
                   key={catKey}
+                  id={`lb-btn-${catKey}`}
                   type="button"
-                  onClick={() => setActiveCategory(catKey)}
-                  className={`relative flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer ${
-                    isActive
-                      ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/25 scale-105'
-                      : 'bg-white/90 text-stone-700 hover:bg-white hover:text-black border border-stone-200/80 shadow-sm'
-                  }`}
+                  onClick={() => {
+                    setActiveCategory(catKey)
+                    if (typeof window !== 'undefined' && (window as any).switchLeaderboardTab) {
+                      ;(window as any).switchLeaderboardTab(catKey)
+                    }
+                  }}
+                  className={`lb-tab-button ${isActive ? 'lb-tab-active' : ''}`}
                 >
-                  <Icon className={`size-4.5 ${isActive ? 'text-white' : 'text-blue-600'}`} />
+                  <Icon className="lb-tab-icon" />
                   <span>{cat.label}</span>
                 </button>
               )
@@ -630,48 +737,49 @@ export function LeaderboardSection() {
           </div>
         </div>
 
-        {/* Vertical Stacked Leaderboard Rows */}
-        <motion.div
-          key={activeCategory}
-          initial={{ opacity: 0, y: 15 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.25 }}
-          className="flex flex-col gap-4 max-w-3xl mx-auto"
-        >
-          {currentCategory.players.map((player) => (
-            <motion.div
-              key={player.name + player.rank}
-              whileHover={{ scale: 1.015, x: 4 }}
-              className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg}`}
+        {/* Vertical Stacked Leaderboard Rows for Each Category */}
+        {(Object.keys(leaderboardCategories) as Array<keyof typeof leaderboardCategories>).map((catKey) => {
+          const cat = leaderboardCategories[catKey]
+          const isSelected = activeCategory === catKey
+          return (
+            <div
+              key={catKey}
+              id={`lb-cat-${catKey}`}
+              style={{ display: isSelected ? 'flex' : 'none' }}
+              className="flex-col gap-4 max-w-3xl mx-auto"
             >
-              {/* Left: Simple Angled Ribbon with Rank Number */}
-              <div
-                className={`relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ${player.ribbonBg}`}
-                style={{ clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0 100%)' }}
-              >
-                {/* Rank Number */}
-                <span className={`ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] ${player.ribbonText}`}>
-                  {player.rank}
-                </span>
-              </div>
+              {cat.players.map((player) => (
+                <div
+                  key={player.name + player.rank}
+                  className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg}`}
+                >
+                  {/* Left: Simple Angled Ribbon with Rank Number */}
+                  <div
+                    className={`relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ${player.ribbonBg}`}
+                    style={{ clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0 100%)' }}
+                  >
+                    {/* Rank Number */}
+                    <span className={`ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] ${player.ribbonText}`}>
+                      {player.rank}
+                    </span>
+                  </div>
 
-              {/* Center: Player Name + Subtitle */}
-              <div className="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
-                <div className="flex flex-col">
-                  <h3 className="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">
-                    {player.name}
-                  </h3>
-                  <span className="mt-0.5 text-xs font-semibold text-stone-400">
-                    {player.subtitle}
-                  </span>
+                  {/* Center: Player Name + Subtitle */}
+                  <div className="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
+                    <div className="flex flex-col">
+                      <h3 className="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">
+                        {player.name}
+                      </h3>
+                    </div>
+                    <span className="text-base md:text-lg font-black text-stone-900 tabular-nums">
+                      {player.score}
+                    </span>
+                  </div>
                 </div>
-                <span className="text-base md:text-lg font-black text-stone-900 tabular-nums">
-                  {player.score}
-                </span>
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
+              ))}
+            </div>
+          )
+        })}
       </div>
     </section>
   )

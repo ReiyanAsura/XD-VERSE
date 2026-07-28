@@ -5,16 +5,16 @@ function replaceInDir(dirPath) {
   if (!fs.existsSync(dirPath)) return;
   const items = fs.readdirSync(dirPath, { withFileTypes: true });
   for (const item of items) {
+    if (item.name === '.next' || item.name === 'node_modules' || item.name === '.git') continue;
     const fullPath = path.join(dirPath, item.name);
     if (item.isDirectory()) {
       replaceInDir(fullPath);
     } else if (item.isFile() && (item.name.endsWith('.html') || item.name.endsWith('.js') || item.name.endsWith('.json') || item.name.endsWith('.txt'))) {
       let content = fs.readFileSync(fullPath, 'utf8');
-      if (content.includes('_next') || content.includes('../next')) {
-        content = content.replace(/\/XD-VERSE\/_next\//g, './next/');
-        content = content.replace(/\/_next\//g, './next/');
-        content = content.replace(/\.\.\/next\//g, './next/');
-        content = content.replace(/_next\//g, 'next/');
+      if (content.includes('_next') || content.includes('.../next/')) {
+        content = content.replace(/\/XD-VERSE\/_next\//g, '../next/');
+        content = content.replace(/(\.\.\/|\.\/|\/)?_next\//g, '../next/');
+        content = content.replace(/(\.\.\/|\/)?next\//g, '../next/');
         fs.writeFileSync(fullPath, content, 'utf8');
       }
     }
@@ -46,7 +46,7 @@ if (fs.existsSync(outDir)) {
   }
 }
 
-// 3. Extra pass on root index.html to guarantee ./next/
+// 3. Process root directory files (except .next and node_modules)
 replaceInDir(__dirname);
 
 console.log('Post-build path transformation completed successfully!');

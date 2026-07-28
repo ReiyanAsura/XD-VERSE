@@ -1,0 +1,279 @@
+{
+  "updatedAt": "02:35 PM",
+  "kills": [
+    {
+      "rank": "1.",
+      "name": "PROBotX11",
+      "score": "10 Kills",
+      "subtitle": "7.2 hrs played",
+      "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
+      "ribbonText": "text-white",
+      "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
+    },
+    {
+      "rank": "2.",
+      "name": "DudeVedant_pro",
+      "score": "10 Kills",
+      "subtitle": "12.6 hrs played",
+      "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "3.",
+      "name": "Spidyy_xD",
+      "score": "9 Kills",
+      "subtitle": "5.9 hrs played",
+      "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "4.",
+      "name": "speedboost44",
+      "score": "8 Kills",
+      "subtitle": "2.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
+      "name": "NOT_INVIXEE",
+      "score": "5 Kills",
+      "subtitle": "9.3 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
+      "name": "GAMERBOY_L",
+      "score": "4 Kills",
+      "subtitle": "0 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
+      "name": "Sakura_manav",
+      "score": "3 Kills",
+      "subtitle": "1.6 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
+      "name": "ARENTOIS",
+      "score": "2 Kills",
+      "subtitle": "4.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
+      "name": "Qu4lMeHetric",
+      "score": "2 Kills",
+      "subtitle": "0.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "10.",
+      "name": "G6Gamer7",
+      "score": "2 Kills",
+      "subtitle": "3.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    }
+  ],
+  "deaths": [
+    {
+      "rank": "1.",
+      "name": "Spidyy_xD",
+      "score": "39 Deaths",
+      "subtitle": "5.9 hrs played",
+      "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
+      "ribbonText": "text-white",
+      "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
+    },
+    {
+      "rank": "2.",
+      "name": "NOT_INVIXEE",
+      "score": "25 Deaths",
+      "subtitle": "9.3 hrs played",
+      "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "3.",
+      "name": "DudeVedant_pro",
+      "score": "12 Deaths",
+      "subtitle": "12.6 hrs played",
+      "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "4.",
+      "name": "speedboost44",
+      "score": "12 Deaths",
+      "subtitle": "2.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
+      "name": "G6Gamer7",
+      "score": "10 Deaths",
+      "subtitle": "3.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
+      "name": "Sakura_manav",
+      "score": "7 Deaths",
+      "subtitle": "1.6 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
+      "name": "ItzKrynis",
+      "score": "6 Deaths",
+      "subtitle": "1.6 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
+      "name": "PROBotX11",
+      "score": "5 Deaths",
+      "subtitle": "7.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
+      "name": "Not_Zy4rox",
+      "score": "5 Deaths",
+      "subtitle": "0.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "10.",
+      "name": "ItzMaddy06",
+      "score": "5 Deaths",
+      "subtitle": "0.9 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    }
+  ],
+  "playtime": [
+    {
+      "rank": "1.",
+      "name": "DudeVedant_pro",
+      "score": "12.6 hrs",
+      "subtitle": "10 Kills",
+      "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
+      "ribbonText": "text-white",
+      "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
+    },
+    {
+      "rank": "2.",
+      "name": "NOT_INVIXEE",
+      "score": "9.3 hrs",
+      "subtitle": "5 Kills",
+      "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "3.",
+      "name": "PROBotX11",
+      "score": "7.2 hrs",
+      "subtitle": "10 Kills",
+      "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "4.",
+      "name": "Spidyy_xD",
+      "score": "5.9 hrs",
+      "subtitle": "9 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
+      "name": "ARENTOIS",
+      "score": "4.4 hrs",
+      "subtitle": "2 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
+      "name": "G6Gamer7",
+      "score": "3.4 hrs",
+      "subtitle": "2 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
+      "name": "IllegalAzure",
+      "score": "2.7 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
+      "name": "VelmoXRain",
+      "score": "2.4 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
+      "name": "speedboost44",
+      "score": "2.4 hrs",
+      "subtitle": "8 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "10.",
+      "name": "itz_Void16aksh",
+      "score": "2.3 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    }
+  ]
+}
