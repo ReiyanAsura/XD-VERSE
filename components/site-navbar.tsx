@@ -9,7 +9,7 @@ const navigation = [
   { label: 'How to Join', href: '#how-to-join' },
   { label: 'Rules', href: '#rules' },
   { label: 'About', href: '#about' },
-  { label: 'Extra', href: '#extra' },
+  { label: 'Leaderboard', href: '#leaderboard' },
 ]
 
 export function SiteNavbar() {

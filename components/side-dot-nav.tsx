@@ -9,7 +9,7 @@ const SECTIONS = [
   { id: 'how-to-join', label: 'Whitelist Guide' },
   { id: 'rules', label: 'Server Rules' },
   { id: 'about', label: 'About Us' },
-  { id: 'extra', label: 'Leaderboard' },
+  { id: 'leaderboard', label: 'Leaderboard' },
 ]
 
 export function SideDotNav() {

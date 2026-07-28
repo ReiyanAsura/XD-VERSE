@@ -1,8 +1,8 @@
 import {
   AboutSection,
-  ExtraSection,
   FeaturesSection,
   JoinGuideSection,
+  LeaderboardSection,
   RulesSection,
   SiteFooter,
 } from '@/components/community-sections'
@@ -20,7 +20,7 @@ export default function Page() {
       <JoinGuideSection />
       <RulesSection />
       <AboutSection />
-      <ExtraSection />
+      <LeaderboardSection />
       <SiteFooter />
     </main>
   )

@@ -446,12 +446,12 @@ export function AboutSection() {
   )
 }
 
-export function ExtraSection() {
+export function LeaderboardSection() {
   return (
     <section
-      id="extra"
+      id="leaderboard"
       className="relative z-40 bg-[#f5f2eb]/60 px-6 py-20 md:py-28"
-      aria-labelledby="extra-title"
+      aria-labelledby="leaderboard-title"
     >
       <div className="mx-auto max-w-4xl">
         <div className="mb-16 text-center">
@@ -459,7 +459,7 @@ export function ExtraSection() {
             Leaderboard
           </span>
           <motion.h2
-            id="extra-title"
+            id="leaderboard-title"
             {...fadeUp}
             className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
           >
@@ -524,7 +524,7 @@ export function SiteFooter() {
           <a href="#features" className="hover:text-blue-600">Features</a>
           <a href="#rules" className="hover:text-blue-600">Rules</a>
           <a href="#about" className="hover:text-blue-600">About</a>
-          <a href="#extra" className="hover:text-blue-600">Extra</a>
+          <a href="#leaderboard" className="hover:text-blue-600">Leaderboard</a>
         </div>
       </div>
     </footer>
