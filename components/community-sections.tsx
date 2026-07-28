@@ -601,7 +601,13 @@ export function LeaderboardSection() {
     // Fetch local leaderboard.json feed generated from Minecraft stats
     const fetchLiveLeaderboard = async () => {
       try {
-        const res = await fetch('./leaderboard.json?t=' + Date.now())
+        let res = await fetch('./leaderboard.json?t=' + Date.now())
+        if (!res.ok) {
+          res = await fetch('/XD-VERSE/leaderboard.json?t=' + Date.now())
+        }
+        if (!res.ok) {
+          res = await fetch('leaderboard.json?t=' + Date.now())
+        }
         if (res.ok) {
           const data = await res.json()
           if (data.updatedAt) {
