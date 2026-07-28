@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS=\"--require ./poly.js\" next dev",
-    "build": "NODE_OPTIONS=\"--require ./poly.js\" next build",
+    "build": "NODE_OPTIONS=\"--require ./poly.js\" next build && node fix-paths.js",
     "start": "next start",
     "lint": "eslint ."
   },
