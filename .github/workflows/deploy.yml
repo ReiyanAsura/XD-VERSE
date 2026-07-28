@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
+      - name: Install pnpm for Next.js SWC download
+        run: npm install -g pnpm
+
       - name: Build static site
         run: npm run build
 
