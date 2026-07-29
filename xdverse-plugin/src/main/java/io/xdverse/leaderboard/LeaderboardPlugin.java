@@ -76,7 +76,9 @@ public class LeaderboardPlugin extends JavaPlugin {
             }
 
             String json = buildLeaderboardJson(players);
-            pushToGitHub(json);
+            // Push to both root and public/ paths so raw GitHub fetch and Next.js builds both get fresh data
+            pushToGitHub(json, "leaderboard.json");
+            pushToGitHub(json, "public/leaderboard.json");
             return true;
 
         } catch (Exception e) {
@@ -262,11 +264,10 @@ public class LeaderboardPlugin extends JavaPlugin {
 
     // ─── Push to GitHub API ───────────────────────────────────────────────────
 
-    private void pushToGitHub(String jsonContent) throws Exception {
+    private void pushToGitHub(String jsonContent, String filePath) throws Exception {
         String token    = getConfig().getString("github-token", "");
         String owner    = getConfig().getString("github-owner", "ReiyanAsura");
         String repo     = getConfig().getString("github-repo", "XD-VERSE");
-        String filePath = getConfig().getString("github-file-path", "leaderboard.json");
         String branch   = getConfig().getString("github-branch", "main");
 
         if (token.isEmpty() || token.equals("YOUR_GITHUB_TOKEN_HERE")) {

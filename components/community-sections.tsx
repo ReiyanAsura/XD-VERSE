@@ -700,6 +700,63 @@ export function LeaderboardSection() {
                   window.__switchLbTab(targetKey);
                 }
               });
+
+              // Live data fetch from raw GitHub (vanilla JS fallback, no React dependency)
+              function renderLiveCards(catKey, players) {
+                var container = document.getElementById('lb-cat-' + catKey);
+                if (!container || !players || !players.length) return;
+                var html = '';
+                players.slice(0, 10).forEach(function(p, i) {
+                  html += '<div class="relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ' + (p.cardBg || 'bg-white border-stone-200') + '">';
+                  html += '<div class="relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ' + (p.ribbonBg || 'from-stone-500 to-stone-600') + '" style="clip-path:polygon(0 0,80% 0,100% 100%,0 100%)">';
+                  html += '<span class="ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] ' + (p.ribbonText || 'text-white') + '">' + (p.rank || (i+1)+'.') + '</span>';
+                  html += '</div>';
+                  html += '<div class="flex flex-1 items-center justify-between px-5 md:px-8 py-4">';
+                  html += '<div class="flex flex-col">';
+                  html += '<h3 class="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">' + p.name + '</h3>';
+                  if (p.subtitle) html += '<span class="text-xs font-semibold text-stone-500 mt-0.5">' + p.subtitle + '</span>';
+                  html += '</div>';
+                  html += '<span class="text-base md:text-lg font-black text-stone-900 tabular-nums">' + p.score + '</span>';
+                  html += '</div></div>';
+                });
+                container.innerHTML = html;
+              }
+
+              function fetchAndRenderLive() {
+                var urls = [
+                  'https://raw.githubusercontent.com/ReiyanAsura/XD-VERSE/main/leaderboard.json?t=' + Date.now(),
+                  'https://raw.githubusercontent.com/ReiyanAsura/XD-VERSE/main/public/leaderboard.json?t=' + Date.now()
+                ];
+                function tryFetch(index) {
+                  if (index >= urls.length) return;
+                  fetch(urls[index]).then(function(r) {
+                    if (!r.ok) throw new Error('not ok');
+                    return r.json();
+                  }).then(function(data) {
+                    if (data && (data.kills || data.deaths || data.playtime)) {
+                      ['kills','deaths','playtime'].forEach(function(k) {
+                        if (data[k]) renderLiveCards(k, data[k]);
+                      });
+                      // Update status badge
+                      var badge = document.querySelector('#leaderboard .animate-pulse');
+                      if (badge && badge.parentElement && data.updatedAt) {
+                        var statusSpan = badge.parentElement.querySelector('span:last-child');
+                        if (statusSpan) statusSpan.textContent = 'Live Stats Synced \u2022 ' + data.updatedAt;
+                      }
+                    }
+                  }).catch(function() {
+                    tryFetch(index + 1);
+                  });
+                }
+                tryFetch(0);
+              }
+
+              // Run after DOM is ready
+              if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', fetchAndRenderLive);
+              } else {
+                setTimeout(fetchAndRenderLive, 100);
+              }
             })();
           `,
         }}
