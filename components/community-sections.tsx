@@ -673,6 +673,37 @@ export function LeaderboardSection() {
           color: #ffffff !important;
         }
       `}</style>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function() {
+              if (typeof window === 'undefined') return;
+              window.__switchLbTab = function(targetKey) {
+                var keys = ['kills', 'deaths', 'playtime'];
+                keys.forEach(function(k) {
+                  var el = document.getElementById('lb-cat-' + k);
+                  var b = document.getElementById('lb-btn-' + k);
+                  if (el) el.style.display = (k === targetKey) ? 'flex' : 'none';
+                  if (b) {
+                    if (k === targetKey) {
+                      b.className = 'inline-flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer border shadow-sm bg-blue-600 text-white border-blue-600 shadow-blue-500/30 scale-105';
+                    } else {
+                      b.className = 'inline-flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer border shadow-sm bg-white/95 text-stone-700 border-stone-200 hover:bg-white hover:text-black';
+                    }
+                  }
+                });
+              };
+              document.addEventListener('click', function(e) {
+                var btn = e.target ? e.target.closest('[id^="lb-btn-"]') : null;
+                if (btn && btn.id) {
+                  var targetKey = btn.id.replace('lb-btn-', '');
+                  window.__switchLbTab(targetKey);
+                }
+              });
+            })();
+          `,
+        }}
+      />
       <div className="mx-auto max-w-4xl">
         <div className="mb-12 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800">
@@ -698,8 +729,14 @@ export function LeaderboardSection() {
               return (
                 <button
                   key={catKey}
+                  id={`lb-btn-${catKey}`}
                   type="button"
-                  onClick={() => setActiveCategory(catKey)}
+                  onClick={() => {
+                    setActiveCategory(catKey)
+                    if (typeof window !== 'undefined' && (window as any).__switchLbTab) {
+                      ;(window as any).__switchLbTab(catKey)
+                    }
+                  }}
                   className={`inline-flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer border shadow-sm ${
                     isActive
                       ? 'bg-blue-600 text-white border-blue-600 shadow-blue-500/30 scale-105'
@@ -714,15 +751,17 @@ export function LeaderboardSection() {
           </div>
         </div>
 
-        {/* Vertical Stacked Leaderboard Rows for Active Category */}
+        {/* Vertical Stacked Leaderboard Rows for Each Category */}
         {(Object.keys(leaderboardCategoriesConfig) as Array<keyof typeof leaderboardCategoriesConfig>).map((catKey) => {
-          if (activeCategory !== catKey) return null
+          const isSelected = activeCategory === catKey
           const playerList = leaderboardData?.[catKey] || []
 
           return (
             <div
               key={catKey}
-              className="flex flex-col gap-4 max-w-3xl mx-auto w-full"
+              id={`lb-cat-${catKey}`}
+              style={{ display: isSelected ? 'flex' : 'none' }}
+              className="flex-col gap-4 max-w-3xl mx-auto w-full"
             >
               {Array.isArray(playerList) && playerList.length > 0 ? (
                 playerList.slice(0, 10).map((player: any, idx: number) => (
