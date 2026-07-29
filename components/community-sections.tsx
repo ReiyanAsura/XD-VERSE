@@ -658,19 +658,21 @@ export function LeaderboardSection() {
         .lb-tab-button .lb-tab-icon {
           width: 1.25rem;
           height: 1.25rem;
-          color: #2563eb;
-          transition: color 0.2s ease;
+          color: #2563eb !important;
+          stroke: #2563eb !important;
+          transition: color 0.2s ease, stroke 0.2s ease;
           flex-shrink: 0;
         }
-        .lb-tab-button.lb-tab-active {
+        .lb-tab-button[data-active="true"] {
           background-color: #2563eb !important;
           color: #ffffff !important;
           border-color: #2563eb !important;
           box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3) !important;
           transform: scale(1.05);
         }
-        .lb-tab-button.lb-tab-active .lb-tab-icon {
+        .lb-tab-button[data-active="true"] .lb-tab-icon {
           color: #ffffff !important;
+          stroke: #ffffff !important;
         }
       `}</style>
       <script
@@ -684,13 +686,7 @@ export function LeaderboardSection() {
                   var el = document.getElementById('lb-cat-' + k);
                   var b = document.getElementById('lb-btn-' + k);
                   if (el) el.style.display = (k === targetKey) ? 'flex' : 'none';
-                  if (b) {
-                    if (k === targetKey) {
-                      b.className = 'inline-flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer border shadow-sm bg-blue-600 text-white border-blue-600 shadow-blue-500/30 scale-105';
-                    } else {
-                      b.className = 'inline-flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer border shadow-sm bg-white/95 text-stone-700 border-stone-200 hover:bg-white hover:text-black';
-                    }
-                  }
+                  if (b) b.setAttribute('data-active', (k === targetKey) ? 'true' : 'false');
                 });
               };
               document.addEventListener('click', function(e) {
@@ -730,6 +726,7 @@ export function LeaderboardSection() {
                 <button
                   key={catKey}
                   id={`lb-btn-${catKey}`}
+                  data-active={isActive ? 'true' : 'false'}
                   type="button"
                   onClick={() => {
                     setActiveCategory(catKey)
@@ -737,13 +734,9 @@ export function LeaderboardSection() {
                       ;(window as any).__switchLbTab(catKey)
                     }
                   }}
-                  className={`inline-flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer border shadow-sm ${
-                    isActive
-                      ? 'bg-blue-600 text-white border-blue-600 shadow-blue-500/30 scale-105'
-                      : 'bg-white/95 text-stone-700 border-stone-200 hover:bg-white hover:text-black'
-                  }`}
+                  className="lb-tab-button"
                 >
-                  <Icon className={`size-5 transition-colors ${isActive ? 'text-white' : 'text-blue-600'}`} />
+                  <Icon className="lb-tab-icon" />
                   <span>{cat.label}</span>
                 </button>
               )
