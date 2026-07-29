@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import initialLeaderboardData from '../public/leaderboard.json'
 import { motion } from 'framer-motion'
 import {
   ArrowRight,
@@ -575,30 +576,33 @@ export function AboutSection() {
   )
 }
 
+const leaderboardCategoriesConfig = {
+  kills: {
+    id: 'kills',
+    label: 'Kills',
+    icon: Swords,
+  },
+  deaths: {
+    id: 'deaths',
+    label: 'Deaths',
+    icon: Skull,
+  },
+  playtime: {
+    id: 'playtime',
+    label: 'PlayTime',
+    icon: Clock,
+  },
+}
+
 export function LeaderboardSection() {
   const [activeCategory, setActiveCategory] = useState<'kills' | 'deaths' | 'playtime'>('kills')
-  const [liveStatus, setLiveStatus] = useState<string>('Live Sync Active')
+  const [leaderboardData, setLeaderboardData] = useState<any>(initialLeaderboardData)
+  const [liveStatus, setLiveStatus] = useState<string>(
+    initialLeaderboardData?.updatedAt ? `Live Stats Synced • ${initialLeaderboardData.updatedAt}` : 'Live Sync Active'
+  )
 
   useEffect(() => {
-    ;(window as any).switchLeaderboardTab = function (catKey: string) {
-      const catKeys = ['kills', 'deaths', 'playtime']
-      catKeys.forEach((key) => {
-        const el = document.getElementById(`lb-cat-${key}`)
-        const btn = document.getElementById(`lb-btn-${key}`)
-        if (el) {
-          el.style.display = key === catKey ? 'flex' : 'none'
-        }
-        if (btn) {
-          if (key === catKey) {
-            btn.classList.add('lb-tab-active')
-          } else {
-            btn.classList.remove('lb-tab-active')
-          }
-        }
-      })
-    }
-
-    // Fetch local leaderboard.json feed generated from Minecraft stats
+    // Fetch local or deployed leaderboard.json feed generated from Minecraft stats
     const fetchLiveLeaderboard = async () => {
       try {
         let res = await fetch('./leaderboard.json?t=' + Date.now())
@@ -610,35 +614,12 @@ export function LeaderboardSection() {
         }
         if (res.ok) {
           const data = await res.json()
+          if (data && (data.kills || data.deaths || data.playtime)) {
+            setLeaderboardData(data)
+          }
           if (data.updatedAt) {
             setLiveStatus(`Live Stats Synced • ${data.updatedAt}`)
           }
-          // Dynamically update DOM categories if data exists
-          const catKeys = ['kills', 'deaths', 'playtime']
-          catKeys.forEach((catKey) => {
-            const list = data[catKey]
-            const container = document.getElementById(`lb-cat-${catKey}`)
-            if (container && Array.isArray(list) && list.length > 0) {
-              container.innerHTML = list
-                .slice(0, 10)
-                .map(
-                  (player) => `
-                <div class="relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg || 'bg-white border-stone-200'}">
-                  <div class="relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ${player.ribbonBg || 'from-stone-500 to-stone-600'}" style="clip-path:polygon(0 0, 80% 0, 100% 100%, 0 100%)">
-                    <span class="ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] text-white">${player.rank}</span>
-                  </div>
-                  <div class="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
-                    <div class="flex flex-col">
-                      <h3 class="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">${player.name}</h3>
-                    </div>
-                    <span class="text-base md:text-lg font-black text-stone-900 tabular-nums">${player.score}</span>
-                  </div>
-                </div>
-              `
-                )
-                .join('')
-            }
-          })
         }
       } catch (err) {
         console.log('Using static fallback statistics')
@@ -692,46 +673,12 @@ export function LeaderboardSection() {
           color: #ffffff !important;
         }
       `}</style>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function() {
-              function updateTab(catKey) {
-                var catKeys = ['kills', 'deaths', 'playtime'];
-                catKeys.forEach(function(key) {
-                  var el = document.getElementById('lb-cat-' + key);
-                  var btn = document.getElementById('lb-btn-' + key);
-                  if (el) {
-                    el.style.display = (key === catKey) ? 'flex' : 'none';
-                  }
-                  if (btn) {
-                    if (key === catKey) {
-                      btn.classList.add('lb-tab-active');
-                    } else {
-                      btn.classList.remove('lb-tab-active');
-                    }
-                  }
-                });
-              }
-              window.switchLeaderboardTab = updateTab;
-              if (typeof document !== 'undefined') {
-                document.addEventListener('click', function(e) {
-                  var btn = e.target && e.target.closest ? e.target.closest('[id^="lb-btn-"]') : null;
-                  if (btn && btn.id) {
-                    var catKey = btn.id.replace('lb-btn-', '');
-                    updateTab(catKey);
-                  }
-                });
-              }
-            })();
-          `,
-        }}
-      />
       <div className="mx-auto max-w-4xl">
         <div className="mb-12 text-center">
-          <span className="rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800">
-            Leaderboard
-          </span>
+          <div className="inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800">
+            <span className="inline-block size-2 rounded-full bg-purple-600 animate-pulse"></span>
+            <span>{liveStatus}</span>
+          </div>
           <h2
             id="leaderboard-title"
             className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
@@ -744,21 +691,15 @@ export function LeaderboardSection() {
 
           {/* Category Switcher Tabs */}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            {(Object.keys(leaderboardCategories) as Array<keyof typeof leaderboardCategories>).map((catKey) => {
-              const cat = leaderboardCategories[catKey]
+            {(Object.keys(leaderboardCategoriesConfig) as Array<keyof typeof leaderboardCategoriesConfig>).map((catKey) => {
+              const cat = leaderboardCategoriesConfig[catKey]
               const Icon = cat.icon
               const isActive = activeCategory === catKey
               return (
                 <button
                   key={catKey}
-                  id={`lb-btn-${catKey}`}
                   type="button"
-                  onClick={() => {
-                    setActiveCategory(catKey)
-                    if (typeof window !== 'undefined' && (window as any).switchLeaderboardTab) {
-                      ;(window as any).switchLeaderboardTab(catKey)
-                    }
-                  }}
+                  onClick={() => setActiveCategory(catKey)}
                   className={`lb-tab-button ${isActive ? 'lb-tab-active' : ''}`}
                 >
                   <Icon className="lb-tab-icon" />
@@ -769,46 +710,56 @@ export function LeaderboardSection() {
           </div>
         </div>
 
-        {/* Vertical Stacked Leaderboard Rows for Each Category */}
-        {(Object.keys(leaderboardCategories) as Array<keyof typeof leaderboardCategories>).map((catKey) => {
-          const cat = leaderboardCategories[catKey]
+        {/* Vertical Stacked Leaderboard Rows for Active Category */}
+        {(Object.keys(leaderboardCategoriesConfig) as Array<keyof typeof leaderboardCategoriesConfig>).map((catKey) => {
           const isSelected = activeCategory === catKey
+          const playerList = leaderboardData?.[catKey] || []
+
           return (
             <div
               key={catKey}
-              id={`lb-cat-${catKey}`}
               style={{ display: isSelected ? 'flex' : 'none' }}
-              className="flex-col gap-4 max-w-3xl mx-auto"
+              className="flex-col gap-4 max-w-3xl mx-auto w-full"
             >
-              {cat.players.map((player) => (
-                <div
-                  key={player.name + player.rank}
-                  className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg}`}
-                >
-                  {/* Left: Simple Angled Ribbon with Rank Number */}
+              {Array.isArray(playerList) && playerList.length > 0 ? (
+                playerList.slice(0, 10).map((player: any, idx: number) => (
                   <div
-                    className={`relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ${player.ribbonBg}`}
-                    style={{ clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0 100%)' }}
+                    key={player.name + (player.rank || idx)}
+                    className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg || 'bg-white border-stone-200'}`}
                   >
-                    {/* Rank Number */}
-                    <span className={`ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] ${player.ribbonText}`}>
-                      {player.rank}
-                    </span>
-                  </div>
-
-                  {/* Center: Player Name + Subtitle */}
-                  <div className="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
-                    <div className="flex flex-col">
-                      <h3 className="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">
-                        {player.name}
-                      </h3>
+                    {/* Left: Angled Ribbon with Rank Number */}
+                    <div
+                      className={`relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ${player.ribbonBg || 'from-stone-500 to-stone-600'}`}
+                      style={{ clipPath: 'polygon(0 0, 80% 0, 100% 100%, 0 100%)' }}
+                    >
+                      <span className={`ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] ${player.ribbonText || 'text-white'}`}>
+                        {player.rank || `${idx + 1}.`}
+                      </span>
                     </div>
-                    <span className="text-base md:text-lg font-black text-stone-900 tabular-nums">
-                      {player.score}
-                    </span>
+
+                    {/* Center & Right: Player Name, Subtitle, Score */}
+                    <div className="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
+                      <div className="flex flex-col">
+                        <h3 className="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">
+                          {player.name}
+                        </h3>
+                        {player.subtitle && (
+                          <span className="text-xs font-semibold text-stone-500 mt-0.5">
+                            {player.subtitle}
+                          </span>
+                        )}
+                      </div>
+                      <span className="text-base md:text-lg font-black text-stone-900 tabular-nums">
+                        {player.score}
+                      </span>
+                    </div>
                   </div>
+                ))
+              ) : (
+                <div className="text-center py-8 text-stone-500 font-semibold">
+                  No player statistics available.
                 </div>
-              ))}
+              )}
             </div>
           )
         })}
