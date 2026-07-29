@@ -41,6 +41,11 @@ const featuresList = [
     description: 'Classic survival gameplay focused on building, exploration, and community-driven adventures.',
   },
   {
+    icon: Sparkles,
+    title: 'Easy Crafting Recipes',
+    description: 'Exclusive XD SMP recipes! Craft Golden Apples with 4 gold ingots & Cobwebs with 5 string.',
+  },
+  {
     icon: Gem,
     title: 'Quality of Life Plugin',
     description: 'Infinite villager trading, clicking villager mechanics, and limited mace.',
@@ -54,11 +59,6 @@ const featuresList = [
     icon: Mic,
     title: 'Voice Channels & Chill',
     description: 'Hop in Discord VC to chat, stream your gameplay, and play party minigames.',
-  },
-  {
-    icon: Sparkles,
-    title: 'Community Events',
-    description: 'Participate in fun events like building contests, PvP battles, and win exciting prizes!',
   },
   {
     icon: Zap,
@@ -333,6 +333,75 @@ export function FeaturesSection() {
               <p className="text-sm leading-relaxed text-stone-600">{description}</p>
             </motion.article>
           ))}
+        </div>
+
+        {/* Custom Crafting Recipes Showcase */}
+        <div className="mt-16 rounded-[2.5rem] border border-amber-200/80 bg-gradient-to-b from-amber-50/50 via-white to-amber-50/30 p-8 shadow-lg md:p-12">
+          <div className="mb-10 text-center">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800">
+              <Sparkles className="size-3.5" /> XD SMP Custom Features
+            </span>
+            <h3 className="mt-3 text-2xl font-extrabold text-stone-900 md:text-4xl">
+              Easy Golden Apple & Cobweb Recipes
+            </h3>
+            <p className="mt-2 text-sm text-stone-600 md:text-base max-w-xl mx-auto">
+              Boost your survival & PvP experience with simplified crafting recipes exclusive to XD VERSE SMP.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            {/* Golden Apple Card */}
+            <motion.div
+              {...fadeUp}
+              whileHover={{ y: -4 }}
+              className="flex flex-col overflow-hidden rounded-3xl border border-amber-200/90 bg-white p-6 shadow-md transition-all hover:shadow-xl"
+            >
+              <div className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-50 p-2">
+                <img
+                  src="./images/gapple-recipe.png"
+                  alt="Golden Apple (Simple) Recipe - 4x Gold Ingots, 1x Apple"
+                  className="w-full object-contain rounded-xl transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div className="mt-5 flex flex-col gap-2">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <h4 className="text-xl font-extrabold text-stone-900">Golden Apple (Simple) Recipe</h4>
+                  <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-900">
+                    4 Gold Ingots + 1 Apple
+                  </span>
+                </div>
+                <p className="text-sm leading-relaxed text-stone-600">
+                  Save your gold! Craft Golden Apples quickly using just <strong>4x Gold Ingots</strong> surrounding <strong>1x Apple</strong> in a standard crafting table. Perfect for quick healing during combat!
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Cobweb Card */}
+            <motion.div
+              {...fadeUp}
+              whileHover={{ y: -4 }}
+              className="flex flex-col overflow-hidden rounded-3xl border border-stone-200 bg-white p-6 shadow-md transition-all hover:shadow-xl"
+            >
+              <div className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-50 p-2">
+                <img
+                  src="./images/cobweb-recipe.png"
+                  alt="Cobweb Recipe - 5x String in X pattern"
+                  className="w-full object-contain rounded-xl transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div className="mt-5 flex flex-col gap-2">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <h4 className="text-xl font-extrabold text-stone-900">Cobweb Recipe</h4>
+                  <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-800">
+                    5x String (X Pattern)
+                  </span>
+                </div>
+                <p className="text-sm leading-relaxed text-stone-600">
+                  Craft Cobwebs effortlessly using <strong>5x String</strong> arranged in an 'X' pattern in a crafting table. Essential for tactical PvP traps, slowing mobs, and clutch fall mitigation!
+                </p>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>
