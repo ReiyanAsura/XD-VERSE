@@ -1,11 +1,11 @@
 {
-  "updatedAt": "02:34 PM",
+  "updatedAt": "03:04 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "21 Kills",
-      "subtitle": "15.3 hrs played",
+      "subtitle": "15.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "NOT_INVIXEE",
       "score": "9 Kills",
-      "subtitle": "13.4 hrs played",
+      "subtitle": "13.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "NOT_INVIXEE",
       "score": "28 Deaths",
-      "subtitle": "13.4 hrs played",
+      "subtitle": "13.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -167,18 +167,18 @@
     },
     {
       "rank": "9.",
-      "name": "VOID",
+      "name": "Onetaggamer1",
       "score": "9 Deaths",
-      "subtitle": "2.8 hrs played",
+      "subtitle": "0.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "Onetaggamer1",
-      "score": "8 Deaths",
-      "subtitle": "0.8 hrs played",
+      "name": "VOID",
+      "score": "9 Deaths",
+      "subtitle": "2.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "PROBotX11",
-      "score": "15.3 hrs",
+      "score": "15.4 hrs",
       "subtitle": "21 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "NOT_INVIXEE",
-      "score": "13.4 hrs",
+      "score": "13.7 hrs",
       "subtitle": "9 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "ReiyanAsura",
-      "score": "5.2 hrs",
+      "score": "5.3 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
