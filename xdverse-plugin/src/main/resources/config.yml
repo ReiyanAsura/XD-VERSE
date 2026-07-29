@@ -22,7 +22,8 @@ github-repo: "XD-VERSE"
 github-branch: "main"
 
 # Path of the leaderboard file in your repo
-github-file-path: "leaderboard.json"
+# IMPORTANT: must be public/leaderboard.json so the site serves it correctly
+github-file-path: "public/leaderboard.json"
 
 # ── Minecraft Server Settings ──────────────────
 # Name of your main world folder (usually "world")
