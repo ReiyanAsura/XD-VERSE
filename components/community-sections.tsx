@@ -700,9 +700,13 @@ export function LeaderboardSection() {
                   key={catKey}
                   type="button"
                   onClick={() => setActiveCategory(catKey)}
-                  className={`lb-tab-button ${isActive ? 'lb-tab-active' : ''}`}
+                  className={`inline-flex items-center gap-2.5 rounded-full px-6 py-3 text-sm font-bold transition-all duration-200 cursor-pointer border shadow-sm ${
+                    isActive
+                      ? 'bg-blue-600 text-white border-blue-600 shadow-blue-500/30 scale-105'
+                      : 'bg-white/95 text-stone-700 border-stone-200 hover:bg-white hover:text-black'
+                  }`}
                 >
-                  <Icon className="lb-tab-icon" />
+                  <Icon className={`size-5 transition-colors ${isActive ? 'text-white' : 'text-blue-600'}`} />
                   <span>{cat.label}</span>
                 </button>
               )
@@ -712,14 +716,13 @@ export function LeaderboardSection() {
 
         {/* Vertical Stacked Leaderboard Rows for Active Category */}
         {(Object.keys(leaderboardCategoriesConfig) as Array<keyof typeof leaderboardCategoriesConfig>).map((catKey) => {
-          const isSelected = activeCategory === catKey
+          if (activeCategory !== catKey) return null
           const playerList = leaderboardData?.[catKey] || []
 
           return (
             <div
               key={catKey}
-              style={{ display: isSelected ? 'flex' : 'none' }}
-              className="flex-col gap-4 max-w-3xl mx-auto w-full"
+              className="flex flex-col gap-4 max-w-3xl mx-auto w-full"
             >
               {Array.isArray(playerList) && playerList.length > 0 ? (
                 playerList.slice(0, 10).map((player: any, idx: number) => (
