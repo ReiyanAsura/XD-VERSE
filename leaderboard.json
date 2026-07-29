@@ -1,5 +1,5 @@
 {
-  "updatedAt": "09:02 AM",
+  "updatedAt": "09:32 AM",
   "kills": [
     {
       "rank": "1.",
@@ -49,8 +49,8 @@
     {
       "rank": "6.",
       "name": "Sakura_manav",
-      "score": "4 Kills",
-      "subtitle": "6.3 hrs played",
+      "score": "5 Kills",
+      "subtitle": "6.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -77,7 +77,7 @@
       "rank": "9.",
       "name": "ARENTOIS",
       "score": "2 Kills",
-      "subtitle": "8.6 hrs played",
+      "subtitle": "9.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "Sakura_manav",
       "score": "16 Deaths",
-      "subtitle": "6.3 hrs played",
+      "subtitle": "6.8 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "ARENTOIS",
-      "score": "8.6 hrs",
+      "score": "9.1 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -224,8 +224,8 @@
     {
       "rank": "5.",
       "name": "Sakura_manav",
-      "score": "6.3 hrs",
-      "subtitle": "4 Kills",
+      "score": "6.8 hrs",
+      "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
