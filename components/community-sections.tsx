@@ -170,7 +170,7 @@ const leaderboardCategories = {
       {
         rank: '1.',
         name: 'Spidyy_xD',
-        score: '39 Deaths',
+        score: '38 Deaths',
         subtitle: '5.9 hrs played',
         ribbonBg: 'from-amber-400 via-yellow-400 to-amber-500',
         ribbonText: 'text-white',
