@@ -602,27 +602,31 @@ export function LeaderboardSection() {
   )
 
   useEffect(() => {
-    // Fetch local or deployed leaderboard.json feed generated from Minecraft stats
+    // Fetch live leaderboard data from raw GitHub repository (instant sync) with local fallbacks
     const fetchLiveLeaderboard = async () => {
-      try {
-        let res = await fetch('./leaderboard.json?t=' + Date.now())
-        if (!res.ok) {
-          res = await fetch('/XD-VERSE/leaderboard.json?t=' + Date.now())
-        }
-        if (!res.ok) {
-          res = await fetch('leaderboard.json?t=' + Date.now())
-        }
-        if (res.ok) {
-          const data = await res.json()
-          if (data && (data.kills || data.deaths || data.playtime)) {
-            setLeaderboardData(data)
+      const endpoints = [
+        'https://raw.githubusercontent.com/ReiyanAsura/XD-VERSE/main/leaderboard.json?t=' + Date.now(),
+        'https://raw.githubusercontent.com/ReiyanAsura/XD-VERSE/main/public/leaderboard.json?t=' + Date.now(),
+        './leaderboard.json?t=' + Date.now(),
+        '/XD-VERSE/leaderboard.json?t=' + Date.now(),
+      ]
+
+      for (const url of endpoints) {
+        try {
+          const res = await fetch(url)
+          if (res.ok) {
+            const data = await res.json()
+            if (data && (data.kills || data.deaths || data.playtime)) {
+              setLeaderboardData(data)
+              if (data.updatedAt) {
+                setLiveStatus(`Live Stats Synced • ${data.updatedAt}`)
+              }
+              break
+            }
           }
-          if (data.updatedAt) {
-            setLiveStatus(`Live Stats Synced • ${data.updatedAt}`)
-          }
+        } catch (err) {
+          // Continue to next endpoint if fetch fails
         }
-      } catch (err) {
-        console.log('Using static fallback statistics')
       }
     }
 
