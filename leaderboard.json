@@ -1,11 +1,11 @@
 {
-  "updatedAt": "05:02 AM",
+  "updatedAt": "05:32 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
-      "score": "15 Kills",
-      "subtitle": "12.2 hrs played",
+      "score": "17 Kills",
+      "subtitle": "12.7 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -68,7 +68,7 @@
       "rank": "8.",
       "name": "Sakura_manav",
       "score": "3 Kills",
-      "subtitle": "3.0 hrs played",
+      "subtitle": "3.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -113,15 +113,24 @@
     },
     {
       "rank": "3.",
-      "name": "speedboost44",
-      "score": "12 Deaths",
-      "subtitle": "2.4 hrs played",
+      "name": "Sakura_manav",
+      "score": "15 Deaths",
+      "subtitle": "3.2 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
+      "name": "speedboost44",
+      "score": "12 Deaths",
+      "subtitle": "2.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
       "name": "DudeVedant_pro",
       "score": "12 Deaths",
       "subtitle": "17.6 hrs played",
@@ -130,7 +139,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "5.",
+      "rank": "6.",
       "name": "G6Gamer7",
       "score": "10 Deaths",
       "subtitle": "3.4 hrs played",
@@ -139,7 +148,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "6.",
+      "rank": "7.",
       "name": "Sontraz_255",
       "score": "10 Deaths",
       "subtitle": "1.2 hrs played",
@@ -148,19 +157,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "VOID",
       "score": "8 Deaths",
       "subtitle": "2.0 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "8.",
-      "name": "Sakura_manav",
-      "score": "7 Deaths",
-      "subtitle": "3.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,8 +206,8 @@
     {
       "rank": "3.",
       "name": "PROBotX11",
-      "score": "12.2 hrs",
-      "subtitle": "15 Kills",
+      "score": "12.7 hrs",
+      "subtitle": "17 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "Sakura_manav",
-      "score": "3.0 hrs",
+      "score": "3.2 hrs",
       "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
