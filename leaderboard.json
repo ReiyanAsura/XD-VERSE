@@ -1,11 +1,11 @@
 {
-  "updatedAt": "02:04 AM",
+  "updatedAt": "02:34 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "21 Kills",
-      "subtitle": "16.6 hrs played",
+      "subtitle": "16.7 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "PROBotX11",
-      "score": "16.6 hrs",
+      "score": "16.7 hrs",
       "subtitle": "21 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
