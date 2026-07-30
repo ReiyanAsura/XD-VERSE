@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01:43 PM",
+  "updatedAt": "02:13 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "DudeVedant_pro",
       "score": "11 Kills",
-      "subtitle": "26.4 hrs played",
+      "subtitle": "26.9 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "Sakura_manav",
       "score": "9 Kills",
-      "subtitle": "14.6 hrs played",
+      "subtitle": "15.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "Sakura_manav",
       "score": "16 Deaths",
-      "subtitle": "14.6 hrs played",
+      "subtitle": "15.0 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -133,7 +133,7 @@
       "rank": "5.",
       "name": "DudeVedant_pro",
       "score": "12 Deaths",
-      "subtitle": "26.4 hrs played",
+      "subtitle": "26.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "VOID",
       "score": "10 Deaths",
-      "subtitle": "4.8 hrs played",
+      "subtitle": "5.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "DudeVedant_pro",
-      "score": "26.4 hrs",
+      "score": "26.9 hrs",
       "subtitle": "11 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Sakura_manav",
-      "score": "14.6 hrs",
+      "score": "15.0 hrs",
       "subtitle": "9 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "VOID",
-      "score": "4.8 hrs",
+      "score": "5.1 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
