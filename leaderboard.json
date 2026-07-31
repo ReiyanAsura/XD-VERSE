@@ -1,11 +1,11 @@
 {
-  "updatedAt": "08:08 AM",
+  "updatedAt": "08:20 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "21 Kills",
-      "subtitle": "18.3 hrs played",
+      "subtitle": "18.5 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -196,18 +196,18 @@
     },
     {
       "rank": "2.",
-      "name": "NOT_INVIXEE",
-      "score": "18.4 hrs",
-      "subtitle": "9 Kills",
+      "name": "PROBotX11",
+      "score": "18.5 hrs",
+      "subtitle": "21 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "PROBotX11",
-      "score": "18.3 hrs",
-      "subtitle": "21 Kills",
+      "name": "NOT_INVIXEE",
+      "score": "18.4 hrs",
+      "subtitle": "9 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "ReiyanAsura",
-      "score": "8.6 hrs",
+      "score": "8.7 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
