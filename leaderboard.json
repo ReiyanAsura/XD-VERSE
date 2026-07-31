@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:53 AM",
+  "updatedAt": "11:23 AM",
   "kills": [
     {
       "rank": "1.",
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "VOID",
       "score": "10 Deaths",
-      "subtitle": "5.6 hrs played",
+      "subtitle": "6.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "ReiyanAsura",
-      "score": "9.0 hrs",
+      "score": "9.1 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -250,6 +250,15 @@
     },
     {
       "rank": "8.",
+      "name": "VOID",
+      "score": "6.1 hrs",
+      "subtitle": "2 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
       "name": "Spidyy_xD",
       "score": "5.9 hrs",
       "subtitle": "9 Kills",
@@ -258,18 +267,9 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
-      "name": "VOID",
-      "score": "5.6 hrs",
-      "subtitle": "2 Kills",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
       "rank": "10.",
       "name": "Spidyy_XD",
-      "score": "5.1 hrs",
+      "score": "5.4 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
