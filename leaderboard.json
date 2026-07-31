@@ -1,11 +1,11 @@
 {
-  "updatedAt": "06:23 PM",
+  "updatedAt": "06:53 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "21 Kills",
-      "subtitle": "22.8 hrs played",
+      "subtitle": "22.9 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "PROBotX11",
-      "score": "22.8 hrs",
+      "score": "22.9 hrs",
       "subtitle": "21 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "IllegalAzure",
-      "score": "9.4 hrs",
+      "score": "9.7 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
