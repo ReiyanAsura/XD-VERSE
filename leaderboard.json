@@ -1,11 +1,11 @@
 {
-  "updatedAt": "02:23 PM",
+  "updatedAt": "02:53 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "21 Kills",
-      "subtitle": "20.2 hrs played",
+      "subtitle": "20.3 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "Sakura_manav",
       "score": "12 Kills",
-      "subtitle": "20.0 hrs played",
+      "subtitle": "20.5 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "DudeVedant_pro",
       "score": "11 Kills",
-      "subtitle": "29.8 hrs played",
+      "subtitle": "30.3 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -50,7 +50,7 @@
       "rank": "6.",
       "name": "ARENTOIS",
       "score": "8 Kills",
-      "subtitle": "17.9 hrs played",
+      "subtitle": "18.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "Sakura_manav",
       "score": "25 Deaths",
-      "subtitle": "20.0 hrs played",
+      "subtitle": "20.5 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -123,8 +123,8 @@
     {
       "rank": "4.",
       "name": "VOID",
-      "score": "20 Deaths",
-      "subtitle": "7.1 hrs played",
+      "score": "21 Deaths",
+      "subtitle": "7.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "DudeVedant_pro",
       "score": "12 Deaths",
-      "subtitle": "29.8 hrs played",
+      "subtitle": "30.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "DudeVedant_pro",
-      "score": "29.8 hrs",
+      "score": "30.3 hrs",
       "subtitle": "11 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -196,18 +196,18 @@
     },
     {
       "rank": "2.",
-      "name": "PROBotX11",
-      "score": "20.2 hrs",
-      "subtitle": "21 Kills",
+      "name": "Sakura_manav",
+      "score": "20.5 hrs",
+      "subtitle": "12 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "Sakura_manav",
-      "score": "20.0 hrs",
-      "subtitle": "12 Kills",
+      "name": "PROBotX11",
+      "score": "20.3 hrs",
+      "subtitle": "21 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "ARENTOIS",
-      "score": "17.9 hrs",
+      "score": "18.4 hrs",
       "subtitle": "8 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "VOID",
-      "score": "7.1 hrs",
+      "score": "7.6 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
