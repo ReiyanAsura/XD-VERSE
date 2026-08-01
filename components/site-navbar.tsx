@@ -24,10 +24,13 @@ export function SiteNavbar() {
       >
         <a
           href="#home"
-          className="flex items-center gap-2 font-bold tracking-tight text-[#2563eb] dark:text-blue-400 text-lg sm:text-xl"
+          className="flex items-center gap-2 font-bold tracking-tight text-[#ff6b00] text-lg sm:text-xl"
           aria-label="XD VERSE home"
         >
-          <span className="font-extrabold tracking-wider text-blue-600 dark:text-blue-400">XD VERSE</span>
+          <span className="font-black tracking-wider text-[#ff6b00]">XD VERSE</span>
+          <span className="rounded bg-[#ff6b00]/15 px-1.5 py-0.5 text-[10px] font-extrabold tracking-wider text-[#ff8c38] border border-[#ff6b00]/30">
+            SMP
+          </span>
         </a>
 
         <div className="hidden items-center gap-10 md:flex">
@@ -35,7 +38,7 @@ export function SiteNavbar() {
             <a
               key={item.label}
               href={item.href}
-              className="text-sm font-semibold text-stone-700 dark:text-stone-300 transition-colors hover:text-blue-600 dark:hover:text-blue-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
+              className="text-sm font-semibold text-stone-700 dark:text-stone-300 transition-colors hover:text-[#ff6b00] dark:hover:text-[#ff6b00] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#ff6b00]"
             >
               {item.label}
             </a>
@@ -51,7 +54,7 @@ export function SiteNavbar() {
             rel="noreferrer"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            className="rounded-full bg-blue-600 px-6 py-2.5 text-xs font-bold text-white shadow-md transition-all hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
+            className="rounded-full bg-[#ff6b00] px-6 py-2.5 text-xs font-black uppercase tracking-wider text-white shadow-md shadow-[#ff6b00]/20 transition-all hover:bg-[#ff7e22] hover:shadow-lg hover:shadow-[#ff6b00]/40 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#ff6b00]"
           >
             Join Our Discord
           </motion.a>
@@ -86,7 +89,7 @@ export function SiteNavbar() {
                   key={item.label}
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-base font-semibold text-stone-800 dark:text-stone-200 hover:text-blue-600 dark:hover:text-blue-400"
+                  className="text-base font-semibold text-stone-800 dark:text-stone-200 hover:text-[#ff6b00] dark:hover:text-[#ff6b00]"
                 >
                   {item.label}
                 </a>
