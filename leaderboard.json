@@ -1,11 +1,11 @@
 {
-  "updatedAt": "06:36 AM",
+  "updatedAt": "07:06 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "21 Kills",
-      "subtitle": "22.9 hrs played",
+      "subtitle": "23.1 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -196,18 +196,18 @@
     },
     {
       "rank": "2.",
-      "name": "Sakura_manav",
-      "score": "22.9 hrs",
-      "subtitle": "14 Kills",
+      "name": "PROBotX11",
+      "score": "23.1 hrs",
+      "subtitle": "21 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "PROBotX11",
+      "name": "Sakura_manav",
       "score": "22.9 hrs",
-      "subtitle": "21 Kills",
+      "subtitle": "14 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -232,18 +232,18 @@
     },
     {
       "rank": "6.",
-      "name": "ReiyanAsura",
-      "score": "9.9 hrs",
-      "subtitle": "3 Kills",
+      "name": "IllegalAzure",
+      "score": "10.2 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
-      "name": "IllegalAzure",
-      "score": "9.7 hrs",
-      "subtitle": "0 Kills",
+      "name": "ReiyanAsura",
+      "score": "9.9 hrs",
+      "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
