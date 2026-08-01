@@ -1,5 +1,5 @@
 {
-  "updatedAt": "08:36 AM",
+  "updatedAt": "09:06 AM",
   "kills": [
     {
       "rank": "1.",
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "NOT_INVIXEE",
       "score": "9 Kills",
-      "subtitle": "21.1 hrs played",
+      "subtitle": "21.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "NOT_INVIXEE",
       "score": "28 Deaths",
-      "subtitle": "21.1 hrs played",
+      "subtitle": "21.5 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "NOT_INVIXEE",
-      "score": "21.1 hrs",
+      "score": "21.5 hrs",
       "subtitle": "9 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "IllegalAzure",
-      "score": "11.4 hrs",
+      "score": "11.9 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
