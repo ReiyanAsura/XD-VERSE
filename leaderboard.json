@@ -1,11 +1,11 @@
 {
-  "updatedAt": "05:10 PM",
+  "updatedAt": "05:40 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "42 Kills",
-      "subtitle": "27.2 hrs played",
+      "subtitle": "27.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -50,7 +50,7 @@
       "rank": "6.",
       "name": "DudeVedant_pro",
       "score": "11 Kills",
-      "subtitle": "35.2 hrs played",
+      "subtitle": "35.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "PROBotX11",
       "score": "40 Deaths",
-      "subtitle": "27.2 hrs played",
+      "subtitle": "27.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -169,7 +169,7 @@
       "rank": "9.",
       "name": "DudeVedant_pro",
       "score": "14 Deaths",
-      "subtitle": "35.2 hrs played",
+      "subtitle": "35.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "DudeVedant_pro",
-      "score": "35.2 hrs",
+      "score": "35.3 hrs",
       "subtitle": "11 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "PROBotX11",
-      "score": "27.2 hrs",
+      "score": "27.4 hrs",
       "subtitle": "42 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
