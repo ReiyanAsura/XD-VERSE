@@ -7,12 +7,9 @@ import {
   ArrowLeft,
   Check,
   Copy,
-  Play,
+  ExternalLink,
   Sparkles,
-  Shield,
-  Users,
-  Radio,
-  X
+  Users
 } from 'lucide-react'
 
 interface Slide {
@@ -24,6 +21,7 @@ interface Slide {
   image: string
   metaLabel: string
   metaValue: string
+  isDiscord?: boolean
 }
 
 const slides: Slide[] = [
@@ -33,39 +31,40 @@ const slides: Slide[] = [
     title: 'XD VERSE SMP',
     subtitle: 'THE ULTIMATE SURVIVAL EXPERIENCE',
     description:
-      'Experience classic Minecraft survival enhanced with essential Quality of Life plugins, custom crafting recipes, and epic PvP in a warm, friendly community.',
-    image: './images/cinematic-mc-hero.jpg',
+      'Experience classic Minecraft survival enhanced with essential Quality of Life plugins, custom features, and a warm, active gaming community.',
+    image: './images/mc-squad-hero.jpg',
     metaLabel: 'SERVER IP ADDRESS',
     metaValue: '125.16.185.22:25590'
   },
   {
     id: 1,
     number: '02',
-    title: 'EPIC PVP BATTLES',
-    subtitle: 'TACTICAL ARENAS & CLASHES',
+    title: 'JOIN OUR DISCORD',
+    subtitle: 'OFFICIAL COMMUNITY HUB',
     description:
-      'Engage in high-stakes combat with custom simplified recipes for Golden Apples and Cobwebs. Build your traps, gear up with Netherite, and dominate the battle.',
-    image: './images/cinematic-mc-pvp.jpg',
-    metaLabel: 'COMBAT FEATURES',
-    metaValue: 'Easy Gapple & Cobweb Crafting'
+      'Connect with fellow players, join voice channels, get instant staff support, and stay updated with announcements & giveaways!',
+    image: './images/mc-error-desk.jpg',
+    metaLabel: 'DISCORD COMMUNITY',
+    metaValue: 'Join Discord Server',
+    isDiscord: true
   },
   {
     id: 2,
     number: '03',
-    title: 'CASTLE BASES',
-    subtitle: 'BUILD, TRADE & THRIVE',
+    title: 'EVENTS & ACTIVE MEMBERS',
+    subtitle: 'THRIVING GAMING COMMUNITY',
     description:
-      'Construct breathtaking medieval castles, establish thriving towns, and forge alliances. 24/7 active uptime ensures your creations are always alive.',
-    image: './images/cinematic-mc-base.jpg',
-    metaLabel: 'SERVER UPTIME',
-    metaValue: '24/7 Online • Zero Lag'
+      'Active players in exciting community events like Build Battles, Parkour courses, PvP tournaments, and much more with 24/7 uptime!',
+    image: './images/mc-library-hub.jpg',
+    metaLabel: 'COMMUNITY STATUS',
+    metaValue: '300+ Active Members • 24/7'
   }
 ]
 
 export function HeroSection() {
   const [activeSlide, setActiveSlide] = useState(0)
   const [copied, setCopied] = useState(false)
-  const [showTrailerModal, setShowTrailerModal] = useState(false)
+  const [copiedDiscord, setCopiedDiscord] = useState(false)
 
   // Auto-slide every 7 seconds
   useEffect(() => {
@@ -79,6 +78,13 @@ export function HeroSection() {
     navigator.clipboard.writeText('125.16.185.22:25590')
     setCopied(true)
     setTimeout(() => setCopied(false), 2500)
+  }
+
+  const handleCopyDiscord = (e: React.MouseEvent) => {
+    e.stopPropagation()
+    navigator.clipboard.writeText('https://discord.gg/csZuFW2UM3')
+    setCopiedDiscord(true)
+    setTimeout(() => setCopiedDiscord(false), 2500)
   }
 
   const prevSlide = () => {
@@ -161,35 +167,71 @@ export function HeroSection() {
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                 </a>
 
-                {/* Server IP Info / Copy Trigger */}
-                <div
-                  onClick={handleCopyIp}
-                  className="group flex cursor-pointer flex-col justify-center border-l-2 border-[#ff6b00]/40 pl-4 transition-colors hover:border-[#ff6b00]"
-                >
-                  <span className="text-xs font-bold uppercase tracking-wider text-stone-400 group-hover:text-stone-300">
-                    {current.metaLabel}
-                  </span>
-                  <div className="flex items-center gap-2 mt-0.5">
-                    <span className="font-mono text-sm sm:text-base font-extrabold text-white">
-                      {current.metaValue}
+                {/* Server IP / Discord Action Block */}
+                {current.isDiscord ? (
+                  <div className="group flex flex-col justify-center border-l-2 border-[#5865F2]/60 pl-4 transition-colors hover:border-[#5865F2]">
+                    <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
+                      {current.metaLabel}
                     </span>
-                    {copied ? (
-                      <span className="inline-flex items-center gap-1 rounded bg-emerald-500/20 px-1.5 py-0.5 text-[10px] font-bold text-emerald-400">
-                        <Check className="size-3" /> Copied
-                      </span>
-                    ) : (
-                      <span className="inline-flex items-center gap-1 rounded bg-stone-800 px-1.5 py-0.5 text-[10px] font-bold text-stone-300 group-hover:bg-[#ff6b00]/20 group-hover:text-[#ff8c38]">
-                        <Copy className="size-3" /> Copy IP
-                      </span>
-                    )}
+                    <div className="flex flex-wrap items-center gap-2.5 mt-0.5">
+                      <a
+                        href="https://discord.gg/csZuFW2UM3"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1.5 font-mono text-sm sm:text-base font-extrabold text-white transition-colors hover:text-[#7289da] hover:underline"
+                      >
+                        <span>{current.metaValue}</span>
+                        <ExternalLink className="size-3.5 text-[#5865F2]" />
+                      </a>
+                      <button
+                        type="button"
+                        onClick={handleCopyDiscord}
+                        className="inline-flex items-center gap-1 rounded bg-[#5865F2]/20 border border-[#5865F2]/40 px-2 py-0.5 text-[10px] font-bold text-[#7289da] hover:bg-[#5865F2]/30 transition-colors"
+                      >
+                        {copiedDiscord ? (
+                          <>
+                            <Check className="size-3 text-emerald-400" />
+                            <span className="text-emerald-400">Copied!</span>
+                          </>
+                        ) : (
+                          <>
+                            <Copy className="size-3" />
+                            <span>Copy Link</span>
+                          </>
+                        )}
+                      </button>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <div
+                    onClick={handleCopyIp}
+                    className="group flex cursor-pointer flex-col justify-center border-l-2 border-[#ff6b00]/40 pl-4 transition-colors hover:border-[#ff6b00]"
+                  >
+                    <span className="text-xs font-bold uppercase tracking-wider text-stone-400 group-hover:text-stone-300">
+                      {current.metaLabel}
+                    </span>
+                    <div className="flex items-center gap-2 mt-0.5">
+                      <span className="font-mono text-sm sm:text-base font-extrabold text-white">
+                        {current.metaValue}
+                      </span>
+                      {copied ? (
+                        <span className="inline-flex items-center gap-1 rounded bg-emerald-500/20 px-1.5 py-0.5 text-[10px] font-bold text-emerald-400">
+                          <Check className="size-3" /> Copied
+                        </span>
+                      ) : (
+                        <span className="inline-flex items-center gap-1 rounded bg-stone-800 px-1.5 py-0.5 text-[10px] font-bold text-stone-300 group-hover:bg-[#ff6b00]/20 group-hover:text-[#ff8c38]">
+                          <Copy className="size-3" /> Copy IP
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
             {/* Bottom Left: Social Icons & Server Status */}
             <div className="flex flex-wrap items-center justify-between gap-6 pt-4 border-t border-stone-800/80">
-              {/* Social Icons */}
+              {/* Social Icons (Discord Only) */}
               <div className="flex items-center gap-4">
                 <a
                   href="https://discord.gg/csZuFW2UM3"
@@ -200,24 +242,6 @@ export function HeroSection() {
                 >
                   <svg className="size-4 fill-current" viewBox="0 0 24 24">
                     <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286z" />
-                  </svg>
-                </a>
-                <a
-                  href="#features"
-                  aria-label="Instagram"
-                  className="flex size-10 items-center justify-center rounded-full bg-stone-900 border border-stone-800 text-stone-300 transition-all hover:border-[#ff6b00] hover:text-[#ff6b00] hover:scale-110"
-                >
-                  <svg className="size-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                  </svg>
-                </a>
-                <a
-                  href="#rules"
-                  aria-label="Twitter"
-                  className="flex size-10 items-center justify-center rounded-full bg-stone-900 border border-stone-800 text-stone-300 transition-all hover:border-[#ff6b00] hover:text-[#ff6b00] hover:scale-110"
-                >
-                  <svg className="size-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                   </svg>
                 </a>
               </div>
@@ -232,7 +256,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* RIGHT COLUMN: Massive Cinematic Image Showcase + Play Button + Slider Counter (5 Cols on desktop) */}
+          {/* RIGHT COLUMN: Massive Cinematic Image Showcase + Slider Counter (5 Cols on desktop) */}
           <div className="relative flex flex-col justify-end overflow-hidden lg:col-span-5 min-h-[380px] lg:min-h-full">
             
             {/* Background Image with Smooth Crossfade */}
@@ -248,7 +272,11 @@ export function HeroSection() {
                 <img
                   src={current.image}
                   alt={current.title}
-                  className="h-full w-full object-cover object-center"
+                  className={`h-full w-full ${
+                    current.image.endsWith('.png')
+                      ? 'object-contain p-6 bg-[#0a0a0d]'
+                      : 'object-cover object-center'
+                  }`}
                 />
                 {/* Left gradient transition so left text column blends smoothly with right image */}
                 <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#0d0c11] to-transparent hidden lg:block" />
@@ -257,24 +285,6 @@ export function HeroSection() {
                 <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#0d0c11]/60 to-transparent" />
               </motion.div>
             </AnimatePresence>
-
-            {/* Overlaid Play Trailer Button (Exactly like "Watch the trailer" in Reference Image) */}
-            <div className="relative z-10 flex items-center justify-center mb-16 lg:mb-24">
-              <button
-                type="button"
-                onClick={() => setShowTrailerModal(true)}
-                className="group flex flex-col items-center gap-2 transition-transform hover:scale-110 active:scale-95"
-              >
-                <div className="relative flex size-16 items-center justify-center rounded-full bg-white/95 text-[#ff6b00] shadow-[0_0_30px_rgba(255,107,0,0.6)] transition-all group-hover:bg-[#ff6b00] group-hover:text-white">
-                  <Play className="size-6 fill-current ml-0.5" />
-                  {/* Outer animated ring */}
-                  <span className="absolute inset-0 rounded-full border-2 border-[#ff6b00] animate-ping opacity-40" />
-                </div>
-                <span className="text-xs font-black uppercase tracking-wider text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-                  Watch the trailer
-                </span>
-              </button>
-            </div>
 
             {/* Pagination / Carousel Slider Counter at Bottom Right (like <- 01 02 03 ->) */}
             <div className="relative z-20 flex items-center justify-center lg:justify-end gap-3 p-8">
@@ -319,72 +329,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-
-      {/* Video / Trailer Preview Modal */}
-      <AnimatePresence>
-        {showTrailerModal && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 backdrop-blur-md"
-            onClick={() => setShowTrailerModal(false)}
-          >
-            <motion.div
-              initial={{ scale: 0.95, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.95, opacity: 0 }}
-              onClick={(e) => e.stopPropagation()}
-              className="relative max-w-4xl w-full overflow-hidden rounded-3xl bg-[#141318] border border-stone-800 shadow-2xl"
-            >
-              {/* Header */}
-              <div className="flex items-center justify-between border-b border-stone-800 px-6 py-4">
-                <div className="flex items-center gap-2">
-                  <Sparkles className="size-4 text-[#ff6b00]" />
-                  <span className="font-bold text-white text-sm">XD VERSE SMP — OFFICIAL PREVIEW</span>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setShowTrailerModal(false)}
-                  className="rounded-full p-1.5 text-stone-400 hover:bg-stone-800 hover:text-white"
-                >
-                  <X className="size-5" />
-                </button>
-              </div>
-
-              {/* Modal Body with Active Cinematic Showcase */}
-              <div className="relative aspect-video w-full overflow-hidden bg-black">
-                <img
-                  src={current.image}
-                  alt={current.title}
-                  className="h-full w-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent flex flex-col justify-end p-8">
-                  <span className="inline-block rounded-full bg-[#ff6b00] px-3 py-1 text-xs font-black uppercase tracking-wider text-white w-max mb-2">
-                    {current.subtitle}
-                  </span>
-                  <h3 className="text-3xl sm:text-4xl font-black text-white font-mono">
-                    {current.title}
-                  </h3>
-                  <p className="mt-2 text-sm text-stone-300 max-w-lg">
-                    {current.description}
-                  </p>
-                  <div className="mt-6 flex flex-wrap gap-4">
-                    <a
-                      href="#how-to-join"
-                      onClick={() => setShowTrailerModal(false)}
-                      className="inline-flex items-center gap-2 rounded-full bg-[#ff6b00] px-6 py-3 text-xs font-black uppercase text-white shadow-lg hover:bg-[#ff7e22]"
-                    >
-                      <span>Join SMP Server</span>
-                      <ArrowRight className="size-3.5" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </section>
   )
 }

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS=\"--require ./poly.js\" next dev",
+    "dev": "rm -rf .next out index.html index.txt 404.html _not-found.html _not-found.txt _not-found next __next* 2>/dev/null; NODE_OPTIONS=\"--require ./poly.js\" next dev",
     "build": "NODE_OPTIONS=\"--require ./poly.js\" next build && node fix-paths.js",
     "start": "next start",
     "lint": "eslint ."

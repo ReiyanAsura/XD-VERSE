@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
+const isBuild = process.argv.includes('build')
+
 const nextConfig = {
-  output: 'export',
-  assetPrefix: './',
+  output: isBuild ? 'export' : undefined,
+  assetPrefix: isBuild ? './' : undefined,
   images: {
     unoptimized: true,
   },
