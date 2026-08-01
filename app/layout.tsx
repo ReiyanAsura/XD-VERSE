@@ -32,8 +32,27 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="bg-background">
-      <body className={`${plusJakarta.variable} ${silkscreen.variable} font-sans antialiased`}>
+    <html lang="en" className="bg-background transition-colors duration-300" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var saved = localStorage.getItem('xd-theme');
+                  var supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+                  if (saved === 'dark' || (!saved && supportDarkMode)) {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
+      <body className={`${plusJakarta.variable} ${silkscreen.variable} font-sans antialiased bg-[#e5dfd3] dark:bg-[#0b0d12] text-stone-900 dark:text-stone-100 transition-colors duration-300`}>
         {children}
       </body>
     </html>

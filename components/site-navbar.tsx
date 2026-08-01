@@ -2,7 +2,8 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Sparkles } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import { ThemeToggle } from '@/components/theme-toggle'
 
 const navigation = [
   { label: 'Features', href: '#features' },
@@ -18,15 +19,15 @@ export function SiteNavbar() {
   return (
     <header className="sticky top-0 z-[100] w-full px-4 pt-4 sm:px-8">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between rounded-full bg-white/80 px-6 py-3 shadow-sm backdrop-blur-md border border-stone-200/80"
+        className="mx-auto flex max-w-7xl items-center justify-between rounded-full bg-white/80 dark:bg-stone-900/85 dark:border-stone-800/80 dark:shadow-stone-950/50 px-6 py-3 shadow-sm backdrop-blur-md border border-stone-200/80 transition-colors duration-300"
         aria-label="Main navigation"
       >
         <a
           href="#home"
-          className="flex items-center gap-2 font-bold tracking-tight text-[#2563eb] text-lg sm:text-xl"
+          className="flex items-center gap-2 font-bold tracking-tight text-[#2563eb] dark:text-blue-400 text-lg sm:text-xl"
           aria-label="XD VERSE home"
         >
-          <span className="font-extrabold tracking-wider text-blue-600">XD VERSE</span>
+          <span className="font-extrabold tracking-wider text-blue-600 dark:text-blue-400">XD VERSE</span>
         </a>
 
         <div className="hidden items-center gap-10 md:flex">
@@ -34,7 +35,7 @@ export function SiteNavbar() {
             <a
               key={item.label}
               href={item.href}
-              className="text-sm font-semibold text-stone-700 transition-colors hover:text-blue-600 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
+              className="text-sm font-semibold text-stone-700 dark:text-stone-300 transition-colors hover:text-blue-600 dark:hover:text-blue-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
             >
               {item.label}
             </a>
@@ -42,6 +43,8 @@ export function SiteNavbar() {
         </div>
 
         <div className="flex items-center gap-3">
+          <ThemeToggle className="hidden sm:inline-flex" />
+
           <motion.a
             href="https://discord.gg/csZuFW2UM3"
             target="_blank"
@@ -56,7 +59,7 @@ export function SiteNavbar() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="flex items-center justify-center rounded-full p-2 text-stone-700 hover:text-black md:hidden"
+            className="flex items-center justify-center rounded-full p-2 text-stone-700 dark:text-stone-300 hover:text-black dark:hover:text-white md:hidden"
             aria-label="Toggle navigation menu"
           >
             {mobileMenuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
@@ -70,15 +73,20 @@ export function SiteNavbar() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="mt-2 rounded-2xl border border-stone-200 bg-white/95 p-6 shadow-xl backdrop-blur-lg md:hidden"
+            className="mt-2 rounded-2xl border border-stone-200 dark:border-stone-800 bg-white/95 dark:bg-stone-900/95 p-6 shadow-xl backdrop-blur-lg md:hidden transition-colors duration-300"
           >
             <div className="flex flex-col gap-4">
+              <div className="flex items-center justify-between pb-3 border-b border-stone-200 dark:border-stone-800 sm:hidden">
+                <span className="text-sm font-bold text-stone-700 dark:text-stone-300">Theme</span>
+                <ThemeToggle />
+              </div>
+
               {navigation.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-base font-semibold text-stone-800 hover:text-blue-600"
+                  className="text-base font-semibold text-stone-800 dark:text-stone-200 hover:text-blue-600 dark:hover:text-blue-400"
                 >
                   {item.label}
                 </a>

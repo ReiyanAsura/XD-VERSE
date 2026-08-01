@@ -22,6 +22,22 @@
   --ring: #2563eb;
 }
 
+.dark {
+  color-scheme: dark;
+  --background: #0b0d12;
+  --foreground: #f5f5f4;
+  --primary: #3b82f6;
+  --primary-foreground: #ffffff;
+  --secondary: #161a22;
+  --secondary-foreground: #f5f5f4;
+  --card: #13171f;
+  --card-foreground: #f5f5f4;
+  --muted: #1e232e;
+  --muted-foreground: #a8a29e;
+  --border: rgba(255, 255, 255, 0.1);
+  --ring: #3b82f6;
+}
+
 * {
   border-color: var(--border);
   box-sizing: border-box;
@@ -37,6 +53,12 @@ body {
   color: var(--foreground);
   font-family: var(--font-plus-jakarta), sans-serif;
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background-color: #0b0d12;
+  color: #f5f5f4;
 }
 
 /* Glassmorphic card container inspired by sample design */
@@ -46,6 +68,13 @@ body {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: 0 25px 70px -15px rgba(28, 25, 23, 0.12), 0 0 1px 1px rgba(28, 25, 23, 0.06);
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .glass-panel-warm {
+  background: rgba(19, 23, 31, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 25px 70px -15px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 255, 255, 0.08);
 }
 
 /* Glowing green online orb */

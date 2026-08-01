@@ -1,0 +1,153 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { Sun, Moon, Sparkles } from 'lucide-react'
+
+// Lightweight synthesized sound effects using Web Audio API for an expert gaming feel
+function playToggleSound(toDark: boolean) {
+  try {
+    const AudioContextClass = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext
+    if (!AudioContextClass) return
+    const ctx = new AudioContextClass()
+    const osc = ctx.createOscillator()
+    const gain = ctx.createGain()
+
+    osc.connect(gain)
+    gain.connect(ctx.destination)
+
+    const now = ctx.currentTime
+    if (toDark) {
+      // Sleek ascending futuristic night chime
+      osc.type = 'sine'
+      osc.frequency.setValueAtTime(440, now)
+      osc.frequency.exponentialRampToValueAtTime(880, now + 0.12)
+      gain.gain.setValueAtTime(0.08, now)
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15)
+    } else {
+      // Warm descending daylight chime
+      osc.type = 'triangle'
+      osc.frequency.setValueAtTime(660, now)
+      osc.frequency.exponentialRampToValueAtTime(440, now + 0.12)
+      gain.gain.setValueAtTime(0.08, now)
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15)
+    }
+
+    osc.start(now)
+    osc.stop(now + 0.15)
+  } catch (e) {
+    // Ignore audio context restrictions if blocked by browser policy
+  }
+}
+
+export function ThemeToggle({ className = '' }: { className?: string }) {
+  const [theme, setTheme] = useState<'light' | 'dark'>('light')
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    // Sync initial theme from document.documentElement or localStorage
+    const saved = localStorage.getItem('xd-theme') as 'light' | 'dark' | null
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const initialTheme = saved || (prefersDark ? 'dark' : 'light')
+
+    setTheme(initialTheme)
+    if (initialTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+    setMounted(true)
+  }, [])
+
+  const toggleTheme = () => {
+    const nextTheme = theme === 'light' ? 'dark' : 'light'
+    setTheme(nextTheme)
+    localStorage.setItem('xd-theme', nextTheme)
+
+    if (nextTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+
+    // Play subtle synthesized chime
+    playToggleSound(nextTheme === 'dark')
+
+    // Dispatch custom event so any other listeners can sync if needed
+    window.dispatchEvent(new CustomEvent('xd-theme-change', { detail: nextTheme }))
+  }
+
+  if (!mounted) {
+    return (
+      <div
+        className={`inline-flex h-10 w-20 items-center justify-center rounded-full border border-stone-200 bg-stone-100 px-2 opacity-50 ${className}`}
+      />
+    )
+  }
+
+  const isDark = theme === 'dark'
+
+  return (
+    <motion.button
+      type="button"
+      onClick={toggleTheme}
+      whileHover={{ scale: 1.04 }}
+      whileTap={{ scale: 0.95 }}
+      aria-label={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+      title={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+      className={`group relative inline-flex h-10 w-20 items-center rounded-full border p-1 shadow-inner transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ${
+        isDark
+          ? 'border-indigo-500/40 bg-stone-950 shadow-indigo-950/50'
+          : 'border-amber-300 bg-amber-50 shadow-amber-200/50'
+      } ${className}`}
+    >
+      {/* Background glowing stars / sunbeams in track */}
+      <div className="absolute inset-0 flex items-center justify-between px-2.5 pointer-events-none">
+        <Sun className={`size-3.5 transition-opacity duration-300 ${isDark ? 'opacity-30 text-stone-500' : 'opacity-100 text-amber-500'}`} />
+        <Moon className={`size-3.5 transition-opacity duration-300 ${isDark ? 'opacity-100 text-indigo-400' : 'opacity-30 text-stone-400'}`} />
+      </div>
+
+      {/* Sliding Theme Toggle Pill / Knob */}
+      <motion.div
+        layout
+        transition={{ type: 'spring', stiffness: 500, damping: 30 }}
+        className={`relative z-10 flex size-8 items-center justify-center rounded-full shadow-md ${
+          isDark
+            ? 'ml-auto bg-gradient-to-br from-indigo-500 to-blue-600 text-white shadow-indigo-500/30'
+            : 'bg-gradient-to-br from-amber-400 to-orange-500 text-white shadow-amber-500/30'
+        }`}
+      >
+        <AnimatePresence mode="wait" initial={false}>
+          {isDark ? (
+            <motion.div
+              key="moon"
+              initial={{ rotate: -90, scale: 0.5, opacity: 0 }}
+              animate={{ rotate: 0, scale: 1, opacity: 1 }}
+              exit={{ rotate: 90, scale: 0.5, opacity: 0 }}
+              transition={{ duration: 0.15 }}
+              className="flex items-center justify-center"
+            >
+              <Moon className="size-4 fill-current" />
+            </motion.div>
+          ) : (
+            <motion.div
+              key="sun"
+              initial={{ rotate: 90, scale: 0.5, opacity: 0 }}
+              animate={{ rotate: 0, scale: 1, opacity: 1 }}
+              exit={{ rotate: -90, scale: 0.5, opacity: 0 }}
+              transition={{ duration: 0.15 }}
+              className="flex items-center justify-center"
+            >
+              <Sun className="size-4 fill-current" />
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.div>
+
+      {/* Subtle hover sparkle glow indicator */}
+      <span className="absolute -top-1 -right-1 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+        <Sparkles className={`size-3 ${isDark ? 'text-indigo-400' : 'text-amber-500'}`} />
+      </span>
+    </motion.button>
+  )
+}

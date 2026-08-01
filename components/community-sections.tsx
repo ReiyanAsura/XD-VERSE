@@ -309,11 +309,11 @@ export function FeaturesSection() {
           <motion.h2
             id="features-title"
             {...fadeUp}
-            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white md:text-5xl"
           >
             Everything You Need for Adventure
           </motion.h2>
-          <p className="mt-4 text-sm text-stone-600 md:text-base max-w-xl mx-auto">
+          <p className="mt-4 text-sm text-stone-600 dark:text-stone-300 md:text-base max-w-xl mx-auto">
             Discover a refined Minecraft SMP experience designed for community, fair play, and endless fun.
           </p>
         </div>
@@ -324,27 +324,27 @@ export function FeaturesSection() {
               key={title}
               {...fadeUp}
               whileHover={{ y: -6 }}
-              className="flex flex-col gap-4 rounded-3xl border border-stone-200/80 bg-white p-8 shadow-sm transition-all hover:shadow-xl"
+              className="flex flex-col gap-4 rounded-3xl border border-stone-200/80 dark:border-stone-800/80 bg-white dark:bg-stone-900/85 p-8 shadow-sm transition-all hover:shadow-xl dark:hover:border-stone-700"
             >
-              <div className="flex size-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
+              <div className="flex size-12 items-center justify-center rounded-2xl bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400">
                 <Icon className="size-6" aria-hidden="true" strokeWidth={2} />
               </div>
-              <h3 className="text-xl font-bold tracking-tight text-stone-900">{title}</h3>
-              <p className="text-sm leading-relaxed text-stone-600">{description}</p>
+              <h3 className="text-xl font-bold tracking-tight text-stone-900 dark:text-white">{title}</h3>
+              <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300">{description}</p>
             </motion.article>
           ))}
         </div>
 
         {/* Custom Crafting Recipes Showcase */}
-        <div className="mt-16 rounded-[2.5rem] border border-amber-200/80 bg-gradient-to-b from-amber-50/50 via-white to-amber-50/30 p-8 shadow-lg md:p-12">
+        <div className="mt-16 rounded-[2.5rem] border border-amber-200/80 dark:border-amber-500/20 bg-gradient-to-b from-amber-50/50 via-white to-amber-50/30 dark:from-stone-900/90 dark:via-stone-900/80 dark:to-stone-900/50 p-8 shadow-lg md:p-12 transition-colors duration-300">
           <div className="mb-10 text-center">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 dark:bg-amber-950/60 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300">
               <Sparkles className="size-3.5" /> XD SMP Custom Features
             </span>
-            <h3 className="mt-3 text-2xl font-extrabold text-stone-900 md:text-4xl">
+            <h3 className="mt-3 text-2xl font-extrabold text-stone-900 dark:text-white md:text-4xl">
               Easy Golden Apple & Cobweb Recipes
             </h3>
-            <p className="mt-2 text-sm text-stone-600 md:text-base max-w-xl mx-auto">
+            <p className="mt-2 text-sm text-stone-600 dark:text-stone-300 md:text-base max-w-xl mx-auto">
               Boost your survival & PvP experience with simplified crafting recipes exclusive to XD VERSE SMP.
             </p>
           </div>
@@ -354,9 +354,9 @@ export function FeaturesSection() {
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
-              className="flex flex-col overflow-hidden rounded-3xl border border-amber-200/90 bg-white p-6 shadow-md transition-all hover:shadow-xl"
+              className="flex flex-col overflow-hidden rounded-3xl border border-amber-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-6 shadow-md transition-all hover:shadow-xl"
             >
-              <div className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-50 p-2">
+              <div className="overflow-hidden rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-950/80 p-2">
                 <img
                   src="./images/gapple-recipe.png"
                   alt="Golden Apple (Simple) Recipe - 4x Gold Ingots, 1x Apple"
@@ -365,12 +365,12 @@ export function FeaturesSection() {
               </div>
               <div className="mt-5 flex flex-col gap-2">
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <h4 className="text-xl font-extrabold text-stone-900">Golden Apple (Simple) Recipe</h4>
-                  <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-900">
+                  <h4 className="text-xl font-extrabold text-stone-900 dark:text-white">Golden Apple (Simple) Recipe</h4>
+                  <span className="rounded-full bg-amber-100 dark:bg-amber-950/60 px-3 py-1 text-xs font-bold text-amber-900 dark:text-amber-300">
                     4 Gold Ingots + 1 Apple
                   </span>
                 </div>
-                <p className="text-sm leading-relaxed text-stone-600">
+                <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300">
                   Save your gold! Craft Golden Apples quickly using just <strong>4x Gold Ingots</strong> surrounding <strong>1x Apple</strong> in a standard crafting table. Perfect for quick healing during combat!
                 </p>
               </div>
@@ -380,9 +380,9 @@ export function FeaturesSection() {
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
-              className="flex flex-col overflow-hidden rounded-3xl border border-stone-200 bg-white p-6 shadow-md transition-all hover:shadow-xl"
+              className="flex flex-col overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-6 shadow-md transition-all hover:shadow-xl"
             >
-              <div className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-50 p-2">
+              <div className="overflow-hidden rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-950/80 p-2">
                 <img
                   src="./images/cobweb-recipe.png"
                   alt="Cobweb Recipe - 5x String in X pattern"
@@ -391,12 +391,12 @@ export function FeaturesSection() {
               </div>
               <div className="mt-5 flex flex-col gap-2">
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <h4 className="text-xl font-extrabold text-stone-900">Cobweb Recipe</h4>
-                  <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-800">
+                  <h4 className="text-xl font-extrabold text-stone-900 dark:text-white">Cobweb Recipe</h4>
+                  <span className="rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1 text-xs font-bold text-slate-800 dark:text-slate-200">
                     5x String (X Pattern)
                   </span>
                 </div>
-                <p className="text-sm leading-relaxed text-stone-600">
+                <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300">
                   Craft Cobwebs effortlessly using <strong>5x String</strong> arranged in an 'X' pattern in a crafting table. Essential for tactical PvP traps, slowing mobs, and clutch fall mitigation!
                 </p>
               </div>
@@ -431,11 +431,11 @@ export function JoinGuideSection() {
           <motion.h2
             id="join-title"
             {...fadeUp}
-            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white md:text-5xl"
           >
             How to Get Whitelisted & Join
           </motion.h2>
-          <p className="mt-4 text-sm font-medium text-stone-600 md:text-base max-w-xl mx-auto">
+          <p className="mt-4 text-sm font-medium text-stone-600 dark:text-stone-300 md:text-base max-w-xl mx-auto">
             Get whitelisted in 4 easy steps to start your survival adventure on XD VERSE SMP.
           </p>
         </div>
@@ -445,14 +445,14 @@ export function JoinGuideSection() {
           <motion.div
             {...fadeUp}
             whileHover={{ y: -6 }}
-            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-indigo-300/80 hover:shadow-xl"
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-8 shadow-sm transition-all duration-300 hover:border-indigo-300/80 dark:hover:border-indigo-500/50 hover:shadow-xl"
           >
             <div>
-              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-indigo-50 font-black text-indigo-600 text-sm tracking-wider">
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 font-black text-indigo-600 dark:text-indigo-400 text-sm tracking-wider">
                 01
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-2">Join Our Discord</h3>
-              <p className="text-sm leading-relaxed text-stone-600 mb-6">
+              <h3 className="text-xl font-bold text-stone-900 dark:text-white mb-2">Join Our Discord</h3>
+              <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300 mb-6">
                 Click below to join the official XD VERSE Discord community server.
               </p>
             </div>
@@ -460,7 +460,7 @@ export function JoinGuideSection() {
               href="https://discord.gg/csZuFW2UM3"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#5865F2] px-5 py-3 text-xs font-bold text-white shadow-md shadow-indigo-100 transition-all hover:bg-[#4752C4] active:scale-95"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-[#5865F2] px-5 py-3 text-xs font-bold text-white shadow-md shadow-indigo-100 dark:shadow-indigo-950/50 transition-all hover:bg-[#4752C4] active:scale-95"
             >
               <span>Join Discord</span>
               <ArrowRight className="size-3.5" />
@@ -471,20 +471,20 @@ export function JoinGuideSection() {
           <motion.div
             {...fadeUp}
             whileHover={{ y: -6 }}
-            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-blue-300/80 hover:shadow-xl"
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-8 shadow-sm transition-all duration-300 hover:border-blue-300/80 dark:hover:border-blue-500/50 hover:shadow-xl"
           >
             <div>
-              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-blue-50 font-black text-blue-600 text-sm tracking-wider">
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-blue-50 dark:bg-blue-950/60 font-black text-blue-600 dark:text-blue-400 text-sm tracking-wider">
                 02
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-2">Open Whitelist</h3>
-              <p className="text-sm leading-relaxed text-stone-600 mb-6">
-                Inside Discord, locate and click the <strong className="text-stone-900 font-bold">whitelist channel</strong>.
+              <h3 className="text-xl font-bold text-stone-900 dark:text-white mb-2">Open Whitelist</h3>
+              <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300 mb-6">
+                Inside Discord, locate and click the <strong className="text-stone-900 dark:text-white font-bold">whitelist channel</strong>.
               </p>
             </div>
-            <div className="flex items-center gap-2.5 rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 text-stone-800">
-              <Hash className="size-4 text-indigo-500 shrink-0" />
-              <span className="font-mono text-xs font-bold tracking-wide text-stone-700">whitelist</span>
+            <div className="flex items-center gap-2.5 rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-950/80 px-4 py-3 text-stone-800 dark:text-stone-200">
+              <Hash className="size-4 text-indigo-500 dark:text-indigo-400 shrink-0" />
+              <span className="font-mono text-xs font-bold tracking-wide text-stone-700 dark:text-stone-300">whitelist</span>
               <span className="ml-auto inline-block size-2 rounded-full bg-emerald-500 animate-pulse" />
             </div>
           </motion.div>
@@ -493,23 +493,23 @@ export function JoinGuideSection() {
           <motion.div
             {...fadeUp}
             whileHover={{ y: -6 }}
-            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-amber-300/80 hover:shadow-xl"
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-8 shadow-sm transition-all duration-300 hover:border-amber-300/80 dark:hover:border-amber-500/50 hover:shadow-xl"
           >
             <div>
-              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-amber-50 font-black text-amber-700 text-sm tracking-wider">
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-amber-50 dark:bg-amber-950/60 font-black text-amber-700 dark:text-amber-400 text-sm tracking-wider">
                 03
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-2">Send Username</h3>
-              <p className="text-sm leading-relaxed text-stone-600 mb-6">
-                Type your exact Minecraft in-game username in the <span className="font-bold text-stone-900">whitelist channel</span>.
+              <h3 className="text-xl font-bold text-stone-900 dark:text-white mb-2">Send Username</h3>
+              <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300 mb-6">
+                Type your exact Minecraft in-game username in the <span className="font-bold text-stone-900 dark:text-white">whitelist channel</span>.
               </p>
             </div>
-            <div className="rounded-2xl border border-amber-200/80 bg-amber-50/70 p-3 flex items-center justify-between">
+            <div className="rounded-2xl border border-amber-200/80 dark:border-amber-500/20 bg-amber-50/70 dark:bg-amber-950/40 p-3 flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <UserCheck className="size-4 text-amber-600" />
-                <span className="font-mono text-xs font-bold text-stone-800">YourUsername</span>
+                <UserCheck className="size-4 text-amber-600 dark:text-amber-400" />
+                <span className="font-mono text-xs font-bold text-stone-800 dark:text-stone-200">YourUsername</span>
               </div>
-              <span className="rounded-md bg-amber-200/80 px-2 py-0.5 text-[10px] font-extrabold text-amber-900 uppercase">
+              <span className="rounded-md bg-amber-200/80 dark:bg-amber-900/80 px-2 py-0.5 text-[10px] font-extrabold text-amber-900 dark:text-amber-200 uppercase">
                 SEND
               </span>
             </div>
@@ -519,21 +519,21 @@ export function JoinGuideSection() {
           <motion.div
             {...fadeUp}
             whileHover={{ y: -6 }}
-            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 bg-white p-8 shadow-sm transition-all duration-300 hover:border-emerald-300/80 hover:shadow-xl"
+            className="flex flex-col justify-between rounded-[2.25rem] border border-stone-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-8 shadow-sm transition-all duration-300 hover:border-emerald-300/80 dark:hover:border-emerald-500/50 hover:shadow-xl"
           >
             <div>
-              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-emerald-50 font-black text-emerald-700 text-sm tracking-wider">
+              <div className="mb-6 flex size-12 items-center justify-center rounded-2xl bg-emerald-50 dark:bg-emerald-950/60 font-black text-emerald-700 dark:text-emerald-400 text-sm tracking-wider">
                 04
               </div>
-              <h3 className="text-xl font-bold text-stone-900 mb-2">Join & Play</h3>
-              <p className="text-sm leading-relaxed text-stone-600 mb-6">
+              <h3 className="text-xl font-bold text-stone-900 dark:text-white mb-2">Join & Play</h3>
+              <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300 mb-6">
                 Launch Minecraft, add our server IP, and enter the SMP world!
               </p>
             </div>
             <button
               type="button"
               onClick={handleCopyIp}
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-5 py-3 text-xs font-bold text-white shadow-md transition-all hover:bg-stone-800 active:scale-95"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-black dark:bg-blue-600 px-5 py-3 text-xs font-bold text-white shadow-md transition-all hover:bg-stone-800 dark:hover:bg-blue-500 active:scale-95"
             >
               {copied ? (
                 <>
@@ -563,17 +563,17 @@ export function RulesSection() {
     >
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 text-center">
-          <span className="rounded-full bg-amber-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800">
+          <span className="rounded-full bg-amber-100 dark:bg-amber-950/60 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300">
             Community Guidelines
           </span>
           <motion.h2
             id="rules-title"
             {...fadeUp}
-            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white md:text-5xl"
           >
             Server Rules
           </motion.h2>
-          <p className="mt-4 text-sm text-stone-600 md:text-base max-w-xl mx-auto">
+          <p className="mt-4 text-sm text-stone-600 dark:text-stone-300 md:text-base max-w-xl mx-auto">
             Keeping XD VERSE SMP safe, friendly, and enjoyable for all players.
           </p>
         </div>
@@ -584,12 +584,12 @@ export function RulesSection() {
               key={rule.number}
               {...fadeUp}
               whileHover={{ scale: 1.01 }}
-              className="flex gap-6 rounded-3xl border border-stone-200 bg-white p-8 shadow-sm"
+              className="flex gap-6 rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-8 shadow-sm transition-all dark:hover:border-stone-700"
             >
-              <span className="text-2xl font-black text-blue-600">{rule.number}</span>
+              <span className="text-2xl font-black text-blue-600 dark:text-blue-400">{rule.number}</span>
               <div>
-                <h3 className="text-lg font-bold text-stone-900 mb-2">{rule.title}</h3>
-                <p className="text-sm leading-relaxed text-stone-600">{rule.description}</p>
+                <h3 className="text-lg font-bold text-stone-900 dark:text-white mb-2">{rule.title}</h3>
+                <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300">{rule.description}</p>
               </div>
             </motion.div>
           ))}
@@ -607,19 +607,19 @@ export function AboutSection() {
       aria-labelledby="about-title"
     >
       <div className="mx-auto max-w-4xl text-center">
-        <span className="rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-emerald-800">
+        <span className="rounded-full bg-emerald-100 dark:bg-emerald-950/60 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-300">
           About Us
         </span>
         <motion.h2
           id="about-title"
           {...fadeUp}
-          className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+          className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white md:text-5xl"
         >
           The Warm Hangout Spot
         </motion.h2>
         <motion.p
           {...fadeUp}
-          className="mt-6 text-base font-normal leading-relaxed text-stone-600 md:text-lg"
+          className="mt-6 text-base font-normal leading-relaxed text-stone-600 dark:text-stone-300 md:text-lg"
         >
           XD VERSE is a cozy, casual Minecraft SMP community built for hanging out, building epic bases,
           and making lifelong friends. Whether you love quiet survival building, chaotic minigames,
@@ -627,17 +627,17 @@ export function AboutSection() {
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
-          <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
-            <span className="text-3xl font-black text-stone-900">300+</span>
-            <p className="mt-1 text-xs font-semibold text-stone-500">Registered Players</p>
+          <div className="rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-6 shadow-sm">
+            <span className="text-3xl font-black text-stone-900 dark:text-white">300+</span>
+            <p className="mt-1 text-xs font-semibold text-stone-500 dark:text-stone-400">Registered Players</p>
           </div>
-          <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
-            <span className="text-3xl font-black text-blue-600">24/7</span>
-            <p className="mt-1 text-xs font-semibold text-stone-500">Active Uptime</p>
+          <div className="rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-6 shadow-sm">
+            <span className="text-3xl font-black text-blue-600 dark:text-blue-400">24/7</span>
+            <p className="mt-1 text-xs font-semibold text-stone-500 dark:text-stone-400">Active Uptime</p>
           </div>
-          <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
-            <span className="text-3xl font-black text-emerald-600">99.9%</span>
-            <p className="mt-1 text-xs font-semibold text-stone-500">Zero Lag Score</p>
+          <div className="rounded-2xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/85 p-6 shadow-sm">
+            <span className="text-3xl font-black text-emerald-600 dark:text-emerald-400">99.9%</span>
+            <p className="mt-1 text-xs font-semibold text-stone-500 dark:text-stone-400">Zero Lag Score</p>
           </div>
         </div>
       </div>
@@ -728,6 +728,15 @@ export function LeaderboardSection() {
           background-color: #ffffff;
           color: #000000;
         }
+        .dark .lb-tab-button {
+          background-color: rgba(28, 25, 23, 0.90);
+          color: #d6d3d1;
+          border-color: rgba(68, 64, 60, 0.8);
+        }
+        .dark .lb-tab-button:hover {
+          background-color: rgba(41, 37, 36, 1);
+          color: #ffffff;
+        }
         .lb-tab-button .lb-tab-icon {
           width: 1.25rem;
           height: 1.25rem;
@@ -735,6 +744,10 @@ export function LeaderboardSection() {
           stroke: #2563eb !important;
           transition: color 0.2s ease, stroke 0.2s ease;
           flex-shrink: 0;
+        }
+        .dark .lb-tab-button .lb-tab-icon {
+          color: #60a5fa !important;
+          stroke: #60a5fa !important;
         }
         .lb-tab-button[data-active="true"] {
           background-color: #2563eb !important;
@@ -776,16 +789,16 @@ export function LeaderboardSection() {
                 if (!container || !players || !players.length) return;
                 var html = '';
                 players.slice(0, 10).forEach(function(p, i) {
-                  html += '<div class="relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ' + (p.cardBg || 'bg-white border-stone-200') + '">';
+                  html += '<div class="relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ' + (p.cardBg || 'bg-white border-stone-200') + ' dark:bg-stone-900/85 dark:border-stone-800 dark:hover:border-stone-700">';
                   html += '<div class="relative flex items-center shrink-0 h-[76px] md:h-[88px] w-[110px] md:w-[130px] bg-gradient-to-r ' + (p.ribbonBg || 'from-stone-500 to-stone-600') + '" style="clip-path:polygon(0 0,80% 0,100% 100%,0 100%)">';
                   html += '<span class="ml-6 md:ml-8 font-mono text-3xl md:text-4xl font-black italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] ' + (p.ribbonText || 'text-white') + '">' + (p.rank || (i+1)+'.') + '</span>';
                   html += '</div>';
                   html += '<div class="flex flex-1 items-center justify-between px-5 md:px-8 py-4">';
                   html += '<div class="flex flex-col">';
-                  html += '<h3 class="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">' + p.name + '</h3>';
-                  if (p.subtitle) html += '<span class="text-xs font-semibold text-stone-500 mt-0.5">' + p.subtitle + '</span>';
+                  html += '<h3 class="text-lg md:text-xl font-extrabold text-stone-900 dark:text-white leading-tight">' + p.name + '</h3>';
+                  if (p.subtitle) html += '<span class="text-xs font-semibold text-stone-500 dark:text-stone-400 mt-0.5">' + p.subtitle + '</span>';
                   html += '</div>';
-                  html += '<span class="text-base md:text-lg font-black text-stone-900 tabular-nums">' + p.score + '</span>';
+                  html += '<span class="text-base md:text-lg font-black text-stone-900 dark:text-white tabular-nums">' + p.score + '</span>';
                   html += '</div></div>';
                 });
                 container.innerHTML = html;
@@ -832,17 +845,17 @@ export function LeaderboardSection() {
       />
       <div className="mx-auto max-w-4xl">
         <div className="mb-12 text-center">
-          <div className="inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800">
+          <div className="inline-flex items-center gap-2 rounded-full bg-purple-100 dark:bg-purple-950/60 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-purple-800 dark:text-purple-300">
             <span className="inline-block size-2 rounded-full bg-purple-600 animate-pulse"></span>
             <span>{liveStatus}</span>
           </div>
           <h2
             id="leaderboard-title"
-            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 md:text-5xl"
+            className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white md:text-5xl"
           >
             Top Server Players
           </h2>
-          <p className="mt-4 text-sm font-medium text-stone-600 md:text-base max-w-xl mx-auto">
+          <p className="mt-4 text-sm font-medium text-stone-600 dark:text-stone-300 md:text-base max-w-xl mx-auto">
             Honoring Season legends with custom rank badges on XD VERSE SMP.
           </p>
 
@@ -878,7 +891,6 @@ export function LeaderboardSection() {
         {(Object.keys(leaderboardCategoriesConfig) as Array<keyof typeof leaderboardCategoriesConfig>).map((catKey) => {
           const isSelected = activeCategory === catKey
           const playerList = leaderboardData?.[catKey] || []
-
           return (
             <div
               key={catKey}
@@ -890,7 +902,7 @@ export function LeaderboardSection() {
                 playerList.slice(0, 10).map((player: any, idx: number) => (
                   <div
                     key={player.name + (player.rank || idx)}
-                    className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg || 'bg-white border-stone-200'}`}
+                    className={`relative flex items-center overflow-hidden rounded-2xl border transition-all duration-300 ${player.cardBg || 'bg-white border-stone-200'} dark:bg-stone-900/85 dark:border-stone-800 dark:hover:border-stone-700`}
                   >
                     {/* Left: Angled Ribbon with Rank Number */}
                     <div
@@ -905,23 +917,23 @@ export function LeaderboardSection() {
                     {/* Center & Right: Player Name, Subtitle, Score */}
                     <div className="flex flex-1 items-center justify-between px-5 md:px-8 py-4">
                       <div className="flex flex-col">
-                        <h3 className="text-lg md:text-xl font-extrabold text-stone-900 leading-tight">
+                        <h3 className="text-lg md:text-xl font-extrabold text-stone-900 dark:text-white leading-tight">
                           {player.name}
                         </h3>
                         {player.subtitle && (
-                          <span className="text-xs font-semibold text-stone-500 mt-0.5">
+                          <span className="text-xs font-semibold text-stone-500 dark:text-stone-400 mt-0.5">
                             {player.subtitle}
                           </span>
                         )}
                       </div>
-                      <span className="text-base md:text-lg font-black text-stone-900 tabular-nums">
+                      <span className="text-base md:text-lg font-black text-stone-900 dark:text-white tabular-nums">
                         {player.score}
                       </span>
                     </div>
                   </div>
                 ))
               ) : (
-                <div className="text-center py-8 text-stone-500 font-semibold">
+                <div className="text-center py-8 text-stone-500 dark:text-stone-400 font-semibold">
                   No player statistics available.
                 </div>
               )}
@@ -935,17 +947,17 @@ export function LeaderboardSection() {
 
 export function SiteFooter() {
   return (
-    <footer className="relative z-40 border-t border-stone-200/80 bg-white px-6 py-10 text-center">
+    <footer className="relative z-40 border-t border-stone-200/80 dark:border-stone-800 bg-white dark:bg-stone-950 px-6 py-10 text-center transition-colors duration-300">
       <div className="mx-auto max-w-6xl flex flex-col items-center justify-between gap-4 md:flex-row">
-        <span className="font-extrabold tracking-wider text-blue-600 text-lg">XD VERSE</span>
-        <p className="text-xs text-stone-500">
+        <span className="font-extrabold tracking-wider text-blue-600 dark:text-blue-400 text-lg">XD VERSE</span>
+        <p className="text-xs text-stone-500 dark:text-stone-400">
           © 2026 XD VERSE SMP. All rights reserved. A friendly Minecraft Community.
         </p>
-        <div className="flex gap-6 text-xs font-semibold text-stone-600">
-          <a href="#features" className="hover:text-blue-600">Features</a>
-          <a href="#rules" className="hover:text-blue-600">Rules</a>
-          <a href="#about" className="hover:text-blue-600">About</a>
-          <a href="#leaderboard" className="hover:text-blue-600">Leaderboard</a>
+        <div className="flex gap-6 text-xs font-semibold text-stone-600 dark:text-stone-400">
+          <a href="#features" className="hover:text-blue-600 dark:hover:text-blue-400">Features</a>
+          <a href="#rules" className="hover:text-blue-600 dark:hover:text-blue-400">Rules</a>
+          <a href="#about" className="hover:text-blue-600 dark:hover:text-blue-400">About</a>
+          <a href="#leaderboard" className="hover:text-blue-600 dark:hover:text-blue-400">Leaderboard</a>
         </div>
       </div>
     </footer>
