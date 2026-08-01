@@ -24,6 +24,14 @@ interface Slide {
   isDiscord?: boolean
 }
 
+function getImgSrc(path: string) {
+  if (typeof window !== 'undefined' && window.location.hostname.includes('github.io')) {
+    const clean = path.replace(/^\.\//, '').replace(/^\//, '')
+    return `/XD-VERSE/${clean}`
+  }
+  return path
+}
+
 const slides: Slide[] = [
   {
     id: 0,
@@ -270,7 +278,7 @@ export function HeroSection() {
                 className="absolute inset-0 z-0"
               >
                 <img
-                  src={current.image}
+                  src={getImgSrc(current.image)}
                   alt={current.title}
                   className={`h-full w-full ${
                     current.image.endsWith('.png')

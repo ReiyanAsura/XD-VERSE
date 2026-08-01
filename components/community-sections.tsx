@@ -335,70 +335,71 @@ export function FeaturesSection() {
           ))}
         </div>
 
-        {/* Custom Crafting Recipes Showcase */}
+        {/* XD VERSE Community Hub & Active Events Showcase */}
         <div className="mt-16 rounded-[2.5rem] border border-amber-200/80 dark:border-amber-500/20 bg-gradient-to-b from-amber-50/50 via-white to-amber-50/30 dark:from-stone-900/90 dark:via-stone-900/80 dark:to-stone-900/50 p-8 shadow-lg md:p-12 transition-colors duration-300">
           <div className="mb-10 text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 dark:bg-amber-950/60 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300">
-              <Sparkles className="size-3.5" /> XD SMP Custom Features
+              <Sparkles className="size-3.5" /> COMMUNITY & EVENTS
             </span>
             <h3 className="mt-3 text-2xl font-extrabold text-stone-900 dark:text-white md:text-4xl">
-              Easy Golden Apple & Cobweb Recipes
+              XD VERSE Discord & Active Events
             </h3>
             <p className="mt-2 text-sm text-stone-600 dark:text-stone-300 md:text-base max-w-xl mx-auto">
-              Boost your survival & PvP experience with simplified crafting recipes exclusive to XD VERSE SMP.
+              Connect with active players, participate in weekly tournaments, and become part of our thriving 24/7 gaming community.
             </p>
           </div>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-            {/* Golden Apple Card */}
+            {/* Discord Community Card */}
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
-              className="flex flex-col overflow-hidden rounded-3xl border border-amber-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-6 shadow-md transition-all hover:shadow-xl"
+              className="flex flex-col justify-between overflow-hidden rounded-3xl border border-amber-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-8 shadow-md transition-all hover:shadow-xl"
             >
-              <div className="overflow-hidden rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-950/80 p-2">
-                <img
-                  src="./images/gapple-recipe.png"
-                  alt="Golden Apple (Simple) Recipe - 4x Gold Ingots, 1x Apple"
-                  className="w-full object-contain rounded-xl transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-              <div className="mt-5 flex flex-col gap-2">
-                <div className="flex flex-wrap items-center justify-between gap-2">
-                  <h4 className="text-xl font-extrabold text-stone-900 dark:text-white">Golden Apple (Simple) Recipe</h4>
-                  <span className="rounded-full bg-amber-100 dark:bg-amber-950/60 px-3 py-1 text-xs font-bold text-amber-900 dark:text-amber-300">
-                    4 Gold Ingots + 1 Apple
-                  </span>
+              <div>
+                <div className="inline-flex items-center gap-2 rounded-full bg-[#ff6b00]/10 px-4 py-1.5 text-xs font-bold text-[#ff6b00]">
+                  <Users className="size-3.5" /> 24/7 ACTIVE COMMUNITY
                 </div>
-                <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300">
-                  Save your gold! Craft Golden Apples quickly using just <strong>4x Gold Ingots</strong> surrounding <strong>1x Apple</strong> in a standard crafting table. Perfect for quick healing during combat!
+                <h4 className="mt-4 text-2xl font-extrabold text-stone-900 dark:text-white">
+                  Official Discord Server
+                </h4>
+                <p className="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+                  Join voice channels, team up for survival builds, participate in community discussions, and get instant 24/7 support from our staff and active members!
                 </p>
+              </div>
+              <div className="mt-6">
+                <a
+                  href="https://discord.gg/xdverse"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-[#ff6b00] px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#ff6b00]/20 transition-all hover:bg-[#ff8533] hover:shadow-[#ff6b00]/40"
+                >
+                  Join Discord Community
+                </a>
               </div>
             </motion.div>
 
-            {/* Cobweb Card */}
+            {/* Active Events Card */}
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
-              className="flex flex-col overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-6 shadow-md transition-all hover:shadow-xl"
+              className="flex flex-col justify-between overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-8 shadow-md transition-all hover:shadow-xl"
             >
-              <div className="overflow-hidden rounded-2xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-950/80 p-2">
-                <img
-                  src="./images/cobweb-recipe.png"
-                  alt="Cobweb Recipe - 5x String in X pattern"
-                  className="w-full object-contain rounded-xl transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-              <div className="mt-5 flex flex-col gap-2">
-                <div className="flex flex-wrap items-center justify-between gap-2">
-                  <h4 className="text-xl font-extrabold text-stone-900 dark:text-white">Cobweb Recipe</h4>
-                  <span className="rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1 text-xs font-bold text-slate-800 dark:text-slate-200">
-                    5x String (X Pattern)
-                  </span>
+              <div>
+                <div className="inline-flex items-center gap-2 rounded-full bg-amber-500/10 px-4 py-1.5 text-xs font-bold text-amber-500">
+                  <Sparkles className="size-3.5" /> WEEKLY CHALLENGES
                 </div>
-                <p className="text-sm leading-relaxed text-stone-600 dark:text-stone-300">
-                  Craft Cobwebs effortlessly using <strong>5x String</strong> arranged in an 'X' pattern in a crafting table. Essential for tactical PvP traps, slowing mobs, and clutch fall mitigation!
+                <h4 className="mt-4 text-2xl font-extrabold text-stone-900 dark:text-white">
+                  Build Battles, Parkour & PvP
+                </h4>
+                <p className="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+                  Compete in weekly Build Battles, race across custom Parkour obstacle courses, and test your skills in organized PvP tournaments with awesome in-game rewards!
                 </p>
+              </div>
+              <div className="mt-6 flex flex-wrap items-center gap-2 text-xs font-bold text-stone-500 dark:text-stone-400">
+                <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">🏆 Weekly Prizes</span>
+                <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">⚡ 24/7 Events</span>
+                <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">🎮 All Skill Levels</span>
               </div>
             </motion.div>
           </div>
