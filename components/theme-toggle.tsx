@@ -45,56 +45,38 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    // Read directly from document.documentElement class or localStorage
-    const saved = typeof window !== 'undefined' ? (localStorage.getItem('xd-theme') as 'light' | 'dark' | null) : null
-    const isDocDark = typeof document !== 'undefined' && document.documentElement.classList.contains('dark')
-    const prefersDark = typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)').matches
-
-    const activeTheme: 'light' | 'dark' = saved || (isDocDark ? 'dark' : (prefersDark ? 'dark' : 'light'))
-
-    setTheme(activeTheme)
-    if (activeTheme === 'dark') {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-    setMounted(true)
-
-    const handleThemeChange = (e: Event) => {
-      const customEvent = e as CustomEvent<'light' | 'dark'>
-      if (customEvent.detail) {
-        setTheme(customEvent.detail)
-      } else {
-        const currentlyDark = document.documentElement.classList.contains('dark')
-        setTheme(currentlyDark ? 'dark' : 'light')
+    const syncState = () => {
+      if (typeof document !== 'undefined') {
+        const isDarkNow = document.documentElement.classList.contains('dark')
+        setTheme(isDarkNow ? 'dark' : 'light')
       }
     }
 
+    syncState()
+    setMounted(true)
+
+    const handleThemeChange = () => syncState()
     window.addEventListener('xd-theme-change', handleThemeChange)
     return () => window.removeEventListener('xd-theme-change', handleThemeChange)
   }, [])
 
-  const toggleTheme = () => {
-    // Read direct DOM state to guarantee accurate toggling
-    const isCurrentlyDark = document.documentElement.classList.contains('dark')
-    const nextTheme = isCurrentlyDark ? 'light' : 'dark'
-
-    setTheme(nextTheme)
-    try {
-      localStorage.setItem('xd-theme', nextTheme)
-    } catch (e) {}
-
-    if (nextTheme === 'dark') {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
+  const toggleTheme = (e?: React.MouseEvent) => {
+    if (e) {
+      e.stopPropagation()
     }
-
-    // Play subtle synthesized chime
-    playToggleSound(nextTheme === 'dark')
-
-    // Dispatch custom event so any other instances sync immediately
-    window.dispatchEvent(new CustomEvent('xd-theme-change', { detail: nextTheme }))
+    if (typeof window !== 'undefined' && (window as any).__toggleTheme) {
+      (window as any).__toggleTheme()
+    } else {
+      const isCurrentlyDark = document.documentElement.classList.contains('dark')
+      const nextTheme = isCurrentlyDark ? 'light' : 'dark'
+      setTheme(nextTheme)
+      if (nextTheme === 'dark') {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    }
+    playToggleSound(theme === 'light')
   }
 
   const isDark = mounted ? theme === 'dark' : (typeof document !== 'undefined' ? document.documentElement.classList.contains('dark') : true)

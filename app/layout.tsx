@@ -38,15 +38,39 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
-                try {
-                  var saved = localStorage.getItem('xd-theme');
-                  var supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
-                  if (saved === 'dark' || (!saved && supportDarkMode)) {
+                function applyTheme(isDark) {
+                  if (isDark) {
                     document.documentElement.classList.add('dark');
                   } else {
                     document.documentElement.classList.remove('dark');
                   }
+                }
+
+                try {
+                  var saved = localStorage.getItem('xd-theme');
+                  var supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+                  var initialDark = saved === 'dark' || (!saved && supportDarkMode);
+                  applyTheme(initialDark);
                 } catch (e) {}
+
+                window.__toggleTheme = function() {
+                  try {
+                    var isDark = document.documentElement.classList.contains('dark');
+                    var nextDark = !isDark;
+                    applyTheme(nextDark);
+                    localStorage.setItem('xd-theme', nextDark ? 'dark' : 'light');
+                    window.dispatchEvent(new CustomEvent('xd-theme-change', { detail: nextDark ? 'dark' : 'light' }));
+                  } catch (e) {}
+                };
+
+                if (typeof document !== 'undefined') {
+                  document.addEventListener('click', function(e) {
+                    var btn = e.target ? e.target.closest('.xd-theme-toggle-btn') : null;
+                    if (btn) {
+                      window.__toggleTheme();
+                    }
+                  });
+                }
               })();
             `,
           }}
