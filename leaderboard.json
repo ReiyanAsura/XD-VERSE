@@ -1,11 +1,11 @@
 {
-  "updatedAt": "11:51 AM",
+  "updatedAt": "12:21 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "43 Kills",
-      "subtitle": "31.6 hrs played",
+      "subtitle": "32.1 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "Ka1z3nn_",
       "score": "25 Kills",
-      "subtitle": "3.9 hrs played",
+      "subtitle": "4.3 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "Sakura_manav",
       "score": "24 Kills",
-      "subtitle": "31.7 hrs played",
+      "subtitle": "32.2 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -86,7 +86,7 @@
       "rank": "10.",
       "name": "ARENTOIS",
       "score": "8 Kills",
-      "subtitle": "22.3 hrs played",
+      "subtitle": "22.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Onetaggamer1",
       "score": "40 Deaths",
-      "subtitle": "6.8 hrs played",
+      "subtitle": "7.0 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -106,25 +106,25 @@
       "rank": "2.",
       "name": "PROBotX11",
       "score": "40 Deaths",
-      "subtitle": "31.6 hrs played",
+      "subtitle": "32.1 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "Spidyy_xD",
-      "score": "39 Deaths",
-      "subtitle": "5.9 hrs played",
+      "name": "Ka1z3nn_",
+      "score": "40 Deaths",
+      "subtitle": "4.3 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "Ka1z3nn_",
+      "name": "Spidyy_xD",
       "score": "39 Deaths",
-      "subtitle": "3.9 hrs played",
+      "subtitle": "5.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -160,7 +160,7 @@
       "rank": "8.",
       "name": "Sakura_manav",
       "score": "25 Deaths",
-      "subtitle": "31.7 hrs played",
+      "subtitle": "32.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -169,7 +169,7 @@
       "rank": "9.",
       "name": "IllegalAzure",
       "score": "14 Deaths",
-      "subtitle": "16.1 hrs played",
+      "subtitle": "16.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "Sakura_manav",
-      "score": "31.7 hrs",
+      "score": "32.2 hrs",
       "subtitle": "24 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "PROBotX11",
-      "score": "31.6 hrs",
+      "score": "32.1 hrs",
       "subtitle": "43 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "ARENTOIS",
-      "score": "22.3 hrs",
+      "score": "22.8 hrs",
       "subtitle": "8 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "IllegalAzure",
-      "score": "16.1 hrs",
+      "score": "16.4 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -259,18 +259,18 @@
     },
     {
       "rank": "9.",
-      "name": "Spidyy_XD",
-      "score": "10.0 hrs",
-      "subtitle": "7 Kills",
+      "name": "proboyz",
+      "score": "10.4 hrs",
+      "subtitle": "6 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "proboyz",
-      "score": "9.9 hrs",
-      "subtitle": "6 Kills",
+      "name": "Spidyy_XD",
+      "score": "10.3 hrs",
+      "subtitle": "8 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
