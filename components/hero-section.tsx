@@ -192,8 +192,9 @@ export function HeroSection() {
                             <a
                               href="https://discord.gg/csZuFW2UM3"
                               target="_blank"
-                              rel="noreferrer"
-                              className="inline-flex items-center gap-1.5 font-mono text-sm sm:text-base font-extrabold text-white transition-colors hover:text-[#7289da] hover:underline"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1.5 font-mono text-sm sm:text-base font-extrabold text-[#7289da] hover:text-white underline underline-offset-4 decoration-[#5865F2]/60 hover:decoration-white transition-all cursor-pointer"
+                              title="Click to join Discord"
                             >
                               <span>{s.metaValue}</span>
                               <ExternalLink className="size-3.5 text-[#5865F2]" />
@@ -201,7 +202,7 @@ export function HeroSection() {
                             <button
                               type="button"
                               onClick={handleCopyDiscord}
-                              className="inline-flex items-center gap-1 rounded bg-[#5865F2]/20 border border-[#5865F2]/40 px-2 py-0.5 text-[10px] font-bold text-[#7289da] hover:bg-[#5865F2]/30 transition-colors"
+                              className="inline-flex items-center gap-1 rounded bg-[#5865F2]/20 border border-[#5865F2]/40 px-2 py-0.5 text-[10px] font-bold text-[#7289da] hover:bg-[#5865F2]/40 hover:text-white transition-colors cursor-pointer"
                             >
                               {copiedDiscord ? (
                                 <>
