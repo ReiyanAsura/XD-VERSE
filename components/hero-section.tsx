@@ -67,7 +67,7 @@ const slides: Slide[] = [
     ctaHref: 'https://discord.gg/csZuFW2UM3',
     isExternal: true,
     metaLabel: 'COMMUNITY STATUS',
-    metaValue: '300+ Active Members • 24/7'
+    metaValue: 'Active Members • 24/7'
   }
 ]
 
