@@ -24,13 +24,6 @@ interface Slide {
   isDiscord?: boolean
 }
 
-function getImgSrc(path: string) {
-  if (typeof window !== 'undefined' && window.location.hostname.includes('github.io')) {
-    const clean = path.replace(/^\.\//, '').replace(/^\//, '')
-    return `/XD-VERSE/${clean}`
-  }
-  return path
-}
 
 const slides: Slide[] = [
   {
@@ -73,6 +66,11 @@ export function HeroSection() {
   const [activeSlide, setActiveSlide] = useState(0)
   const [copied, setCopied] = useState(false)
   const [copiedDiscord, setCopiedDiscord] = useState(false)
+  const [hasMounted, setHasMounted] = useState(false)
+
+  useEffect(() => {
+    setHasMounted(true)
+  }, [])
 
   // Auto-slide every 7 seconds
   useEffect(() => {
@@ -140,7 +138,7 @@ export function HeroSection() {
               <AnimatePresence mode="wait">
                 <motion.div
                   key={current.id}
-                  initial={{ opacity: 0, y: 15 }}
+                  initial={hasMounted ? { opacity: 0, y: 15 } : false}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -15 }}
                   transition={{ duration: 0.4 }}
@@ -271,14 +269,14 @@ export function HeroSection() {
             <AnimatePresence mode="wait">
               <motion.div
                 key={current.id}
-                initial={{ opacity: 0, scale: 1.05 }}
+                initial={hasMounted ? { opacity: 0, scale: 1.05 } : false}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.6 }}
                 className="absolute inset-0 z-0"
               >
                 <img
-                  src={getImgSrc(current.image)}
+                  src={current.image}
                   alt={current.title}
                   className={`h-full w-full ${
                     current.image.endsWith('.png')
