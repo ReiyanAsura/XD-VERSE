@@ -1,5 +1,5 @@
 {
-  "updatedAt": "05:51 AM",
+  "updatedAt": "06:21 AM",
   "kills": [
     {
       "rank": "1.",
@@ -12,27 +12,27 @@
     },
     {
       "rank": "2.",
-      "name": "NotAnshAtAll",
-      "score": "22 Kills",
-      "subtitle": "2.0 hrs played",
+      "name": "Sakura_manav",
+      "score": "23 Kills",
+      "subtitle": "28.1 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "Ka1z3nn_",
+      "name": "NotAnshAtAll",
       "score": "22 Kills",
-      "subtitle": "2.6 hrs played",
+      "subtitle": "2.1 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "Sakura_manav",
-      "score": "21 Kills",
-      "subtitle": "27.6 hrs played",
+      "name": "Ka1z3nn_",
+      "score": "22 Kills",
+      "subtitle": "2.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -40,8 +40,8 @@
     {
       "rank": "5.",
       "name": "GHOST_1569",
-      "score": "16 Kills",
-      "subtitle": "7.0 hrs played",
+      "score": "17 Kills",
+      "subtitle": "7.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -122,6 +122,24 @@
     },
     {
       "rank": "4.",
+      "name": "NotAnshAtAll",
+      "score": "30 Deaths",
+      "subtitle": "2.1 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
+      "name": "Onetaggamer1",
+      "score": "30 Deaths",
+      "subtitle": "5.8 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
       "name": "NOT_INVIXEE",
       "score": "29 Deaths",
       "subtitle": "25.1 hrs played",
@@ -130,16 +148,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "5.",
-      "name": "NotAnshAtAll",
-      "score": "28 Deaths",
-      "subtitle": "2.0 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "6.",
+      "rank": "7.",
       "name": "Ka1z3nn_",
       "score": "27 Deaths",
       "subtitle": "2.6 hrs played",
@@ -148,19 +157,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
-      "name": "Onetaggamer1",
-      "score": "26 Deaths",
-      "subtitle": "5.5 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
       "rank": "8.",
       "name": "Sakura_manav",
       "score": "25 Deaths",
-      "subtitle": "27.6 hrs played",
+      "subtitle": "28.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,8 +206,8 @@
     {
       "rank": "3.",
       "name": "Sakura_manav",
-      "score": "27.6 hrs",
-      "subtitle": "21 Kills",
+      "score": "28.1 hrs",
+      "subtitle": "23 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -269,7 +269,7 @@
     {
       "rank": "10.",
       "name": "proboyz",
-      "score": "7.6 hrs",
+      "score": "8.0 hrs",
       "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
