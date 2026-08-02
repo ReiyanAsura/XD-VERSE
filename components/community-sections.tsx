@@ -335,71 +335,64 @@ export function FeaturesSection() {
           ))}
         </div>
 
-        {/* XD VERSE Community Hub & Active Events Showcase */}
+        {/* Exclusive XD SMP Recipes Showcase */}
         <div className="mt-16 rounded-[2.5rem] border border-amber-200/80 dark:border-amber-500/20 bg-gradient-to-b from-amber-50/50 via-white to-amber-50/30 dark:from-stone-900/90 dark:via-stone-900/80 dark:to-stone-900/50 p-8 shadow-lg md:p-12 transition-colors duration-300">
           <div className="mb-10 text-center">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 dark:bg-amber-950/60 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300">
-              <Sparkles className="size-3.5" /> COMMUNITY & EVENTS
+              <Sparkles className="size-3.5" /> CUSTOM CRAFTING RECIPES
             </span>
             <h3 className="mt-3 text-2xl font-extrabold text-stone-900 dark:text-white md:text-4xl">
-              XD VERSE Discord & Active Events
+              Exclusive XD SMP Recipes
             </h3>
             <p className="mt-2 text-sm text-stone-600 dark:text-stone-300 md:text-base max-w-xl mx-auto">
-              Connect with active players, participate in weekly tournaments, and become part of our thriving 24/7 gaming community.
+              Custom Quality of Life recipes built for PvP, survival builders, and base defense.
             </p>
           </div>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-            {/* Discord Community Card */}
+            {/* Golden Apple Recipe Card */}
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
               className="flex flex-col justify-between overflow-hidden rounded-3xl border border-amber-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-8 shadow-md transition-all hover:shadow-xl"
             >
               <div>
-                <div className="inline-flex items-center gap-2 rounded-full bg-[#ff6b00]/10 px-4 py-1.5 text-xs font-bold text-[#ff6b00]">
-                  <Users className="size-3.5" /> 24/7 ACTIVE COMMUNITY
+                <div className="overflow-hidden rounded-2xl bg-[#0d0c11] border border-stone-800 p-4">
+                  <img
+                    src="./images/gapple-recipe.png"
+                    alt="Golden Apple Crafting Recipe"
+                    className="w-full h-48 sm:h-64 object-contain mx-auto"
+                  />
                 </div>
-                <h4 className="mt-4 text-2xl font-extrabold text-stone-900 dark:text-white">
-                  Official Discord Server
+                <h4 className="mt-6 text-2xl font-extrabold text-stone-900 dark:text-white">
+                  Golden Apple Recipe
                 </h4>
                 <p className="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
-                  Join voice channels, team up for survival builds, participate in community discussions, and get instant 24/7 support from our staff and active members!
+                  Craft Golden Apples easily using 4 Gold Ingots and 1 Apple! Custom Quality of Life recipe designed for PvP and survival builders.
                 </p>
-              </div>
-              <div className="mt-6">
-                <a
-                  href="https://discord.gg/csZuFW2UM3"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-[#ff6b00] px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#ff6b00]/20 transition-all hover:bg-[#ff8533] hover:shadow-[#ff6b00]/40"
-                >
-                  Join Discord Community
-                </a>
               </div>
             </motion.div>
 
-            {/* Active Events Card */}
+            {/* Cobweb Recipe Card */}
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
               className="flex flex-col justify-between overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-8 shadow-md transition-all hover:shadow-xl"
             >
               <div>
-                <div className="inline-flex items-center gap-2 rounded-full bg-amber-500/10 px-4 py-1.5 text-xs font-bold text-amber-500">
-                  <Sparkles className="size-3.5" /> WEEKLY CHALLENGES
+                <div className="overflow-hidden rounded-2xl bg-[#0d0c11] border border-stone-800 p-4">
+                  <img
+                    src="./images/cobweb-recipe.png"
+                    alt="Cobweb Crafting Recipe"
+                    className="w-full h-48 sm:h-64 object-contain mx-auto"
+                  />
                 </div>
-                <h4 className="mt-4 text-2xl font-extrabold text-stone-900 dark:text-white">
-                  Build Battles, Parkour & PvP
+                <h4 className="mt-6 text-2xl font-extrabold text-stone-900 dark:text-white">
+                  Cobweb Recipe
                 </h4>
                 <p className="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
-                  Compete in weekly Build Battles, race across custom Parkour obstacle courses, and test your skills in organized PvP tournaments with awesome in-game rewards!
+                  Craft Cobwebs easily using 5 String! Custom Quality of Life recipe designed for traps, base defense, and PvP combat.
                 </p>
-              </div>
-              <div className="mt-6 flex flex-wrap items-center gap-2 text-xs font-bold text-stone-500 dark:text-stone-400">
-                <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">🏆 Weekly Prizes</span>
-                <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">⚡ 24/7 Events</span>
-                <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">🎮 All Skill Levels</span>
               </div>
             </motion.div>
           </div>
