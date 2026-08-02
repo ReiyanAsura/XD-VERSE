@@ -1,11 +1,11 @@
 {
-  "updatedAt": "09:51 AM",
+  "updatedAt": "10:21 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "43 Kills",
-      "subtitle": "30.7 hrs played",
+      "subtitle": "31.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "Sakura_manav",
       "score": "24 Kills",
-      "subtitle": "30.9 hrs played",
+      "subtitle": "31.1 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "PROBotX11",
       "score": "40 Deaths",
-      "subtitle": "30.7 hrs played",
+      "subtitle": "31.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -160,7 +160,7 @@
       "rank": "8.",
       "name": "Sakura_manav",
       "score": "25 Deaths",
-      "subtitle": "30.9 hrs played",
+      "subtitle": "31.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -196,18 +196,18 @@
     },
     {
       "rank": "2.",
-      "name": "Sakura_manav",
-      "score": "30.9 hrs",
-      "subtitle": "24 Kills",
+      "name": "PROBotX11",
+      "score": "31.2 hrs",
+      "subtitle": "43 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "PROBotX11",
-      "score": "30.7 hrs",
-      "subtitle": "43 Kills",
+      "name": "Sakura_manav",
+      "score": "31.1 hrs",
+      "subtitle": "24 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
