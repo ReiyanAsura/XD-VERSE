@@ -1,38 +1,38 @@
 {
-  "updatedAt": "06:51 AM",
+  "updatedAt": "07:21 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "42 Kills",
-      "subtitle": "28.6 hrs played",
+      "subtitle": "29.1 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "Sakura_manav",
-      "score": "23 Kills",
-      "subtitle": "28.5 hrs played",
+      "name": "Ka1z3nn_",
+      "score": "24 Kills",
+      "subtitle": "2.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "NotAnshAtAll",
-      "score": "22 Kills",
-      "subtitle": "2.2 hrs played",
+      "name": "Sakura_manav",
+      "score": "23 Kills",
+      "subtitle": "28.7 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "Ka1z3nn_",
+      "name": "NotAnshAtAll",
       "score": "22 Kills",
-      "subtitle": "2.6 hrs played",
+      "subtitle": "2.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "GHOST_1569",
       "score": "18 Kills",
-      "subtitle": "8.0 hrs played",
+      "subtitle": "8.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "PROBotX11",
       "score": "40 Deaths",
-      "subtitle": "28.6 hrs played",
+      "subtitle": "29.1 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -150,8 +150,8 @@
     {
       "rank": "7.",
       "name": "Ka1z3nn_",
-      "score": "27 Deaths",
-      "subtitle": "2.6 hrs played",
+      "score": "28 Deaths",
+      "subtitle": "2.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -160,7 +160,7 @@
       "rank": "8.",
       "name": "Sakura_manav",
       "score": "25 Deaths",
-      "subtitle": "28.5 hrs played",
+      "subtitle": "28.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "PROBotX11",
-      "score": "28.6 hrs",
+      "score": "29.1 hrs",
       "subtitle": "42 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "Sakura_manav",
-      "score": "28.5 hrs",
+      "score": "28.7 hrs",
       "subtitle": "23 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "IllegalAzure",
-      "score": "15.4 hrs",
+      "score": "15.5 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -268,9 +268,9 @@
     },
     {
       "rank": "10.",
-      "name": "proboyz",
-      "score": "8.0 hrs",
-      "subtitle": "1 Kills",
+      "name": "GHOST_1569",
+      "score": "8.1 hrs",
+      "subtitle": "18 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
