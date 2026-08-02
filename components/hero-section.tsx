@@ -143,11 +143,11 @@ export function HeroSection() {
                   exit={{ opacity: 0, y: -15 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <span className="text-xs font-extrabold uppercase tracking-widest text-[#ff6b00]">
+                  <span id="hero-subtitle-text" className="text-xs font-extrabold uppercase tracking-widest text-[#ff6b00]">
                     {current.subtitle}
                   </span>
                   <h1
-                    id="hero-title"
+                    id="hero-title-text"
                     className="mt-2 text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tight text-white font-mono drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)] leading-[0.95]"
                     style={{
                       fontFamily: 'Impact, "Arial Black", sans-serif',
@@ -157,7 +157,7 @@ export function HeroSection() {
                   >
                     {current.title}
                   </h1>
-                  <p className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-stone-300 font-medium">
+                  <p id="hero-desc-text" className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-stone-300 font-medium">
                     {current.description}
                   </p>
                 </motion.div>
@@ -276,6 +276,7 @@ export function HeroSection() {
                 className="absolute inset-0 z-0"
               >
                 <img
+                  id="hero-img-element"
                   src={current.image}
                   alt={current.title}
                   className={`h-full w-full ${
@@ -295,6 +296,7 @@ export function HeroSection() {
             {/* Pagination / Carousel Slider Counter at Bottom Right (like <- 01 02 03 ->) */}
             <div className="relative z-20 flex items-center justify-center lg:justify-end gap-3 p-8">
               <button
+                id="hero-btn-prev"
                 type="button"
                 onClick={prevSlide}
                 aria-label="Previous Slide"
@@ -308,6 +310,7 @@ export function HeroSection() {
                   const isActive = activeSlide === idx
                   return (
                     <button
+                      id={`hero-num-btn-${idx}`}
                       key={s.id}
                       type="button"
                       onClick={() => setActiveSlide(idx)}
@@ -324,6 +327,7 @@ export function HeroSection() {
               </div>
 
               <button
+                id="hero-btn-next"
                 type="button"
                 onClick={nextSlide}
                 aria-label="Next Slide"
@@ -335,6 +339,86 @@ export function HeroSection() {
           </div>
         </div>
       </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function() {
+              if (typeof window === 'undefined') return;
+              var slidesData = [
+                {
+                  title: 'XD VERSE SMP',
+                  subtitle: 'THE ULTIMATE SURVIVAL EXPERIENCE',
+                  description: 'Experience classic Minecraft survival enhanced with essential Quality of Life plugins, custom features, and a warm, active gaming community.',
+                  image: './images/mc-squad-hero.jpg'
+                },
+                {
+                  title: 'JOIN OUR DISCORD',
+                  subtitle: 'OFFICIAL COMMUNITY HUB',
+                  description: 'Connect with fellow players, join voice channels, get instant staff support, and stay updated with announcements & giveaways!',
+                  image: './images/mc-error-desk.jpg'
+                },
+                {
+                  title: 'EVENTS & ACTIVE MEMBERS',
+                  subtitle: 'THRIVING GAMING COMMUNITY',
+                  description: 'Active players in exciting community events like Build Battles, Parkour courses, PvP tournaments, and much more with 24/7 uptime!',
+                  image: './images/mc-library-hub.jpg'
+                }
+              ];
+
+              window.__heroActiveIndex = 0;
+              window.__switchHeroSlide = function(index) {
+                if (index < 0) index = slidesData.length - 1;
+                if (index >= slidesData.length) index = 0;
+                window.__heroActiveIndex = index;
+
+                var s = slidesData[index];
+                var titleEl = document.getElementById('hero-title-text');
+                var subEl = document.getElementById('hero-subtitle-text');
+                var descEl = document.getElementById('hero-desc-text');
+                var imgEl = document.getElementById('hero-img-element');
+
+                if (titleEl) titleEl.textContent = s.title;
+                if (subEl) subEl.textContent = s.subtitle;
+                if (descEl) descEl.textContent = s.description;
+                if (imgEl) imgEl.src = s.image;
+
+                [0, 1, 2].forEach(function(i) {
+                  var btn = document.getElementById('hero-num-btn-' + i);
+                  if (btn) {
+                    if (i === index) {
+                      btn.className = 'transition-all duration-300 text-2xl font-black text-[#ff6b00] scale-110 drop-shadow-[0_0_10px_rgba(255,107,0,0.8)]';
+                    } else {
+                      btn.className = 'transition-all duration-300 text-sm text-stone-500 hover:text-stone-300';
+                    }
+                  }
+                });
+              };
+
+              document.addEventListener('click', function(e) {
+                var numBtn = e.target ? e.target.closest('[id^="hero-num-btn-"]') : null;
+                if (numBtn && numBtn.id) {
+                  var idx = parseInt(numBtn.id.replace('hero-num-btn-', ''), 10);
+                  if (!isNaN(idx)) window.__switchHeroSlide(idx);
+                }
+                var prevBtn = e.target ? e.target.closest('#hero-btn-prev') : null;
+                if (prevBtn) {
+                  window.__switchHeroSlide(window.__heroActiveIndex - 1);
+                }
+                var nextBtn = e.target ? e.target.closest('#hero-btn-next') : null;
+                if (nextBtn) {
+                  window.__switchHeroSlide(window.__heroActiveIndex + 1);
+                }
+              });
+
+              if (!window.__heroTimer) {
+                window.__heroTimer = setInterval(function() {
+                  window.__switchHeroSlide((window.__heroActiveIndex + 1) % 3);
+                }, 7000);
+              }
+            })();
+          `,
+        }}
+      />
     </section>
   )
 }

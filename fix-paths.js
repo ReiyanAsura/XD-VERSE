@@ -22,31 +22,12 @@ function replaceInDir(dirPath, rootDir) {
       replaceInDir(fullPath, rootDir);
     } else if (
       item.isFile() &&
-      (item.name.endsWith('.html') || item.name.endsWith('.js') || item.name.endsWith('.json') || item.name.endsWith('.txt'))
+      item.name.endsWith('.html')
     ) {
       let content = fs.readFileSync(fullPath, 'utf8');
 
-      // Determine relative path to root directory
-      const relDir = path.relative(rootDir, path.dirname(fullPath));
-      let relPrefix = './';
-      if (relDir && relDir !== '.') {
-        const depth = relDir.split(path.sep).filter(Boolean).length;
-        relPrefix = '../'.repeat(depth);
-      }
-
-      const targetNext = relPrefix + 'next/';
-
-      // Replace all variants of _next or incorrect ./next/ or ./next/
+      // Ensure paths work for relative routing
       let updated = content;
-
-      // 1. Replace ./next/ or ./next/ or ./next/
-      updated = updated.replace(/\/XD-VERSE\/_next\//g, targetNext);
-      updated = updated.replace(/(\.\.\/|\.\/|\/)?_next\//g, targetNext);
-      
-      // 2. Fix any incorrect ./next/ in root files
-      if (relPrefix === './') {
-        updated = updated.replace(/\.\.\/next\//g, './next/');
-      }
 
       if (updated !== content) {
         fs.writeFileSync(fullPath, updated, 'utf8');
@@ -62,12 +43,6 @@ fs.writeFileSync(path.join(__dirname, '.nojekyll'), '');
 const outDir = path.join(__dirname, 'out');
 if (fs.existsSync(outDir)) {
   fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
-  const outNext = path.join(outDir, '_next');
-  const outTargetNext = path.join(outDir, 'next');
-  if (fs.existsSync(outNext)) {
-    if (fs.existsSync(outTargetNext)) fs.rmSync(outTargetNext, { recursive: true, force: true });
-    fs.renameSync(outNext, outTargetNext);
-  }
   replaceInDir(outDir, outDir);
 
   // 2. Copy out contents to root
