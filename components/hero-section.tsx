@@ -138,10 +138,12 @@ export function HeroSection() {
               <AnimatePresence mode="wait">
                 <motion.div
                   key={current.id}
+                  id="hero-text-container"
                   initial={hasMounted ? { opacity: 0, y: 15 } : false}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -15 }}
                   transition={{ duration: 0.4 }}
+                  style={{ transition: 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)' }}
                 >
                   <span id="hero-subtitle-text" className="text-xs font-extrabold uppercase tracking-widest text-[#ff6b00]">
                     {current.subtitle}
@@ -247,7 +249,7 @@ export function HeroSection() {
                   className="flex size-10 items-center justify-center rounded-full bg-stone-900 border border-stone-800 text-stone-300 transition-all hover:border-[#ff6b00] hover:text-[#ff6b00] hover:scale-110"
                 >
                   <svg className="size-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286z" />
+                    <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.077.077 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286z" />
                   </svg>
                 </a>
               </div>
@@ -284,6 +286,7 @@ export function HeroSection() {
                       ? 'object-contain p-6 bg-[#0a0a0d]'
                       : 'object-cover object-center'
                   }`}
+                  style={{ transition: 'all 0.7s cubic-bezier(0.16, 1, 0.3, 1)' }}
                 />
                 {/* Left gradient transition so left text column blends smoothly with right image */}
                 <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#0d0c11] to-transparent hidden lg:block" />
@@ -369,6 +372,10 @@ export function HeroSection() {
               window.__switchHeroSlide = function(index) {
                 if (index < 0) index = slidesData.length - 1;
                 if (index >= slidesData.length) index = 0;
+                if (index === window.__heroActiveIndex && window.__heroInitialized) return;
+                window.__heroInitialized = true;
+                if (window.__heroSwitching) return;
+                window.__heroSwitching = true;
                 window.__heroActiveIndex = index;
 
                 var s = slidesData[index];
@@ -376,11 +383,42 @@ export function HeroSection() {
                 var subEl = document.getElementById('hero-subtitle-text');
                 var descEl = document.getElementById('hero-desc-text');
                 var imgEl = document.getElementById('hero-img-element');
+                var containerEl = document.getElementById('hero-text-container');
 
-                if (titleEl) titleEl.textContent = s.title;
-                if (subEl) subEl.textContent = s.subtitle;
-                if (descEl) descEl.textContent = s.description;
-                if (imgEl) imgEl.src = s.image;
+                // 1. Smooth Fade-Out & Slide Up
+                if (containerEl) {
+                  containerEl.style.transition = 'all 250ms cubic-bezier(0.4, 0, 0.2, 1)';
+                  containerEl.style.opacity = '0';
+                  containerEl.style.transform = 'translateY(-12px)';
+                }
+                if (imgEl) {
+                  imgEl.style.transition = 'all 300ms cubic-bezier(0.4, 0, 0.2, 1)';
+                  imgEl.style.opacity = '0.15';
+                  imgEl.style.transform = 'scale(1.04)';
+                }
+
+                setTimeout(function() {
+                  // 2. Update Content
+                  if (titleEl) titleEl.textContent = s.title;
+                  if (subEl) subEl.textContent = s.subtitle;
+                  if (descEl) descEl.textContent = s.description;
+                  if (imgEl) imgEl.src = s.image;
+
+                  // 3. Smooth Fade-In & Reset Transform
+                  setTimeout(function() {
+                    if (containerEl) {
+                      containerEl.style.transition = 'all 450ms cubic-bezier(0.16, 1, 0.3, 1)';
+                      containerEl.style.opacity = '1';
+                      containerEl.style.transform = 'translateY(0px)';
+                    }
+                    if (imgEl) {
+                      imgEl.style.transition = 'all 600ms cubic-bezier(0.16, 1, 0.3, 1)';
+                      imgEl.style.opacity = '1';
+                      imgEl.style.transform = 'scale(1)';
+                    }
+                    window.__heroSwitching = false;
+                  }, 40);
+                }, 260);
 
                 [0, 1, 2].forEach(function(i) {
                   var btn = document.getElementById('hero-num-btn-' + i);
