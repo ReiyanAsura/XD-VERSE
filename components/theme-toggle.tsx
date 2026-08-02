@@ -87,7 +87,7 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
     window.dispatchEvent(new CustomEvent('xd-theme-change', { detail: nextTheme }))
   }
 
-  const isDark = mounted ? theme === 'dark' : (typeof document !== 'undefined' ? document.documentElement.classList.contains('dark') : true)
+  const isDark = theme === 'dark'
 
   return (
     <motion.button

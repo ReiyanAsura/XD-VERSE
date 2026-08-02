@@ -349,7 +349,7 @@ export function FeaturesSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Discord Community Card */}
             <motion.div
               {...fadeUp}
@@ -369,7 +369,7 @@ export function FeaturesSection() {
               </div>
               <div className="mt-6">
                 <a
-                  href="https://discord.gg/xdverse"
+                  href="https://discord.gg/csZuFW2UM3"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-[#ff6b00] px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#ff6b00]/20 transition-all hover:bg-[#ff8533] hover:shadow-[#ff6b00]/40"
@@ -400,6 +400,33 @@ export function FeaturesSection() {
                 <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">🏆 Weekly Prizes</span>
                 <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">⚡ 24/7 Events</span>
                 <span className="rounded-xl bg-stone-100 dark:bg-stone-800 px-3 py-2">🎮 All Skill Levels</span>
+              </div>
+            </motion.div>
+
+            {/* Custom Crafting Recipes Card: Golden Apple & Cobweb */}
+            <motion.div
+              {...fadeUp}
+              whileHover={{ y: -4 }}
+              className="flex flex-col justify-between overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-8 shadow-md transition-all hover:shadow-xl md:col-span-2 lg:col-span-1"
+            >
+              <div>
+                <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-4 py-1.5 text-xs font-bold text-emerald-500">
+                  <Sparkles className="size-3.5" /> EXCLUSIVE SMP RECIPES
+                </div>
+                <h4 className="mt-4 text-2xl font-extrabold text-stone-900 dark:text-white">
+                  Golden Apple & Cobweb
+                </h4>
+                <p className="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+                  Craft Golden Apples easily using 4 Gold Ingots + 1 Apple, and Cobwebs using 5 String! Custom Quality of Life recipes built for PvP & survival builders.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-wrap items-center gap-2 text-xs font-bold">
+                <span className="rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-700 dark:text-amber-400 px-3 py-2">
+                  🍎 4 Gold Ingots = Golden Apple
+                </span>
+                <span className="rounded-xl bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-300 px-3 py-2">
+                  🕸️ 5 String = Cobweb
+                </span>
               </div>
             </motion.div>
           </div>
