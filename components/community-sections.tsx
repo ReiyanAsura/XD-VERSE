@@ -354,14 +354,14 @@ export function FeaturesSection() {
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
-              className="flex flex-col justify-between overflow-hidden rounded-3xl border border-amber-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-8 shadow-md transition-all hover:shadow-xl"
+              className="flex flex-col justify-between overflow-hidden rounded-3xl border border-amber-200/90 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-6 sm:p-8 shadow-md transition-all hover:shadow-xl hover:border-amber-400/50"
             >
               <div>
-                <div className="overflow-hidden rounded-2xl bg-[#0d0c11] border border-stone-800 p-4">
+                <div className="overflow-hidden rounded-2xl bg-[#f9f6f0] border border-stone-300/80 dark:border-stone-700/60 p-2 sm:p-3 shadow-inner">
                   <img
                     src="./images/gapple-recipe.png"
                     alt="Golden Apple Crafting Recipe"
-                    className="w-full h-48 sm:h-64 object-contain mx-auto"
+                    className="w-full h-auto max-h-72 object-contain mx-auto rounded-xl transition-transform duration-300 hover:scale-[1.01]"
                   />
                 </div>
                 <h4 className="mt-6 text-2xl font-extrabold text-stone-900 dark:text-white">
@@ -377,14 +377,14 @@ export function FeaturesSection() {
             <motion.div
               {...fadeUp}
               whileHover={{ y: -4 }}
-              className="flex flex-col justify-between overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-8 shadow-md transition-all hover:shadow-xl"
+              className="flex flex-col justify-between overflow-hidden rounded-3xl border border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900/90 p-6 sm:p-8 shadow-md transition-all hover:shadow-xl hover:border-amber-400/50"
             >
               <div>
-                <div className="overflow-hidden rounded-2xl bg-[#0d0c11] border border-stone-800 p-4">
+                <div className="overflow-hidden rounded-2xl bg-[#f9f6f0] border border-stone-300/80 dark:border-stone-700/60 p-2 sm:p-3 shadow-inner">
                   <img
                     src="./images/cobweb-recipe.png"
                     alt="Cobweb Crafting Recipe"
-                    className="w-full h-48 sm:h-64 object-contain mx-auto"
+                    className="w-full h-auto max-h-72 object-contain mx-auto rounded-xl transition-transform duration-300 hover:scale-[1.01]"
                   />
                 </div>
                 <h4 className="mt-6 text-2xl font-extrabold text-stone-900 dark:text-white">
