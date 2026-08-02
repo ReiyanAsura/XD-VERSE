@@ -43,31 +43,32 @@ const slides: Slide[] = [
   {
     id: 1,
     number: '02',
-    title: 'JOIN OUR DISCORD',
-    subtitle: 'OFFICIAL COMMUNITY HUB',
+    title: 'GOLDEN APPLE RECIPE',
+    subtitle: 'CUSTOM CRAFTING RECIPE',
     description:
-      'Connect with fellow players, join voice channels, get instant staff support, and stay updated with announcements & giveaways!',
-    image: './images/mc-error-desk.jpg',
-    ctaText: 'Join Discord Server',
-    ctaHref: 'https://discord.gg/csZuFW2UM3',
-    isExternal: true,
-    metaLabel: 'DISCORD INVITE',
-    metaValue: 'discord.gg/csZuFW2UM3',
-    isDiscord: true
+      'Craft Golden Apples easily using 4 Gold Ingots and 1 Apple! Custom Quality of Life recipe designed for PvP and survival builders.',
+    image: './images/gapple-recipe.png',
+    ctaText: '',
+    ctaHref: '',
+    isExternal: false,
+    metaLabel: '',
+    metaValue: '',
+    isRecipe: true
   },
   {
     id: 2,
     number: '03',
-    title: 'EVENTS & ACTIVE MEMBERS',
-    subtitle: 'THRIVING GAMING COMMUNITY',
+    title: 'COBWEB RECIPE',
+    subtitle: 'CUSTOM CRAFTING RECIPE',
     description:
-      'Active players in exciting community events like Build Battles, Parkour courses, PvP tournaments, and much more with 24/7 uptime!',
-    image: './images/mc-library-hub.jpg',
-    ctaText: 'Explore Community',
-    ctaHref: 'https://discord.gg/csZuFW2UM3',
-    isExternal: true,
-    metaLabel: 'COMMUNITY STATUS',
-    metaValue: 'Active Members • 24/7'
+      'Craft Cobwebs easily using 5 String! Custom Quality of Life recipe designed for base defense, traps, and PvP combat.',
+    image: './images/cobweb-recipe.png',
+    ctaText: '',
+    ctaHref: '',
+    isExternal: false,
+    metaLabel: '',
+    metaValue: '',
+    isRecipe: true
   }
 ]
 
@@ -172,87 +173,89 @@ export function HeroSection() {
                       {s.description}
                     </p>
 
-                    <div className="mt-8 flex flex-wrap items-center gap-6 pointer-events-auto">
-                      <a
-                        href={s.ctaHref}
-                        target={s.isExternal ? '_blank' : undefined}
-                        rel={s.isExternal ? 'noreferrer' : undefined}
-                        className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-[#ff6b00] px-8 py-4 text-sm font-black uppercase tracking-wider text-white shadow-[0_0_25px_rgba(255,107,0,0.4)] transition-all duration-300 hover:bg-[#ff7e22] hover:shadow-[0_0_35px_rgba(255,107,0,0.7)] hover:scale-105 active:scale-95"
-                      >
-                        <span>{s.ctaText}</span>
-                        <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-                      </a>
-
-                      {s.isDiscord ? (
-                        <div className="group flex flex-col justify-center border-l-2 border-[#5865F2]/60 pl-4 transition-colors hover:border-[#5865F2]">
-                          <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
-                            {s.metaLabel}
-                          </span>
-                          <div className="flex flex-wrap items-center gap-2.5 mt-0.5">
-                            <a
-                              href="https://discord.gg/csZuFW2UM3"
-                              target="_blank"
-                              rel="noreferrer"
-                              className="inline-flex items-center gap-1.5 font-mono text-sm sm:text-base font-extrabold text-white transition-colors hover:text-[#7289da] hover:underline"
-                            >
-                              <span>{s.metaValue}</span>
-                              <ExternalLink className="size-3.5 text-[#5865F2]" />
-                            </a>
-                            <button
-                              type="button"
-                              onClick={handleCopyDiscord}
-                              className="inline-flex items-center gap-1 rounded bg-[#5865F2]/20 border border-[#5865F2]/40 px-2 py-0.5 text-[10px] font-bold text-[#7289da] hover:bg-[#5865F2]/30 transition-colors"
-                            >
-                              {copiedDiscord ? (
-                                <>
-                                  <Check className="size-3 text-emerald-400" />
-                                  <span className="text-emerald-400">Copied!</span>
-                                </>
-                              ) : (
-                                <>
-                                  <Copy className="size-3" />
-                                  <span>Copy Link</span>
-                                </>
-                              )}
-                            </button>
-                          </div>
-                        </div>
-                      ) : s.id === 0 ? (
-                        <div
-                          onClick={handleCopyIp}
-                          className="group flex cursor-pointer flex-col justify-center border-l-2 border-[#ff6b00]/40 pl-4 transition-colors hover:border-[#ff6b00]"
+                    {!(s as any).isRecipe && (
+                      <div className="mt-8 flex flex-wrap items-center gap-6 pointer-events-auto">
+                        <a
+                          href={s.ctaHref}
+                          target={s.isExternal ? '_blank' : undefined}
+                          rel={s.isExternal ? 'noreferrer' : undefined}
+                          className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-[#ff6b00] px-8 py-4 text-sm font-black uppercase tracking-wider text-white shadow-[0_0_25px_rgba(255,107,0,0.4)] transition-all duration-300 hover:bg-[#ff7e22] hover:shadow-[0_0_35px_rgba(255,107,0,0.7)] hover:scale-105 active:scale-95"
                         >
-                          <span className="text-xs font-bold uppercase tracking-wider text-stone-400 group-hover:text-stone-300">
-                            {s.metaLabel}
-                          </span>
-                          <div className="flex items-center gap-2 mt-0.5">
-                            <span className="font-mono text-sm sm:text-base font-extrabold text-white">
-                              {s.metaValue}
+                          <span>{s.ctaText}</span>
+                          <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+                        </a>
+
+                        {s.isDiscord ? (
+                          <div className="group flex flex-col justify-center border-l-2 border-[#5865F2]/60 pl-4 transition-colors hover:border-[#5865F2]">
+                            <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
+                              {s.metaLabel}
                             </span>
-                            {copied ? (
-                              <span className="inline-flex items-center gap-1 rounded bg-emerald-500/20 px-1.5 py-0.5 text-[10px] font-bold text-emerald-400">
-                                <Check className="size-3" /> Copied
-                              </span>
-                            ) : (
-                              <span className="inline-flex items-center gap-1 rounded bg-stone-800 px-1.5 py-0.5 text-[10px] font-bold text-stone-300 group-hover:bg-[#ff6b00]/20 group-hover:text-[#ff8c38]">
-                                <Copy className="size-3" /> Copy IP
-                              </span>
-                            )}
+                            <div className="flex flex-wrap items-center gap-2.5 mt-0.5">
+                              <a
+                                href="https://discord.gg/csZuFW2UM3"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-flex items-center gap-1.5 font-mono text-sm sm:text-base font-extrabold text-white transition-colors hover:text-[#7289da] hover:underline"
+                              >
+                                <span>{s.metaValue}</span>
+                                <ExternalLink className="size-3.5 text-[#5865F2]" />
+                              </a>
+                              <button
+                                type="button"
+                                onClick={handleCopyDiscord}
+                                className="inline-flex items-center gap-1 rounded bg-[#5865F2]/20 border border-[#5865F2]/40 px-2 py-0.5 text-[10px] font-bold text-[#7289da] hover:bg-[#5865F2]/30 transition-colors"
+                              >
+                                {copiedDiscord ? (
+                                  <>
+                                    <Check className="size-3 text-emerald-400" />
+                                    <span className="text-emerald-400">Copied!</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <Copy className="size-3" />
+                                    <span>Copy Link</span>
+                                  </>
+                                )}
+                              </button>
+                            </div>
                           </div>
-                        </div>
-                      ) : (
-                        <div className="group flex flex-col justify-center border-l-2 border-emerald-500/60 pl-4 transition-colors hover:border-emerald-400">
-                          <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
-                            {s.metaLabel}
-                          </span>
-                          <div className="flex items-center gap-2 mt-0.5">
-                            <span className="font-mono text-sm sm:text-base font-extrabold text-emerald-400">
-                              {s.metaValue}
+                        ) : s.id === 0 ? (
+                          <div
+                            onClick={handleCopyIp}
+                            className="group flex cursor-pointer flex-col justify-center border-l-2 border-[#ff6b00]/40 pl-4 transition-colors hover:border-[#ff6b00]"
+                          >
+                            <span className="text-xs font-bold uppercase tracking-wider text-stone-400 group-hover:text-stone-300">
+                              {s.metaLabel}
                             </span>
+                            <div className="flex items-center gap-2 mt-0.5">
+                              <span className="font-mono text-sm sm:text-base font-extrabold text-white">
+                                {s.metaValue}
+                              </span>
+                              {copied ? (
+                                <span className="inline-flex items-center gap-1 rounded bg-emerald-500/20 px-1.5 py-0.5 text-[10px] font-bold text-emerald-400">
+                                  <Check className="size-3" /> Copied
+                                </span>
+                              ) : (
+                                <span className="inline-flex items-center gap-1 rounded bg-stone-800 px-1.5 py-0.5 text-[10px] font-bold text-stone-300 group-hover:bg-[#ff6b00]/20 group-hover:text-[#ff8c38]">
+                                  <Copy className="size-3" /> Copy IP
+                                </span>
+                              )}
+                            </div>
                           </div>
-                        </div>
-                      )}
-                    </div>
+                        ) : (
+                          <div className="group flex flex-col justify-center border-l-2 border-emerald-500/60 pl-4 transition-colors hover:border-emerald-400">
+                            <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
+                              {s.metaLabel}
+                            </span>
+                            <div className="flex items-center gap-2 mt-0.5">
+                              <span className="font-mono text-sm sm:text-base font-extrabold text-emerald-400">
+                                {s.metaValue}
+                              </span>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
                   </div>
                 )
               })}
