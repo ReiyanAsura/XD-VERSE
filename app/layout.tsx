@@ -46,6 +46,24 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   } else {
                     document.documentElement.classList.remove('dark');
                   }
+
+                  if (typeof document !== 'undefined') {
+                    document.addEventListener('click', function(e) {
+                      var toggleBtn = e.target ? e.target.closest('.xd-theme-toggle-btn') : null;
+                      if (toggleBtn) {
+                        var isDark = document.documentElement.classList.contains('dark');
+                        var nextTheme = isDark ? 'light' : 'dark';
+                        if (nextTheme === 'dark') {
+                          document.documentElement.classList.add('dark');
+                          localStorage.setItem('xd-theme', 'dark');
+                        } else {
+                          document.documentElement.classList.remove('dark');
+                          localStorage.setItem('xd-theme', 'light');
+                        }
+                        window.dispatchEvent(new CustomEvent('xd-theme-change', { detail: nextTheme }));
+                      }
+                    });
+                  }
                 } catch (e) {}
               })();
             `,

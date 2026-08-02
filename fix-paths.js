@@ -22,12 +22,19 @@ function replaceInDir(dirPath, rootDir) {
       replaceInDir(fullPath, rootDir);
     } else if (
       item.isFile() &&
-      item.name.endsWith('.html')
+      (item.name.endsWith('.html') || item.name.endsWith('.css') || item.name.endsWith('.js'))
     ) {
       let content = fs.readFileSync(fullPath, 'utf8');
 
-      // Ensure paths work for relative routing
-      let updated = content;
+      // Ensure paths work for relative routing on GitHub Pages subdirectory
+      let updated = content
+        .replace(/src="\/_next\//g, 'src="./_next/')
+        .replace(/href="\/_next\//g, 'href="./_next/')
+        .replace(/src="\/images\//g, 'src="./images/')
+        .replace(/href="\/images\//g, 'href="./images/')
+        .replace(/"\/_next\/static\//g, '"./_next/static/')
+        .replace(/'\/_next\/static\//g, "'./_next/static/")
+        .replace(/url\(\/\_next\//g, 'url(./_next/');
 
       if (updated !== content) {
         fs.writeFileSync(fullPath, updated, 'utf8');

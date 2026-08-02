@@ -41,7 +41,7 @@ function playToggleSound(toDark: boolean) {
 }
 
 export function ThemeToggle({ className = '' }: { className?: string }) {
-  const [theme, setTheme] = useState<'light' | 'dark'>('light')
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark')
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -57,6 +57,16 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
       document.documentElement.classList.remove('dark')
     }
     setMounted(true)
+
+    const handleThemeChange = (e: Event) => {
+      const customEvent = e as CustomEvent<'light' | 'dark'>
+      if (customEvent.detail) {
+        setTheme(customEvent.detail)
+      }
+    }
+
+    window.addEventListener('xd-theme-change', handleThemeChange)
+    return () => window.removeEventListener('xd-theme-change', handleThemeChange)
   }, [])
 
   const toggleTheme = () => {
@@ -77,15 +87,7 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
     window.dispatchEvent(new CustomEvent('xd-theme-change', { detail: nextTheme }))
   }
 
-  if (!mounted) {
-    return (
-      <div
-        className={`inline-flex h-10 w-20 items-center justify-center rounded-full border border-stone-200 bg-stone-100 px-2 opacity-50 ${className}`}
-      />
-    )
-  }
-
-  const isDark = theme === 'dark'
+  const isDark = mounted ? theme === 'dark' : (typeof document !== 'undefined' ? document.documentElement.classList.contains('dark') : true)
 
   return (
     <motion.button
@@ -95,7 +97,7 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
       whileTap={{ scale: 0.95 }}
       aria-label={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
       title={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-      className={`group relative inline-flex h-10 w-20 items-center rounded-full border p-1 shadow-inner transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ${
+      className={`xd-theme-toggle-btn group relative inline-flex h-10 w-20 items-center rounded-full border p-1 shadow-inner transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 ${
         isDark
           ? 'border-indigo-500/40 bg-stone-950 shadow-indigo-950/50'
           : 'border-amber-300 bg-amber-50 shadow-amber-200/50'
