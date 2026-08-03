@@ -1,11 +1,11 @@
 {
-  "updatedAt": "05:59 AM",
+  "updatedAt": "06:29 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "47 Kills",
-      "subtitle": "34.4 hrs played",
+      "subtitle": "34.9 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -39,18 +39,18 @@
     },
     {
       "rank": "5.",
-      "name": "NotAnshAtAll",
-      "score": "22 Kills",
-      "subtitle": "2.2 hrs played",
+      "name": "GHOST_1569",
+      "score": "24 Kills",
+      "subtitle": "10.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "6.",
-      "name": "GHOST_1569",
-      "score": "20 Kills",
-      "subtitle": "10.3 hrs played",
+      "name": "NotAnshAtAll",
+      "score": "22 Kills",
+      "subtitle": "2.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -105,8 +105,8 @@
     {
       "rank": "2.",
       "name": "PROBotX11",
-      "score": "45 Deaths",
-      "subtitle": "34.4 hrs played",
+      "score": "49 Deaths",
+      "subtitle": "34.9 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "VOID",
       "score": "41 Deaths",
-      "subtitle": "13.1 hrs played",
+      "subtitle": "13.2 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "PROBotX11",
-      "score": "34.4 hrs",
+      "score": "34.9 hrs",
       "subtitle": "47 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -251,7 +251,7 @@
     {
       "rank": "8.",
       "name": "VOID",
-      "score": "13.1 hrs",
+      "score": "13.2 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
