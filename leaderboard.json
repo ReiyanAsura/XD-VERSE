@@ -1,11 +1,11 @@
 {
-  "updatedAt": "09:55 AM",
+  "updatedAt": "10:25 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "47 Kills",
-      "subtitle": "35.6 hrs played",
+      "subtitle": "36.0 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "Spidyy_XD",
       "score": "30 Kills",
-      "subtitle": "11.4 hrs played",
+      "subtitle": "11.5 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "PROBotX11",
       "score": "49 Deaths",
-      "subtitle": "35.6 hrs played",
+      "subtitle": "36.0 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "VOID",
       "score": "44 Deaths",
-      "subtitle": "15.5 hrs played",
+      "subtitle": "16.0 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "PROBotX11",
-      "score": "35.6 hrs",
+      "score": "36.0 hrs",
       "subtitle": "47 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "VOID",
-      "score": "15.5 hrs",
+      "score": "16.0 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "Spidyy_XD",
-      "score": "11.4 hrs",
+      "score": "11.5 hrs",
       "subtitle": "30 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
