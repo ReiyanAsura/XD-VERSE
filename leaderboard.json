@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07:59 AM",
+  "updatedAt": "08:29 AM",
   "kills": [
     {
       "rank": "1.",
@@ -114,8 +114,8 @@
     {
       "rank": "3.",
       "name": "VOID",
-      "score": "42 Deaths",
-      "subtitle": "14.5 hrs played",
+      "score": "43 Deaths",
+      "subtitle": "15.0 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "VOID",
-      "score": "14.5 hrs",
+      "score": "15.0 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
