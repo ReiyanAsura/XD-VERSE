@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07:25 AM",
+  "updatedAt": "07:55 AM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "GHOST_1569",
       "score": "34 Kills",
-      "subtitle": "10.7 hrs played",
+      "subtitle": "11.0 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -105,8 +105,8 @@
     {
       "rank": "2.",
       "name": "VOID",
-      "score": "54 Deaths",
-      "subtitle": "22.7 hrs played",
+      "score": "55 Deaths",
+      "subtitle": "23.2 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "VOID",
-      "score": "22.7 hrs",
+      "score": "23.2 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "proboyz",
-      "score": "15.5 hrs",
+      "score": "16.0 hrs",
       "subtitle": "6 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
