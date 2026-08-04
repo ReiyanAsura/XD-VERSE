@@ -1,5 +1,5 @@
 {
-  "updatedAt": "06:55 AM",
+  "updatedAt": "07:25 AM",
   "kills": [
     {
       "rank": "1.",
@@ -105,8 +105,8 @@
     {
       "rank": "2.",
       "name": "VOID",
-      "score": "53 Deaths",
-      "subtitle": "22.2 hrs played",
+      "score": "54 Deaths",
+      "subtitle": "22.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "VOID",
-      "score": "22.2 hrs",
+      "score": "22.7 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "proboyz",
-      "score": "15.4 hrs",
+      "score": "15.5 hrs",
       "subtitle": "6 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
