@@ -1,5 +1,5 @@
 {
-  "updatedAt": "02:31 AM",
+  "updatedAt": "03:01 AM",
   "kills": [
     {
       "rank": "1.",
@@ -86,7 +86,7 @@
       "rank": "10.",
       "name": "ReiyanAsura",
       "score": "9 Kills",
-      "subtitle": "16.2 hrs played",
+      "subtitle": "16.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "VOID",
       "score": "53 Deaths",
-      "subtitle": "19.1 hrs played",
+      "subtitle": "19.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "VOID",
-      "score": "19.1 hrs",
+      "score": "19.7 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -241,18 +241,18 @@
     },
     {
       "rank": "7.",
-      "name": "IllegalAzure",
-      "score": "16.5 hrs",
-      "subtitle": "2 Kills",
+      "name": "ReiyanAsura",
+      "score": "16.6 hrs",
+      "subtitle": "9 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "8.",
-      "name": "ReiyanAsura",
-      "score": "16.2 hrs",
-      "subtitle": "9 Kills",
+      "name": "IllegalAzure",
+      "score": "16.5 hrs",
+      "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
