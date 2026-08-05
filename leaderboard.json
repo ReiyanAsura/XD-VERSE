@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07:01 AM",
+  "updatedAt": "07:31 AM",
   "kills": [
     {
       "rank": "1.",
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "Spidyy_XD",
       "score": "30 Kills",
-      "subtitle": "15.7 hrs played",
+      "subtitle": "15.9 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "Ka1z3nn_",
       "score": "25 Kills",
-      "subtitle": "5.9 hrs played",
+      "subtitle": "6.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -123,8 +123,8 @@
     {
       "rank": "4.",
       "name": "Ka1z3nn_",
-      "score": "42 Deaths",
-      "subtitle": "5.9 hrs played",
+      "score": "44 Deaths",
+      "subtitle": "6.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -269,7 +269,7 @@
     {
       "rank": "10.",
       "name": "Spidyy_XD",
-      "score": "15.7 hrs",
+      "score": "15.9 hrs",
       "subtitle": "30 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
