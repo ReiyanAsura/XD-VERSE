@@ -1,5 +1,5 @@
 {
-  "updatedAt": "09:47 AM",
+  "updatedAt": "10:03 AM",
   "kills": [
     {
       "rank": "1.",
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Onetaggamer1",
       "score": "71 Deaths",
-      "subtitle": "12.3 hrs played",
+      "subtitle": "12.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -105,8 +105,8 @@
     {
       "rank": "2.",
       "name": "VOID",
-      "score": "57 Deaths",
-      "subtitle": "27.5 hrs played",
+      "score": "59 Deaths",
+      "subtitle": "27.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "VOID",
-      "score": "27.5 hrs",
+      "score": "27.7 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
