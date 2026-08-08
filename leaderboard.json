@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:08 AM",
+  "updatedAt": "10:32 AM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "NOT_INVIXEE",
       "score": "99 Kills",
-      "subtitle": "36.1 hrs played",
+      "subtitle": "36.5 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "Ka1z3nn_",
       "score": "57 Kills",
-      "subtitle": "24.3 hrs played",
+      "subtitle": "24.8 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -133,7 +133,7 @@
       "rank": "5.",
       "name": "Ka1z3nn_",
       "score": "55 Deaths",
-      "subtitle": "24.3 hrs played",
+      "subtitle": "24.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -178,7 +178,7 @@
       "rank": "10.",
       "name": "NOT_INVIXEE",
       "score": "29 Deaths",
-      "subtitle": "36.1 hrs played",
+      "subtitle": "36.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "ARENTOIS",
-      "score": "38.0 hrs",
+      "score": "38.4 hrs",
       "subtitle": "8 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "NOT_INVIXEE",
-      "score": "36.1 hrs",
+      "score": "36.5 hrs",
       "subtitle": "99 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -250,18 +250,18 @@
     },
     {
       "rank": "8.",
-      "name": "proboyz",
-      "score": "24.3 hrs",
-      "subtitle": "13 Kills",
+      "name": "Ka1z3nn_",
+      "score": "24.8 hrs",
+      "subtitle": "57 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "9.",
-      "name": "Ka1z3nn_",
+      "name": "proboyz",
       "score": "24.3 hrs",
-      "subtitle": "57 Kills",
+      "subtitle": "13 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
