@@ -1,5 +1,5 @@
 {
-  "updatedAt": "03:14 PM",
+  "updatedAt": "03:44 PM",
   "kills": [
     {
       "rank": "1.",
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Sakura_manav",
       "score": "44 Kills",
-      "subtitle": "58.3 hrs played",
+      "subtitle": "58.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -169,7 +169,7 @@
       "rank": "9.",
       "name": "Sakura_manav",
       "score": "38 Deaths",
-      "subtitle": "58.3 hrs played",
+      "subtitle": "58.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Sakura_manav",
-      "score": "58.3 hrs",
+      "score": "58.8 hrs",
       "subtitle": "44 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
