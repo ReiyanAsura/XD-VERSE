@@ -1,5 +1,5 @@
 {
-  "updatedAt": "03:50 PM",
+  "updatedAt": "04:09 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "NOT_INVIXEE",
       "score": "99 Kills",
-      "subtitle": "39.6 hrs played",
+      "subtitle": "39.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -77,7 +77,7 @@
       "rank": "9.",
       "name": "DudeVedant_pro",
       "score": "12 Kills",
-      "subtitle": "47.1 hrs played",
+      "subtitle": "47.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "DudeVedant_pro",
-      "score": "47.1 hrs",
+      "score": "47.3 hrs",
       "subtitle": "12 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "NOT_INVIXEE",
-      "score": "39.6 hrs",
+      "score": "39.7 hrs",
       "subtitle": "99 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
