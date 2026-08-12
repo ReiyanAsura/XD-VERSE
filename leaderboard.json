@@ -1,5 +1,5 @@
 {
-  "updatedAt": "11:39 AM",
+  "updatedAt": "12:09 PM",
   "kills": [
     {
       "rank": "1.",
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "65 Kills",
-      "subtitle": "33.9 hrs played",
+      "subtitle": "34.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "NotAnshAtAll",
       "score": "22 Kills",
-      "subtitle": "2.3 hrs played",
+      "subtitle": "2.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -68,7 +68,7 @@
       "rank": "8.",
       "name": "VOID",
       "score": "16 Kills",
-      "subtitle": "35.1 hrs played",
+      "subtitle": "35.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -96,8 +96,8 @@
     {
       "rank": "1.",
       "name": "VOID",
-      "score": "121 Deaths",
-      "subtitle": "35.1 hrs played",
+      "score": "122 Deaths",
+      "subtitle": "35.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -133,7 +133,7 @@
       "rank": "5.",
       "name": "Ka1z3nn_",
       "score": "58 Deaths",
-      "subtitle": "33.9 hrs played",
+      "subtitle": "34.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -178,7 +178,7 @@
       "rank": "10.",
       "name": "NotAnshAtAll",
       "score": "31 Deaths",
-      "subtitle": "2.3 hrs played",
+      "subtitle": "2.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "VOID",
-      "score": "35.1 hrs",
+      "score": "35.4 hrs",
       "subtitle": "16 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -251,7 +251,7 @@
     {
       "rank": "8.",
       "name": "Ka1z3nn_",
-      "score": "33.9 hrs",
+      "score": "34.0 hrs",
       "subtitle": "65 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
