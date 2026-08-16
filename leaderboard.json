@@ -1,11 +1,11 @@
 {
-  "updatedAt": "03:50 PM",
+  "updatedAt": "04:20 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "135 Kills",
-      "subtitle": "50.6 hrs played",
+      "subtitle": "50.8 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "74 Kills",
-      "subtitle": "46.9 hrs played",
+      "subtitle": "47.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -50,7 +50,7 @@
       "rank": "6.",
       "name": "Spidyy_XD",
       "score": "32 Kills",
-      "subtitle": "22.9 hrs played",
+      "subtitle": "23.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -132,8 +132,8 @@
     {
       "rank": "5.",
       "name": "PROBotX11",
-      "score": "71 Deaths",
-      "subtitle": "50.6 hrs played",
+      "score": "72 Deaths",
+      "subtitle": "50.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "Ka1z3nn_",
       "score": "64 Deaths",
-      "subtitle": "46.9 hrs played",
+      "subtitle": "47.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "ARENTOIS",
-      "score": "54.7 hrs",
+      "score": "55.2 hrs",
       "subtitle": "13 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "PROBotX11",
-      "score": "50.6 hrs",
+      "score": "50.8 hrs",
       "subtitle": "135 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "DudeVedant_pro",
-      "score": "50.2 hrs",
+      "score": "50.7 hrs",
       "subtitle": "13 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "Ka1z3nn_",
-      "score": "46.9 hrs",
+      "score": "47.3 hrs",
       "subtitle": "74 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
