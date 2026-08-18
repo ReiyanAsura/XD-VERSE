@@ -1,5 +1,5 @@
 {
-  "updatedAt": "03:09 PM",
+  "updatedAt": "03:39 PM",
   "kills": [
     {
       "rank": "1.",
@@ -22,8 +22,8 @@
     {
       "rank": "3.",
       "name": "Sakura_manav",
-      "score": "80 Kills",
-      "subtitle": "67.7 hrs played",
+      "score": "81 Kills",
+      "subtitle": "68.1 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "74 Kills",
-      "subtitle": "51.4 hrs played",
+      "subtitle": "51.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -141,8 +141,8 @@
     {
       "rank": "6.",
       "name": "Ka1z3nn_",
-      "score": "64 Deaths",
-      "subtitle": "51.4 hrs played",
+      "score": "65 Deaths",
+      "subtitle": "51.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -169,7 +169,7 @@
       "rank": "9.",
       "name": "Sakura_manav",
       "score": "38 Deaths",
-      "subtitle": "67.7 hrs played",
+      "subtitle": "68.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,8 +188,8 @@
     {
       "rank": "1.",
       "name": "Sakura_manav",
-      "score": "67.7 hrs",
-      "subtitle": "80 Kills",
+      "score": "68.1 hrs",
+      "subtitle": "81 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "Ka1z3nn_",
-      "score": "51.4 hrs",
+      "score": "51.5 hrs",
       "subtitle": "74 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
