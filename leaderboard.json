@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:31 AM",
+  "updatedAt": "11:01 AM",
   "kills": [
     {
       "rank": "1.",
@@ -75,18 +75,18 @@
     },
     {
       "rank": "9.",
-      "name": "prowheel2375",
+      "name": "VOID",
       "score": "22 Kills",
-      "subtitle": "51.5 hrs played",
+      "subtitle": "50.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "VOID",
-      "score": "21 Kills",
-      "subtitle": "50.4 hrs played",
+      "name": "prowheel2375",
+      "score": "22 Kills",
+      "subtitle": "51.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "VOID",
       "score": "130 Deaths",
-      "subtitle": "50.4 hrs played",
+      "subtitle": "50.9 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "prowheel2375",
       "score": "45 Deaths",
-      "subtitle": "51.5 hrs played",
+      "subtitle": "51.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "prowheel2375",
-      "score": "51.5 hrs",
+      "score": "51.6 hrs",
       "subtitle": "22 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -242,8 +242,8 @@
     {
       "rank": "7.",
       "name": "VOID",
-      "score": "50.4 hrs",
-      "subtitle": "21 Kills",
+      "score": "50.9 hrs",
+      "subtitle": "22 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
