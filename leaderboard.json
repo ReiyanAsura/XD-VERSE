@@ -1,5 +1,5 @@
 {
-  "updatedAt": "11:01 AM",
+  "updatedAt": "11:31 AM",
   "kills": [
     {
       "rank": "1.",
@@ -77,7 +77,7 @@
       "rank": "9.",
       "name": "VOID",
       "score": "22 Kills",
-      "subtitle": "50.9 hrs played",
+      "subtitle": "51.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "VOID",
       "score": "130 Deaths",
-      "subtitle": "50.9 hrs played",
+      "subtitle": "51.0 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -232,18 +232,18 @@
     },
     {
       "rank": "6.",
-      "name": "PROBotX11",
+      "name": "VOID",
       "score": "51.0 hrs",
-      "subtitle": "135 Kills",
+      "subtitle": "22 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
-      "name": "VOID",
-      "score": "50.9 hrs",
-      "subtitle": "22 Kills",
+      "name": "PROBotX11",
+      "score": "51.0 hrs",
+      "subtitle": "135 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
