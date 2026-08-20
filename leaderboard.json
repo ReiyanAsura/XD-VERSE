@@ -1,5 +1,5 @@
 {
-  "updatedAt": "12:16 PM",
+  "updatedAt": "12:46 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "NOT_INVIXEE",
       "score": "100 Kills",
-      "subtitle": "46.0 hrs played",
+      "subtitle": "46.5 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "77 Kills",
-      "subtitle": "60.4 hrs played",
+      "subtitle": "60.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "VOID",
       "score": "26 Kills",
-      "subtitle": "52.3 hrs played",
+      "subtitle": "52.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "VOID",
       "score": "130 Deaths",
-      "subtitle": "52.3 hrs played",
+      "subtitle": "52.8 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "Onetaggamer1",
       "score": "92 Deaths",
-      "subtitle": "27.6 hrs played",
+      "subtitle": "28.1 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "Ka1z3nn_",
       "score": "67 Deaths",
-      "subtitle": "60.4 hrs played",
+      "subtitle": "60.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "Ka1z3nn_",
-      "score": "60.4 hrs",
+      "score": "60.9 hrs",
       "subtitle": "77 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -223,6 +223,15 @@
     },
     {
       "rank": "5.",
+      "name": "VOID",
+      "score": "52.8 hrs",
+      "subtitle": "26 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
       "name": "prowheel2375",
       "score": "52.4 hrs",
       "subtitle": "22 Kills",
@@ -231,7 +240,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "6.",
+      "rank": "7.",
       "name": "PROBotX11",
       "score": "52.4 hrs",
       "subtitle": "138 Kills",
@@ -240,18 +249,9 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
-      "name": "VOID",
-      "score": "52.3 hrs",
-      "subtitle": "26 Kills",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
       "rank": "8.",
       "name": "NOT_INVIXEE",
-      "score": "46.0 hrs",
+      "score": "46.5 hrs",
       "subtitle": "100 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "ReiyanAsura",
-      "score": "28.2 hrs",
+      "score": "28.7 hrs",
       "subtitle": "10 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -269,7 +269,7 @@
     {
       "rank": "10.",
       "name": "Onetaggamer1",
-      "score": "27.6 hrs",
+      "score": "28.1 hrs",
       "subtitle": "10 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
