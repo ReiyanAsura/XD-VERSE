@@ -1,5 +1,5 @@
 {
-  "updatedAt": "06:16 AM",
+  "updatedAt": "06:46 AM",
   "kills": [
     {
       "rank": "1.",
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "75 Kills",
-      "subtitle": "56.4 hrs played",
+      "subtitle": "56.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "Ka1z3nn_",
       "score": "67 Deaths",
-      "subtitle": "56.4 hrs played",
+      "subtitle": "56.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "Ka1z3nn_",
-      "score": "56.4 hrs",
+      "score": "56.7 hrs",
       "subtitle": "75 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -259,18 +259,18 @@
     },
     {
       "rank": "9.",
-      "name": "proboyz",
+      "name": "ReiyanAsura",
       "score": "26.6 hrs",
-      "subtitle": "14 Kills",
+      "subtitle": "10 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "ReiyanAsura",
-      "score": "26.5 hrs",
-      "subtitle": "10 Kills",
+      "name": "proboyz",
+      "score": "26.6 hrs",
+      "subtitle": "14 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
