@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01:47 PM",
+  "updatedAt": "02:17 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "NOT_INVIXEE",
       "score": "100 Kills",
-      "subtitle": "48.7 hrs played",
+      "subtitle": "48.9 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -251,7 +251,7 @@
     {
       "rank": "8.",
       "name": "NOT_INVIXEE",
-      "score": "48.7 hrs",
+      "score": "48.9 hrs",
       "subtitle": "100 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
