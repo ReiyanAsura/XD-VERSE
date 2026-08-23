@@ -1,36 +1,36 @@
 {
-  "updatedAt": "12:45 PM",
+  "updatedAt": "01:15 PM",
   "kills": [
     {
       "rank": "1.",
-      "name": "NOT_INVIXEE",
+      "name": "ARENTOIS",
       "score": "0 Kills",
-      "subtitle": "0.1 hrs played",
+      "subtitle": "0.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "NotAnshAtAll",
+      "name": "NOT_INVIXEE",
       "score": "0 Kills",
-      "subtitle": "0.0 hrs played",
+      "subtitle": "0.1 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "Onetaggamer1",
+      "name": "ReiyanAsura",
       "score": "0 Kills",
-      "subtitle": "0.0 hrs played",
+      "subtitle": "0.2 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "VOID",
+      "name": "NotAnshAtAll",
       "score": "0 Kills",
       "subtitle": "0.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
@@ -39,9 +39,54 @@
     },
     {
       "rank": "5.",
+      "name": "Onetaggamer1",
+      "score": "0 Kills",
+      "subtitle": "0.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
+      "name": "VOID",
+      "score": "0 Kills",
+      "subtitle": "0.0 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
+      "name": "prowheel2375",
+      "score": "0 Kills",
+      "subtitle": "0.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
+      "name": "Sakura_manav",
+      "score": "0 Kills",
+      "subtitle": "0.3 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
+      "name": "Lightgamer_playz",
+      "score": "0 Kills",
+      "subtitle": "0.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "10.",
       "name": "ItzKrynis",
       "score": "0 Kills",
-      "subtitle": "0.1 hrs played",
+      "subtitle": "0.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -50,34 +95,70 @@
   "deaths": [
     {
       "rank": "1.",
-      "name": "NOT_INVIXEE",
-      "score": "0 Deaths",
-      "subtitle": "0.1 hrs played",
+      "name": "Lightgamer_playz",
+      "score": "4 Deaths",
+      "subtitle": "0.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "NotAnshAtAll",
-      "score": "0 Deaths",
-      "subtitle": "0.0 hrs played",
+      "name": "Sakura_manav",
+      "score": "3 Deaths",
+      "subtitle": "0.3 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "Onetaggamer1",
-      "score": "0 Deaths",
-      "subtitle": "0.0 hrs played",
+      "name": "ItzKrynis",
+      "score": "1 Deaths",
+      "subtitle": "0.3 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "VOID",
+      "name": "Ka1z3nn_",
+      "score": "1 Deaths",
+      "subtitle": "0.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
+      "name": "ARENTOIS",
+      "score": "0 Deaths",
+      "subtitle": "0.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
+      "name": "NOT_INVIXEE",
+      "score": "0 Deaths",
+      "subtitle": "0.1 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
+      "name": "ReiyanAsura",
+      "score": "0 Deaths",
+      "subtitle": "0.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
+      "name": "NotAnshAtAll",
       "score": "0 Deaths",
       "subtitle": "0.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
@@ -85,10 +166,19 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "5.",
-      "name": "ItzKrynis",
+      "rank": "9.",
+      "name": "Onetaggamer1",
       "score": "0 Deaths",
-      "subtitle": "0.1 hrs played",
+      "subtitle": "0.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "10.",
+      "name": "VOID",
+      "score": "0 Deaths",
+      "subtitle": "0.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,8 +187,8 @@
   "playtime": [
     {
       "rank": "1.",
-      "name": "NOT_INVIXEE",
-      "score": "0.1 hrs",
+      "name": "Onetaggamer1",
+      "score": "0.4 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -106,8 +196,8 @@
     },
     {
       "rank": "2.",
-      "name": "ItzKrynis",
-      "score": "0.1 hrs",
+      "name": "PROBotX11",
+      "score": "0.4 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -115,8 +205,8 @@
     },
     {
       "rank": "3.",
-      "name": "NotAnshAtAll",
-      "score": "0.0 hrs",
+      "name": "Sakura_manav",
+      "score": "0.3 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -124,8 +214,8 @@
     },
     {
       "rank": "4.",
-      "name": "Onetaggamer1",
-      "score": "0.0 hrs",
+      "name": "ItzKrynis",
+      "score": "0.3 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -133,8 +223,53 @@
     },
     {
       "rank": "5.",
-      "name": "VOID",
-      "score": "0.0 hrs",
+      "name": "SINCERE0",
+      "score": "0.3 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
+      "name": "ARENTOIS",
+      "score": "0.2 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
+      "name": "ReiyanAsura",
+      "score": "0.2 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
+      "name": "prowheel2375",
+      "score": "0.2 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
+      "name": "Lightgamer_playz",
+      "score": "0.2 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "10.",
+      "name": "Ka1z3nn_",
+      "score": "0.2 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
