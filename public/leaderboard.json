@@ -1,5 +1,5 @@
 {
-  "updatedAt": "05:36 PM",
+  "updatedAt": "06:06 PM",
   "kills": [
     {
       "rank": "1.",
@@ -48,6 +48,15 @@
     },
     {
       "rank": "6.",
+      "name": "Ch4ch4_op",
+      "score": "4 Kills",
+      "subtitle": "3.5 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
       "name": "PROBotX11",
       "score": "4 Kills",
       "subtitle": "4.2 hrs played",
@@ -56,7 +65,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "Pankaj2323",
       "score": "2 Kills",
       "subtitle": "0.5 hrs played",
@@ -65,7 +74,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "8.",
+      "rank": "9.",
       "name": "ReiyanAsura",
       "score": "2 Kills",
       "subtitle": "3.9 hrs played",
@@ -74,19 +83,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
-      "name": "Ch4ch4_op",
-      "score": "2 Kills",
-      "subtitle": "3.3 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
       "rank": "10.",
       "name": "WhyNotVecna",
       "score": "2 Kills",
-      "subtitle": "3.3 hrs played",
+      "subtitle": "3.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "INVIXEE",
       "score": "13 Deaths",
-      "subtitle": "2.2 hrs played",
+      "subtitle": "2.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -133,7 +133,7 @@
       "rank": "5.",
       "name": "Ch4ch4_op",
       "score": "7 Deaths",
-      "subtitle": "3.3 hrs played",
+      "subtitle": "3.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -241,8 +241,8 @@
     },
     {
       "rank": "7.",
-      "name": "Ch4ch4_op",
-      "score": "3.3 hrs",
+      "name": "WhyNotVecna",
+      "score": "3.7 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -250,9 +250,9 @@
     },
     {
       "rank": "8.",
-      "name": "WhyNotVecna",
-      "score": "3.3 hrs",
-      "subtitle": "2 Kills",
+      "name": "Ch4ch4_op",
+      "score": "3.5 hrs",
+      "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -268,8 +268,8 @@
     },
     {
       "rank": "10.",
-      "name": "sSenpai_spider",
-      "score": "2.3 hrs",
+      "name": "INVIXEE",
+      "score": "2.5 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
