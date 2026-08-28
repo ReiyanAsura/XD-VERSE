@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:06 PM",
+  "updatedAt": "10:36 PM",
   "kills": [
     {
       "rank": "1.",
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "WhyNotVecna",
       "score": "8 Kills",
-      "subtitle": "6.4 hrs played",
+      "subtitle": "6.7 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "7 Kills",
-      "subtitle": "9.8 hrs played",
+      "subtitle": "10.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Ka1z3nn_",
       "score": "19 Deaths",
-      "subtitle": "9.8 hrs played",
+      "subtitle": "10.1 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -131,18 +131,18 @@
     },
     {
       "rank": "5.",
-      "name": "sSenpai_spider",
-      "score": "10 Deaths",
-      "subtitle": "4.2 hrs played",
+      "name": "WhyNotVecna",
+      "score": "12 Deaths",
+      "subtitle": "6.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "6.",
-      "name": "WhyNotVecna",
-      "score": "9 Deaths",
-      "subtitle": "6.4 hrs played",
+      "name": "sSenpai_spider",
+      "score": "11 Deaths",
+      "subtitle": "4.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "9.8 hrs",
+      "score": "10.1 hrs",
       "subtitle": "7 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -196,8 +196,8 @@
     },
     {
       "rank": "2.",
-      "name": "BLOXD__HERO",
-      "score": "6.6 hrs",
+      "name": "WhyNotVecna",
+      "score": "6.7 hrs",
       "subtitle": "8 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -205,8 +205,8 @@
     },
     {
       "rank": "3.",
-      "name": "WhyNotVecna",
-      "score": "6.4 hrs",
+      "name": "BLOXD__HERO",
+      "score": "6.6 hrs",
       "subtitle": "8 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "sSenpai_spider",
-      "score": "4.2 hrs",
+      "score": "4.4 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
