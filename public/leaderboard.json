@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01:01 PM",
+  "updatedAt": "01:13 PM",
   "kills": [
     {
       "rank": "1.",
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "INVIXEE",
       "score": "15 Deaths",
-      "subtitle": "5.3 hrs played",
+      "subtitle": "5.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "INVIXEE",
-      "score": "5.3 hrs",
+      "score": "5.5 hrs",
       "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
