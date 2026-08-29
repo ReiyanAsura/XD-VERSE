@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01:36 PM",
+  "updatedAt": "02:06 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "Sakura_manav",
       "score": "9 Kills",
-      "subtitle": "4.6 hrs played",
+      "subtitle": "5.1 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "WhyNotVecna",
       "score": "9 Kills",
-      "subtitle": "7.0 hrs played",
+      "subtitle": "7.4 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "7 Kills",
-      "subtitle": "10.4 hrs played",
+      "subtitle": "10.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "Spidyy_xD",
       "score": "6 Kills",
-      "subtitle": "1.8 hrs played",
+      "subtitle": "2.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Ch4ch4_op",
       "score": "4 Kills",
-      "subtitle": "3.7 hrs played",
+      "subtitle": "4.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Ka1z3nn_",
       "score": "19 Deaths",
-      "subtitle": "10.4 hrs played",
+      "subtitle": "10.8 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -113,18 +113,18 @@
     },
     {
       "rank": "3.",
-      "name": "Pankaj2323",
-      "score": "15 Deaths",
-      "subtitle": "0.5 hrs played",
+      "name": "INVIXEE",
+      "score": "16 Deaths",
+      "subtitle": "5.7 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "INVIXEE",
+      "name": "Pankaj2323",
       "score": "15 Deaths",
-      "subtitle": "5.7 hrs played",
+      "subtitle": "0.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -133,7 +133,7 @@
       "rank": "5.",
       "name": "WhyNotVecna",
       "score": "12 Deaths",
-      "subtitle": "7.0 hrs played",
+      "subtitle": "7.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -159,8 +159,8 @@
     {
       "rank": "8.",
       "name": "Ch4ch4_op",
-      "score": "8 Deaths",
-      "subtitle": "3.7 hrs played",
+      "score": "9 Deaths",
+      "subtitle": "4.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -169,7 +169,7 @@
       "rank": "9.",
       "name": "Sakura_manav",
       "score": "7 Deaths",
-      "subtitle": "4.6 hrs played",
+      "subtitle": "5.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "10.4 hrs",
+      "score": "10.8 hrs",
       "subtitle": "7 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "WhyNotVecna",
-      "score": "7.0 hrs",
+      "score": "7.4 hrs",
       "subtitle": "9 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "Sakura_manav",
-      "score": "4.6 hrs",
+      "score": "5.1 hrs",
       "subtitle": "9 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "ReiyanAsura",
-      "score": "4.1 hrs",
+      "score": "4.2 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -269,7 +269,7 @@
     {
       "rank": "10.",
       "name": "Ch4ch4_op",
-      "score": "3.7 hrs",
+      "score": "4.1 hrs",
       "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
