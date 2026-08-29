@@ -1,20 +1,20 @@
 {
-  "updatedAt": "06:06 AM",
+  "updatedAt": "06:36 AM",
   "kills": [
     {
       "rank": "1.",
-      "name": "Sakura_manav",
+      "name": "BLOXD__HERO",
       "score": "9 Kills",
-      "subtitle": "4.6 hrs played",
+      "subtitle": "7.9 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "BLOXD__HERO",
-      "score": "8 Kills",
-      "subtitle": "7.6 hrs played",
+      "name": "Sakura_manav",
+      "score": "9 Kills",
+      "subtitle": "4.6 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,8 +197,8 @@
     {
       "rank": "2.",
       "name": "BLOXD__HERO",
-      "score": "7.6 hrs",
-      "subtitle": "8 Kills",
+      "score": "7.9 hrs",
+      "subtitle": "9 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Shivasaya",
-      "score": "4.9 hrs",
+      "score": "5.1 hrs",
       "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
