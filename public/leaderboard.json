@@ -1,5 +1,5 @@
 {
-  "updatedAt": "11:03 AM",
+  "updatedAt": "11:33 AM",
   "kills": [
     {
       "rank": "1.",
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "INVIXEE",
       "score": "14 Deaths",
-      "subtitle": "4.3 hrs played",
+      "subtitle": "4.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -232,6 +232,15 @@
     },
     {
       "rank": "6.",
+      "name": "INVIXEE",
+      "score": "4.7 hrs",
+      "subtitle": "1 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
       "name": "Sakura_manav",
       "score": "4.6 hrs",
       "subtitle": "9 Kills",
@@ -240,19 +249,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "sSenpai_spider",
       "score": "4.4 hrs",
       "subtitle": "2 Kills",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "8.",
-      "name": "INVIXEE",
-      "score": "4.3 hrs",
-      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
