@@ -1,5 +1,5 @@
 {
-  "updatedAt": "04:23 AM",
+  "updatedAt": "04:53 AM",
   "kills": [
     {
       "rank": "1.",
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Ch4ch4_op",
       "score": "4 Kills",
-      "subtitle": "5.3 hrs played",
+      "subtitle": "5.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -86,7 +86,7 @@
       "rank": "10.",
       "name": "Onetaggamer1",
       "score": "3 Kills",
-      "subtitle": "2.1 hrs played",
+      "subtitle": "2.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -104,18 +104,18 @@
     },
     {
       "rank": "2.",
-      "name": "INVIXEE",
+      "name": "Ch4ch4_op",
       "score": "18 Deaths",
-      "subtitle": "7.3 hrs played",
+      "subtitle": "5.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "Ch4ch4_op",
-      "score": "16 Deaths",
-      "subtitle": "5.3 hrs played",
+      "name": "INVIXEE",
+      "score": "18 Deaths",
+      "subtitle": "7.3 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "Onetaggamer1",
       "score": "16 Deaths",
-      "subtitle": "2.1 hrs played",
+      "subtitle": "2.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -250,8 +250,8 @@
     },
     {
       "rank": "8.",
-      "name": "PROBotX11",
-      "score": "5.5 hrs",
+      "name": "Ch4ch4_op",
+      "score": "5.7 hrs",
       "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -259,8 +259,8 @@
     },
     {
       "rank": "9.",
-      "name": "Ch4ch4_op",
-      "score": "5.3 hrs",
+      "name": "PROBotX11",
+      "score": "5.5 hrs",
       "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
