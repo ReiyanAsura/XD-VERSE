@@ -1,20 +1,20 @@
 {
-  "updatedAt": "05:26 PM",
+  "updatedAt": "05:56 PM",
   "kills": [
     {
       "rank": "1.",
-      "name": "Sakura_manav",
-      "score": "16 Kills",
-      "subtitle": "11.1 hrs played",
+      "name": "Ka1z3nn_",
+      "score": "17 Kills",
+      "subtitle": "24.3 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "Ka1z3nn_",
+      "name": "Sakura_manav",
       "score": "16 Kills",
-      "subtitle": "23.9 hrs played",
+      "subtitle": "11.1 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -22,8 +22,8 @@
     {
       "rank": "3.",
       "name": "WhyNotVecna",
-      "score": "14 Kills",
-      "subtitle": "14.3 hrs played",
+      "score": "15 Kills",
+      "subtitle": "14.7 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "19 Deaths",
-      "subtitle": "23.9 hrs played",
+      "subtitle": "24.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -158,6 +158,15 @@
     },
     {
       "rank": "8.",
+      "name": "Lightgamer_playz",
+      "score": "15 Deaths",
+      "subtitle": "0.5 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
       "name": "Vortex_playz07",
       "score": "13 Deaths",
       "subtitle": "4.0 hrs played",
@@ -166,19 +175,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "WhyNotVecna",
       "score": "12 Deaths",
-      "subtitle": "14.3 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "sSenpai_spider",
-      "score": "11 Deaths",
-      "subtitle": "4.4 hrs played",
+      "subtitle": "14.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,8 +188,8 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "23.9 hrs",
-      "subtitle": "16 Kills",
+      "score": "24.3 hrs",
+      "subtitle": "17 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -197,8 +197,8 @@
     {
       "rank": "2.",
       "name": "WhyNotVecna",
-      "score": "14.3 hrs",
-      "subtitle": "14 Kills",
+      "score": "14.7 hrs",
+      "subtitle": "15 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
