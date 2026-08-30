@@ -1,5 +1,5 @@
 {
-  "updatedAt": "04:55 PM",
+  "updatedAt": "05:26 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "Ka1z3nn_",
       "score": "16 Kills",
-      "subtitle": "23.4 hrs played",
+      "subtitle": "23.9 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "WhyNotVecna",
       "score": "14 Kills",
-      "subtitle": "13.8 hrs played",
+      "subtitle": "14.3 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -86,7 +86,7 @@
       "rank": "10.",
       "name": "ReiyanAsura",
       "score": "3 Kills",
-      "subtitle": "7.6 hrs played",
+      "subtitle": "7.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "Ka1z3nn_",
       "score": "19 Deaths",
-      "subtitle": "23.4 hrs played",
+      "subtitle": "23.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -169,7 +169,7 @@
       "rank": "9.",
       "name": "WhyNotVecna",
       "score": "12 Deaths",
-      "subtitle": "13.8 hrs played",
+      "subtitle": "14.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "23.4 hrs",
+      "score": "23.9 hrs",
       "subtitle": "16 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "WhyNotVecna",
-      "score": "13.8 hrs",
+      "score": "14.3 hrs",
       "subtitle": "14 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -251,7 +251,7 @@
     {
       "rank": "8.",
       "name": "ReiyanAsura",
-      "score": "7.6 hrs",
+      "score": "7.9 hrs",
       "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
