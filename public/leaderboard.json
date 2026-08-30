@@ -1,11 +1,11 @@
 {
-  "updatedAt": "11:36 AM",
+  "updatedAt": "12:06 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "Sakura_manav",
       "score": "15 Kills",
-      "subtitle": "7.1 hrs played",
+      "subtitle": "7.3 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -31,8 +31,8 @@
     {
       "rank": "4.",
       "name": "BLOXD__HERO",
-      "score": "9 Kills",
-      "subtitle": "7.9 hrs played",
+      "score": "10 Kills",
+      "subtitle": "8.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "Sakura_manav",
       "score": "16 Deaths",
-      "subtitle": "7.1 hrs played",
+      "subtitle": "7.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -158,6 +158,15 @@
     },
     {
       "rank": "8.",
+      "name": "Vortex_playz07",
+      "score": "13 Deaths",
+      "subtitle": "3.7 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
       "name": "WhyNotVecna",
       "score": "12 Deaths",
       "subtitle": "11.6 hrs played",
@@ -166,19 +175,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "sSenpai_spider",
       "score": "11 Deaths",
       "subtitle": "4.4 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "PROBotX11",
-      "score": "10 Deaths",
-      "subtitle": "5.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -215,8 +215,8 @@
     {
       "rank": "4.",
       "name": "BLOXD__HERO",
-      "score": "7.9 hrs",
-      "subtitle": "9 Kills",
+      "score": "8.1 hrs",
+      "subtitle": "10 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -232,18 +232,18 @@
     },
     {
       "rank": "6.",
-      "name": "Shivasaya",
+      "name": "Sakura_manav",
       "score": "7.3 hrs",
-      "subtitle": "1 Kills",
+      "subtitle": "15 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
-      "name": "Sakura_manav",
-      "score": "7.1 hrs",
-      "subtitle": "15 Kills",
+      "name": "Shivasaya",
+      "score": "7.3 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
