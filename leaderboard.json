@@ -1,5 +1,5 @@
 {
-  "updatedAt": "11:24 PM",
+  "updatedAt": "11:54 PM",
   "kills": [
     {
       "rank": "1.",
@@ -140,6 +140,15 @@
     },
     {
       "rank": "6.",
+      "name": "DudeVedant_pro",
+      "score": "18 Deaths",
+      "subtitle": "3.0 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
       "name": "INVIXEE",
       "score": "18 Deaths",
       "subtitle": "11.0 hrs played",
@@ -148,7 +157,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "Pankaj2323",
       "score": "15 Deaths",
       "subtitle": "0.5 hrs played",
@@ -157,19 +166,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "8.",
+      "rank": "9.",
       "name": "Lightgamer_playz",
       "score": "15 Deaths",
       "subtitle": "0.5 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "9.",
-      "name": "DudeVedant_pro",
-      "score": "14 Deaths",
-      "subtitle": "2.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
