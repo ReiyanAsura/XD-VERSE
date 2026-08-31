@@ -1,11 +1,11 @@
 {
-  "updatedAt": "12:54 PM",
+  "updatedAt": "01:24 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
       "score": "18 Kills",
-      "subtitle": "24.8 hrs played",
+      "subtitle": "25.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Ch4ch4_op",
       "score": "5 Kills",
-      "subtitle": "10.7 hrs played",
+      "subtitle": "11.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Ch4ch4_op",
       "score": "30 Deaths",
-      "subtitle": "10.7 hrs played",
+      "subtitle": "11.0 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "Ka1z3nn_",
       "score": "19 Deaths",
-      "subtitle": "24.8 hrs played",
+      "subtitle": "25.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "24.8 hrs",
+      "score": "25.2 hrs",
       "subtitle": "18 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Ch4ch4_op",
-      "score": "10.7 hrs",
+      "score": "11.0 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -259,18 +259,18 @@
     },
     {
       "rank": "9.",
-      "name": "Shivasaya",
-      "score": "7.3 hrs",
-      "subtitle": "1 Kills",
+      "name": "NOT_INVIXEE",
+      "score": "7.4 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "NOT_INVIXEE",
-      "score": "6.9 hrs",
-      "subtitle": "0 Kills",
+      "name": "Shivasaya",
+      "score": "7.3 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
