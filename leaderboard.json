@@ -1,11 +1,11 @@
 {
-  "updatedAt": "12:24 PM",
+  "updatedAt": "12:54 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "17 Kills",
-      "subtitle": "24.3 hrs played",
+      "score": "18 Kills",
+      "subtitle": "24.8 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "RawzuOP",
       "score": "7 Kills",
-      "subtitle": "2.1 hrs played",
+      "subtitle": "2.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Ch4ch4_op",
       "score": "5 Kills",
-      "subtitle": "10.6 hrs played",
+      "subtitle": "10.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Ch4ch4_op",
       "score": "30 Deaths",
-      "subtitle": "10.6 hrs played",
+      "subtitle": "10.7 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -122,6 +122,15 @@
     },
     {
       "rank": "4.",
+      "name": "INVIXEE",
+      "score": "21 Deaths",
+      "subtitle": "13.1 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
       "name": "DudeVedant_pro",
       "score": "19 Deaths",
       "subtitle": "4.6 hrs played",
@@ -130,28 +139,19 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "5.",
+      "rank": "6.",
       "name": "Ka1z3nn_",
       "score": "19 Deaths",
-      "subtitle": "24.3 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "6.",
-      "name": "Onetaggamer1",
-      "score": "18 Deaths",
-      "subtitle": "3.3 hrs played",
+      "subtitle": "24.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
-      "name": "INVIXEE",
+      "name": "Onetaggamer1",
       "score": "18 Deaths",
-      "subtitle": "12.6 hrs played",
+      "subtitle": "3.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,8 +188,8 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "24.3 hrs",
-      "subtitle": "17 Kills",
+      "score": "24.8 hrs",
+      "subtitle": "18 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "INVIXEE",
-      "score": "12.6 hrs",
+      "score": "13.1 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Ch4ch4_op",
-      "score": "10.6 hrs",
+      "score": "10.7 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
