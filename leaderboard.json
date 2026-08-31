@@ -1,11 +1,11 @@
 {
-  "updatedAt": "04:24 PM",
+  "updatedAt": "04:40 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
       "score": "19 Kills",
-      "subtitle": "26.2 hrs played",
+      "subtitle": "26.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "WhyNotVecna",
       "score": "15 Kills",
-      "subtitle": "14.9 hrs played",
+      "subtitle": "15.1 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "ARENTOIS",
       "score": "25 Deaths",
-      "subtitle": "11.3 hrs played",
+      "subtitle": "11.5 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "Ka1z3nn_",
       "score": "19 Deaths",
-      "subtitle": "26.2 hrs played",
+      "subtitle": "26.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "26.2 hrs",
+      "score": "26.4 hrs",
       "subtitle": "19 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "WhyNotVecna",
-      "score": "14.9 hrs",
+      "score": "15.1 hrs",
       "subtitle": "15 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "ARENTOIS",
-      "score": "11.3 hrs",
+      "score": "11.5 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "NOT_INVIXEE",
-      "score": "8.5 hrs",
+      "score": "8.7 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
