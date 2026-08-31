@@ -1,5 +1,5 @@
 {
-  "updatedAt": "06:54 AM",
+  "updatedAt": "07:24 AM",
   "kills": [
     {
       "rank": "1.",
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Ch4ch4_op",
       "score": "5 Kills",
-      "subtitle": "9.5 hrs played",
+      "subtitle": "10.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -95,18 +95,18 @@
   "deaths": [
     {
       "rank": "1.",
-      "name": "ARENTOIS",
-      "score": "25 Deaths",
-      "subtitle": "9.8 hrs played",
+      "name": "Ch4ch4_op",
+      "score": "30 Deaths",
+      "subtitle": "10.0 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "Ch4ch4_op",
+      "name": "ARENTOIS",
       "score": "25 Deaths",
-      "subtitle": "9.5 hrs played",
+      "subtitle": "9.8 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "INVIXEE",
       "score": "18 Deaths",
-      "subtitle": "11.8 hrs played",
+      "subtitle": "11.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "INVIXEE",
-      "score": "11.8 hrs",
+      "score": "11.9 hrs",
       "subtitle": "2 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -223,18 +223,18 @@
     },
     {
       "rank": "5.",
-      "name": "ARENTOIS",
-      "score": "9.8 hrs",
-      "subtitle": "0 Kills",
+      "name": "Ch4ch4_op",
+      "score": "10.0 hrs",
+      "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "6.",
-      "name": "Ch4ch4_op",
-      "score": "9.5 hrs",
-      "subtitle": "5 Kills",
+      "name": "ARENTOIS",
+      "score": "9.8 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -268,8 +268,8 @@
     },
     {
       "rank": "10.",
-      "name": "LORD_X_AURA",
-      "score": "6.2 hrs",
+      "name": "NOT_INVIXEE",
+      "score": "6.4 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
