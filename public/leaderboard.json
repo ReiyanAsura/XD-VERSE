@@ -1,5 +1,5 @@
 {
-  "updatedAt": "05:24 AM",
+  "updatedAt": "05:54 AM",
   "kills": [
     {
       "rank": "1.",
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "INVIXEE",
       "score": "18 Deaths",
-      "subtitle": "11.1 hrs played",
+      "subtitle": "11.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -205,18 +205,18 @@
     },
     {
       "rank": "3.",
-      "name": "Sakura_manav",
-      "score": "11.1 hrs",
-      "subtitle": "16 Kills",
+      "name": "INVIXEE",
+      "score": "11.4 hrs",
+      "subtitle": "2 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "INVIXEE",
+      "name": "Sakura_manav",
       "score": "11.1 hrs",
-      "subtitle": "2 Kills",
+      "subtitle": "16 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
