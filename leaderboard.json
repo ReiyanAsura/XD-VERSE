@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07:24 AM",
+  "updatedAt": "07:54 AM",
   "kills": [
     {
       "rank": "1.",
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Ch4ch4_op",
       "score": "5 Kills",
-      "subtitle": "10.0 hrs played",
+      "subtitle": "10.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Ch4ch4_op",
       "score": "30 Deaths",
-      "subtitle": "10.0 hrs played",
+      "subtitle": "10.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Ch4ch4_op",
-      "score": "10.0 hrs",
+      "score": "10.2 hrs",
       "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
