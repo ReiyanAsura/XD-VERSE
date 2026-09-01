@@ -1,11 +1,11 @@
 {
-  "updatedAt": "10:40 AM",
+  "updatedAt": "11:10 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "WhyNotVecna",
       "score": "21 Kills",
-      "subtitle": "16.3 hrs played",
+      "subtitle": "16.6 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -23,7 +23,7 @@
       "rank": "3.",
       "name": "Sakura_manav",
       "score": "16 Kills",
-      "subtitle": "12.6 hrs played",
+      "subtitle": "13.1 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "ARENTOIS",
       "score": "25 Deaths",
-      "subtitle": "12.7 hrs played",
+      "subtitle": "13.2 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -133,7 +133,7 @@
       "rank": "5.",
       "name": "Sakura_manav",
       "score": "21 Deaths",
-      "subtitle": "12.6 hrs played",
+      "subtitle": "13.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "WhyNotVecna",
-      "score": "16.3 hrs",
+      "score": "16.6 hrs",
       "subtitle": "21 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "ARENTOIS",
-      "score": "12.7 hrs",
+      "score": "13.2 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Sakura_manav",
-      "score": "12.6 hrs",
+      "score": "13.1 hrs",
       "subtitle": "16 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
