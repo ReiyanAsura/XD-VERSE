@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01:10 PM",
+  "updatedAt": "01:40 PM",
   "kills": [
     {
       "rank": "1.",
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "WhyNotVecna",
       "score": "21 Kills",
-      "subtitle": "16.6 hrs played",
+      "subtitle": "16.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "WhyNotVecna",
-      "score": "16.6 hrs",
+      "score": "16.7 hrs",
       "subtitle": "21 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
