@@ -1,11 +1,11 @@
 {
-  "updatedAt": "08:43 PM",
+  "updatedAt": "09:13 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
       "score": "22 Kills",
-      "subtitle": "30.1 hrs played",
+      "subtitle": "30.7 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -124,7 +124,7 @@
       "rank": "4.",
       "name": "INVIXEE",
       "score": "24 Deaths",
-      "subtitle": "15.6 hrs played",
+      "subtitle": "16.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "Ka1z3nn_",
       "score": "21 Deaths",
-      "subtitle": "30.1 hrs played",
+      "subtitle": "30.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "30.1 hrs",
+      "score": "30.7 hrs",
       "subtitle": "22 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -205,18 +205,18 @@
     },
     {
       "rank": "3.",
-      "name": "ARENTOIS",
-      "score": "15.8 hrs",
-      "subtitle": "0 Kills",
+      "name": "INVIXEE",
+      "score": "16.1 hrs",
+      "subtitle": "3 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "INVIXEE",
-      "score": "15.6 hrs",
-      "subtitle": "3 Kills",
+      "name": "ARENTOIS",
+      "score": "15.8 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
