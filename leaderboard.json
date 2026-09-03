@@ -1,5 +1,5 @@
 {
-  "updatedAt": "11:55 AM",
+  "updatedAt": "12:25 PM",
   "kills": [
     {
       "rank": "1.",
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "ARENTOIS",
       "score": "26 Deaths",
-      "subtitle": "16.5 hrs played",
+      "subtitle": "16.8 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -205,18 +205,18 @@
     },
     {
       "rank": "3.",
-      "name": "INVIXEE",
+      "name": "ARENTOIS",
       "score": "16.8 hrs",
-      "subtitle": "3 Kills",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "ARENTOIS",
-      "score": "16.5 hrs",
-      "subtitle": "0 Kills",
+      "name": "INVIXEE",
+      "score": "16.8 hrs",
+      "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
