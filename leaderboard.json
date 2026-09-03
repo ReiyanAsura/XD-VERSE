@@ -1,11 +1,11 @@
 {
-  "updatedAt": "01:55 PM",
+  "updatedAt": "02:25 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
       "score": "22 Kills",
-      "subtitle": "32.8 hrs played",
+      "subtitle": "33.3 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -22,8 +22,8 @@
     {
       "rank": "3.",
       "name": "Sakura_manav",
-      "score": "16 Kills",
-      "subtitle": "14.2 hrs played",
+      "score": "17 Kills",
+      "subtitle": "14.6 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -114,8 +114,8 @@
     {
       "rank": "3.",
       "name": "ARENTOIS",
-      "score": "26 Deaths",
-      "subtitle": "16.9 hrs played",
+      "score": "27 Deaths",
+      "subtitle": "17.4 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -133,7 +133,7 @@
       "rank": "5.",
       "name": "Sakura_manav",
       "score": "22 Deaths",
-      "subtitle": "14.2 hrs played",
+      "subtitle": "14.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "Ka1z3nn_",
       "score": "22 Deaths",
-      "subtitle": "32.8 hrs played",
+      "subtitle": "33.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "DudeVedant_pro",
       "score": "19 Deaths",
-      "subtitle": "4.6 hrs played",
+      "subtitle": "5.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "Ka1z3nn_",
-      "score": "32.8 hrs",
+      "score": "33.3 hrs",
       "subtitle": "22 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "ARENTOIS",
-      "score": "16.9 hrs",
+      "score": "17.4 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -224,8 +224,8 @@
     {
       "rank": "5.",
       "name": "Sakura_manav",
-      "score": "14.2 hrs",
-      "subtitle": "16 Kills",
+      "score": "14.6 hrs",
+      "subtitle": "17 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "NOT_INVIXEE",
-      "score": "9.9 hrs",
+      "score": "10.1 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -259,18 +259,18 @@
     },
     {
       "rank": "9.",
-      "name": "BLOXD__HERO",
-      "score": "8.2 hrs",
-      "subtitle": "10 Kills",
+      "name": "Shivasaya",
+      "score": "8.3 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "Shivasaya",
-      "score": "7.8 hrs",
-      "subtitle": "1 Kills",
+      "name": "BLOXD__HERO",
+      "score": "8.2 hrs",
+      "subtitle": "10 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
