@@ -1,11 +1,11 @@
 {
-  "updatedAt": "12:05 PM",
+  "updatedAt": "12:35 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "coraxion",
       "score": "22 Kills",
-      "subtitle": "35.9 hrs played",
+      "subtitle": "36.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -14,7 +14,7 @@
       "rank": "2.",
       "name": "WhyNotVecna",
       "score": "21 Kills",
-      "subtitle": "19.0 hrs played",
+      "subtitle": "19.3 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -86,7 +86,7 @@
       "rank": "10.",
       "name": "ReiyanAsura",
       "score": "3 Kills",
-      "subtitle": "10.0 hrs played",
+      "subtitle": "10.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "ARENTOIS",
       "score": "27 Deaths",
-      "subtitle": "17.9 hrs played",
+      "subtitle": "18.4 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "coraxion",
       "score": "22 Deaths",
-      "subtitle": "35.9 hrs played",
+      "subtitle": "36.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "coraxion",
-      "score": "35.9 hrs",
+      "score": "36.4 hrs",
       "subtitle": "22 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "WhyNotVecna",
-      "score": "19.0 hrs",
+      "score": "19.3 hrs",
       "subtitle": "21 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "ARENTOIS",
-      "score": "17.9 hrs",
+      "score": "18.4 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "ReiyanAsura",
-      "score": "10.0 hrs",
+      "score": "10.3 hrs",
       "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
