@@ -1,11 +1,11 @@
 {
-  "updatedAt": "05:50 PM",
+  "updatedAt": "06:20 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "coraxion",
       "score": "22 Kills",
-      "subtitle": "40.3 hrs played",
+      "subtitle": "40.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -140,15 +140,24 @@
     },
     {
       "rank": "6.",
-      "name": "coraxion",
+      "name": "Lightgamer_playz",
       "score": "22 Deaths",
-      "subtitle": "40.3 hrs played",
+      "subtitle": "0.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
+      "name": "coraxion",
+      "score": "22 Deaths",
+      "subtitle": "40.4 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
       "name": "DudeVedant_pro",
       "score": "19 Deaths",
       "subtitle": "5.7 hrs played",
@@ -157,7 +166,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "8.",
+      "rank": "9.",
       "name": "Pankaj2323",
       "score": "17 Deaths",
       "subtitle": "0.5 hrs played",
@@ -166,19 +175,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "AayushBOYYYYYYY",
       "score": "17 Deaths",
       "subtitle": "5.2 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "Lightgamer_playz",
-      "score": "17 Deaths",
-      "subtitle": "0.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "coraxion",
-      "score": "40.3 hrs",
+      "score": "40.4 hrs",
       "subtitle": "22 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
