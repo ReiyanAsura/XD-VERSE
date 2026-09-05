@@ -1,5 +1,5 @@
 {
-  "updatedAt": "05:50 AM",
+  "updatedAt": "06:20 AM",
   "kills": [
     {
       "rank": "1.",
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Ch4ch4_op",
       "score": "5 Kills",
-      "subtitle": "13.2 hrs played",
+      "subtitle": "13.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -68,7 +68,7 @@
       "rank": "8.",
       "name": "Onetaggamer1",
       "score": "5 Kills",
-      "subtitle": "7.8 hrs played",
+      "subtitle": "7.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,7 +97,7 @@
       "rank": "1.",
       "name": "Onetaggamer1",
       "score": "42 Deaths",
-      "subtitle": "7.8 hrs played",
+      "subtitle": "7.9 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "Ch4ch4_op",
       "score": "30 Deaths",
-      "subtitle": "13.2 hrs played",
+      "subtitle": "13.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -232,18 +232,18 @@
     },
     {
       "rank": "6.",
-      "name": "Shivasaya",
-      "score": "13.4 hrs",
-      "subtitle": "1 Kills",
+      "name": "Ch4ch4_op",
+      "score": "13.7 hrs",
+      "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
-      "name": "Ch4ch4_op",
-      "score": "13.2 hrs",
-      "subtitle": "5 Kills",
+      "name": "Shivasaya",
+      "score": "13.4 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
