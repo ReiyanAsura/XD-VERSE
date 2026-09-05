@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:20 AM",
+  "updatedAt": "10:50 AM",
   "kills": [
     {
       "rank": "1.",
@@ -177,8 +177,8 @@
     {
       "rank": "10.",
       "name": "Lightgamer_playz",
-      "score": "15 Deaths",
-      "subtitle": "0.5 hrs played",
+      "score": "17 Deaths",
+      "subtitle": "0.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -241,18 +241,18 @@
     },
     {
       "rank": "7.",
-      "name": "Shivasaya",
-      "score": "13.4 hrs",
-      "subtitle": "1 Kills",
+      "name": "NOT_INVIXEE",
+      "score": "13.5 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "8.",
-      "name": "NOT_INVIXEE",
-      "score": "13.0 hrs",
-      "subtitle": "0 Kills",
+      "name": "Shivasaya",
+      "score": "13.4 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
