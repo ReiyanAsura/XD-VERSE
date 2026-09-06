@@ -1,5 +1,5 @@
 {
-  "updatedAt": "05:39 AM",
+  "updatedAt": "06:09 AM",
   "kills": [
     {
       "rank": "1.",
@@ -68,7 +68,7 @@
       "rank": "8.",
       "name": "Ch4ch4_op",
       "score": "5 Kills",
-      "subtitle": "14.1 hrs played",
+      "subtitle": "14.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -106,7 +106,7 @@
       "rank": "2.",
       "name": "Ch4ch4_op",
       "score": "30 Deaths",
-      "subtitle": "14.1 hrs played",
+      "subtitle": "14.2 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -232,18 +232,18 @@
     },
     {
       "rank": "6.",
-      "name": "NOT_INVIXEE",
-      "score": "14.1 hrs",
-      "subtitle": "0 Kills",
+      "name": "Ch4ch4_op",
+      "score": "14.2 hrs",
+      "subtitle": "5 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "7.",
-      "name": "Ch4ch4_op",
+      "name": "NOT_INVIXEE",
       "score": "14.1 hrs",
-      "subtitle": "5 Kills",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
