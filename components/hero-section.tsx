@@ -7,74 +7,114 @@ import {
   ArrowLeft,
   Check,
   Copy,
-  ExternalLink,
   Sparkles,
+  MessageSquare,
+  Heart,
+  ClipboardList,
+  ShieldCheck,
+  Flame,
   Users
 } from 'lucide-react'
 
 interface Slide {
   id: number
   number: string
-  title: string
-  subtitle: string
+  eyebrow: string
+  titleLine1: string
+  titleLine2: string
+  subhead: string
   description: string
   image: string
-  metaLabel: string
-  metaValue: string
-  isDiscord?: boolean
+  primaryCtaText: string
+  primaryCtaHref: string
+  secondaryCtaText: string
+  secondaryCtaHref: string
+  isExternalPrimary?: boolean
+  isExternalSecondary?: boolean
+  microCopy: string
 }
-
 
 const slides: Slide[] = [
   {
     id: 0,
     number: '01',
-    title: 'XD VERSE SMP',
-    subtitle: 'THE ULTIMATE SURVIVAL EXPERIENCE',
+    eyebrow: '✦ XD VERSE COMMUNITY',
+    titleLine1: 'Survival',
+    titleLine2: 'Experience',
+    subhead: 'Help us build a better XD VERSE community.',
     description:
-      'Experience classic Minecraft survival enhanced with essential Quality of Life plugins, custom features, and a warm, active gaming community.',
+      'We are looking for active, passionate players who want to help create a welcoming, fair and enjoyable survival experience for everyone on XD VERSE.',
     image: './images/mc-squad-hero.jpg',
-    ctaText: 'Get Whitelisted',
-    ctaHref: '#how-to-join',
-    isExternal: false,
-    metaLabel: 'SERVER IP ADDRESS',
-    metaValue: '125.16.185.22:25590'
+    primaryCtaText: 'Play now',
+    primaryCtaHref: '#how-to-join',
+    secondaryCtaText: 'Join Discord',
+    secondaryCtaHref: 'https://discord.gg/csZuFW2UM3',
+    isExternalSecondary: true,
+    microCopy: '✦ Thoughtful people make welcoming communities.'
   },
   {
     id: 1,
     number: '02',
-    title: 'JOIN OUR DISCORD',
-    subtitle: 'OFFICIAL COMMUNITY HUB',
+    eyebrow: '✦ OFFICIAL DISCORD HUB',
+    titleLine1: 'Staff',
+    titleLine2: 'Recruitment',
+    subhead: 'Become a part of our staff team.',
     description:
-      'Connect with fellow players, join voice channels, get instant staff support, and stay updated with announcements & giveaways!',
+      'We are recruiting mature and dedicated staff members to assist players, moderate chat, host events, and foster a friendly environment.',
     image: './images/mc-error-desk.jpg',
-    ctaText: 'Join Discord Server',
-    ctaHref: 'https://discord.gg/csZuFW2UM3',
-    isExternal: true,
-    metaLabel: 'DISCORD INVITE',
-    metaValue: 'discord.gg/csZuFW2UM3',
-    isDiscord: true
+    primaryCtaText: 'Apply now',
+    primaryCtaHref: 'https://discord.gg/csZuFW2UM3',
+    secondaryCtaText: 'Join Discord',
+    secondaryCtaHref: 'https://discord.gg/csZuFW2UM3',
+    isExternalPrimary: true,
+    isExternalSecondary: true,
+    microCopy: '✦ Responsible and active members welcome.'
   },
   {
     id: 2,
     number: '03',
-    title: 'EVENTS & ACTIVE MEMBERS',
-    subtitle: 'THRIVING GAMING COMMUNITY',
+    eyebrow: '✦ EVENTS & CUSTOM SMP',
+    titleLine1: 'Community',
+    titleLine2: 'Events & PvP',
+    subhead: 'Thriving multiplayer experience 24/7.',
     description:
-      'Active players in exciting community events like Build Battles, Parkour courses, PvP tournaments, and much more with 24/7 uptime!',
+      'Join build battles, parkour courses, custom recipes, and PvP tournaments with smooth 24/7 performance and dedicated staff support.',
     image: './images/mc-library-hub.jpg',
-    ctaText: 'Explore Community',
-    ctaHref: 'https://discord.gg/csZuFW2UM3',
-    isExternal: true,
-    metaLabel: 'COMMUNITY STATUS',
-    metaValue: 'Active Members • 24/7'
+    primaryCtaText: 'Explore Server',
+    primaryCtaHref: '#features',
+    secondaryCtaText: 'Join Discord',
+    secondaryCtaHref: 'https://discord.gg/csZuFW2UM3',
+    isExternalSecondary: true,
+    microCopy: '✦ Active members, custom recipes & 24/7 uptime.'
+  }
+]
+
+const bottomPills = [
+  {
+    icon: Heart,
+    title: '18+',
+    subtitle: 'Mature Community'
+  },
+  {
+    icon: ClipboardList,
+    title: '10 questions',
+    subtitle: 'Easy Whitelist'
+  },
+  {
+    icon: MessageSquare,
+    title: 'Discord required',
+    subtitle: 'Stay Connected'
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Manual review',
+    subtitle: 'No Lag & Anti-Cheat'
   }
 ]
 
 export function HeroSection() {
   const [activeSlide, setActiveSlide] = useState(0)
   const [copied, setCopied] = useState(false)
-  const [copiedDiscord, setCopiedDiscord] = useState(false)
   const [hasMounted, setHasMounted] = useState(false)
 
   const slidesCount = slides.length
@@ -83,7 +123,6 @@ export function HeroSection() {
     setHasMounted(true)
   }, [])
 
-  // Auto-rotate hero slides every 7 seconds
   useEffect(() => {
     const timer = setInterval(() => {
       setActiveSlide((prev) => (prev + 1) % slidesCount)
@@ -98,13 +137,6 @@ export function HeroSection() {
     setTimeout(() => setCopied(false), 2000)
   }
 
-  const handleCopyDiscord = (e?: React.MouseEvent) => {
-    if (e) e.stopPropagation()
-    navigator.clipboard.writeText('https://discord.gg/csZuFW2UM3')
-    setCopiedDiscord(true)
-    setTimeout(() => setCopiedDiscord(false), 2000)
-  }
-
   const prevSlide = () => {
     setActiveSlide((prev) => (prev - 1 + slidesCount) % slidesCount)
   }
@@ -113,320 +145,184 @@ export function HeroSection() {
     setActiveSlide((prev) => (prev + 1) % slidesCount)
   }
 
-  return (
-    <section
-      id="home"
-      aria-labelledby="hero-title"
-      className="relative px-4 py-4 md:px-8 md:py-6"
-    >
-      <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] bg-[#0d0c11] border border-stone-800/80 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.9)] transition-colors duration-500">
-        
-        <div className="pointer-events-none absolute -top-40 -left-40 size-96 rounded-full bg-[#ff6b00]/15 blur-[120px]" />
-        <div className="pointer-events-none absolute -bottom-40 right-0 size-96 rounded-full bg-[#ff6b00]/10 blur-[140px]" />
+  const currentSlide = slides[activeSlide]
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[580px] md:min-h-[660px]">
+  return (
+    <section id="home" className="px-4 py-6 md:px-8 md:py-8 max-w-7xl mx-auto">
+      {/* Main Outer Hero Card Container (CherryCraft Reference Card Style) */}
+      <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-[#fffdfa] via-[#f8f4eb] to-[#f2ece0] text-stone-900 border border-stone-300/70 shadow-[0_20px_50px_-15px_rgba(255,107,0,0.08)] dark:from-[#111219] dark:via-[#0e0f15] dark:to-[#0a0a0e] dark:text-white dark:border-stone-800/80 dark:shadow-[0_25px_60px_-15px_rgba(0,0,0,0.8)] transition-colors duration-500">
+        
+        {/* Soft Ambient Radial Background Glows */}
+        <div className="pointer-events-none absolute -top-32 -left-32 size-96 rounded-full bg-[#ff6b00]/10 dark:bg-[#ff6b00]/15 blur-[120px]" />
+        <div className="pointer-events-none absolute -bottom-32 right-0 size-96 rounded-full bg-[#ff6b00]/10 dark:bg-[#ff6b00]/10 blur-[130px]" />
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[560px] p-6 sm:p-10 md:p-12 lg:p-14 gap-8 lg:gap-12 items-center">
           
-          <div className="relative z-20 flex flex-col justify-between p-8 md:p-12 lg:col-span-7 lg:py-14 lg:pl-16 lg:pr-8">
-            
-            <div className="flex items-center gap-3">
-              <div className="flex items-center gap-2 rounded-full bg-[#ff6b00]/15 border border-[#ff6b00]/30 px-3.5 py-1.5 text-xs font-black tracking-wider uppercase text-[#ff8c38]">
-                <Sparkles className="size-3.5 text-[#ff6b00]" />
-                <span>XD VERSE CLUB</span>
+          {/* Left Column: Eyebrow, Display Serif Title, Subtitle, Dual Pill CTAs, Footnote */}
+          <div className="relative z-20 flex flex-col justify-between lg:col-span-7 h-full">
+            <div>
+              {/* Eyebrow badge */}
+              <div className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#ff6b00] mb-3">
+                <Sparkles className="size-3.5 fill-[#ff6b00] text-[#ff6b00]" />
+                <span>{currentSlide.eyebrow}</span>
               </div>
-              <div className="flex items-center gap-1.5 text-xs font-semibold text-stone-400">
-                <span className="inline-block size-2 rounded-full bg-emerald-500 animate-pulse" />
-                <span>SMP • v1.20+</span>
+
+              {/* Serif Display Title (CherryCraft Elegance) */}
+              <div className="my-2 min-h-[160px] sm:min-h-[190px] flex flex-col justify-center">
+                <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif font-black tracking-tight text-stone-900 dark:text-white leading-[1.02]">
+                  <span className="block">{currentSlide.titleLine1}</span>
+                  <span className="block text-[#ff6b00]">{currentSlide.titleLine2}</span>
+                </h1>
+              </div>
+
+              {/* Subhead & Description */}
+              <div className="my-3">
+                <p className="text-base sm:text-lg font-bold text-stone-800 dark:text-stone-200">
+                  {currentSlide.subhead}
+                </p>
+                <p className="mt-2 max-w-xl text-xs sm:text-sm leading-relaxed text-stone-600 dark:text-stone-300 font-medium">
+                  {currentSlide.description}
+                </p>
+              </div>
+
+              {/* Dual Action Pill Buttons & Server IP Copy */}
+              <div className="mt-8 flex flex-wrap items-center gap-3 sm:gap-4">
+                <a
+                  href={currentSlide.primaryCtaHref}
+                  target={currentSlide.isExternalPrimary ? '_blank' : undefined}
+                  rel={currentSlide.isExternalPrimary ? 'noreferrer' : undefined}
+                  className="inline-flex items-center gap-2 rounded-full bg-[#ff6b00] px-7 py-3 text-xs sm:text-sm font-extrabold text-white shadow-md shadow-[#ff6b00]/30 transition-all hover:bg-[#ff7e22] hover:shadow-lg hover:shadow-[#ff6b00]/50 hover:scale-105 active:scale-95"
+                >
+                  <span>{currentSlide.primaryCtaText}</span>
+                  <ArrowRight className="size-4" />
+                </a>
+
+                <a
+                  href={currentSlide.secondaryCtaHref}
+                  target={currentSlide.isExternalSecondary ? '_blank' : undefined}
+                  rel={currentSlide.isExternalSecondary ? 'noreferrer' : undefined}
+                  className="inline-flex items-center gap-2 rounded-full border border-stone-300 dark:border-stone-700 bg-white/80 dark:bg-stone-900/80 px-6 py-3 text-xs sm:text-sm font-extrabold text-stone-800 dark:text-stone-200 shadow-sm hover:border-[#ff6b00] hover:text-[#ff6b00] dark:hover:text-[#ff6b00] transition-all hover:scale-105"
+                >
+                  <span>{currentSlide.secondaryCtaText}</span>
+                  <MessageSquare className="size-4 text-[#ff6b00]" />
+                </a>
+
+                <button
+                  type="button"
+                  onClick={handleCopyIp}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-2.5 text-xs font-bold text-stone-800 dark:text-amber-300 hover:bg-amber-500/20 transition-colors"
+                  title="Click to copy Server IP"
+                >
+                  {copied ? (
+                    <>
+                      <Check className="size-3.5 text-emerald-500" />
+                      <span className="text-emerald-600 dark:text-emerald-400 font-mono">IP Copied!</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="size-3.5 text-[#ff6b00]" />
+                      <span className="font-mono text-[11px] text-stone-700 dark:text-stone-300">IP: 125.16.185.22:25590</span>
+                    </>
+                  )}
+                </button>
               </div>
             </div>
 
-            <div className="relative my-8 md:my-10 min-h-[340px] sm:min-h-[360px] flex flex-col justify-center">
-              {slides.map((s, i) => {
-                const isFirst = i === 0
-                return (
-                  <div
-                    key={s.id}
-                    id={`hero-slide-text-${i}`}
-                    className={`transition-all duration-700 ease-out ${
-                      isFirst
-                        ? 'relative z-10 opacity-100 translate-y-0 scale-100 pointer-events-auto'
-                        : 'absolute top-0 left-0 w-full z-0 opacity-0 translate-y-5 scale-95 pointer-events-none'
-                    }`}
-                    style={{
-                      transition: 'opacity 700ms cubic-bezier(0.16, 1, 0.3, 1), transform 700ms cubic-bezier(0.16, 1, 0.3, 1)',
-                    }}
-                  >
-                    <span className="text-xs font-extrabold uppercase tracking-widest text-[#ff6b00]">
-                      {s.subtitle}
-                    </span>
-                    <h1
-                      className="mt-2 text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tight text-white font-mono drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)] leading-[0.95]"
-                      style={{
-                        fontFamily: 'Impact, "Arial Black", sans-serif',
-                        letterSpacing: '-0.02em',
-                        textShadow: '0 2px 0 #ff6b00, 0 8px 25px rgba(0,0,0,0.9)'
-                      }}
-                    >
-                      {s.title}
-                    </h1>
-                    <p className="mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-stone-300 font-medium">
-                      {s.description}
-                    </p>
-
-                    <div className="mt-8 flex flex-wrap items-center gap-6 pointer-events-auto">
-                      <a
-                        href={s.ctaHref}
-                        target={s.isExternal ? '_blank' : undefined}
-                        rel={s.isExternal ? 'noreferrer' : undefined}
-                        className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-[#ff6b00] px-8 py-4 text-sm font-black uppercase tracking-wider text-white shadow-[0_0_25px_rgba(255,107,0,0.4)] transition-all duration-300 hover:bg-[#ff7e22] hover:shadow-[0_0_35px_rgba(255,107,0,0.7)] hover:scale-105 active:scale-95"
-                      >
-                        <span>{s.ctaText}</span>
-                        <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-                      </a>
-
-                      {s.isDiscord ? (
-                        <div className="group flex flex-col justify-center border-l-2 border-[#5865F2]/60 pl-4 transition-colors hover:border-[#5865F2]">
-                          <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
-                            {s.metaLabel}
-                          </span>
-                          <div className="flex flex-wrap items-center gap-2.5 mt-0.5">
-                            <a
-                              href="https://discord.gg/csZuFW2UM3"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1.5 font-mono text-sm sm:text-base font-extrabold text-[#7289da] hover:text-white underline underline-offset-4 decoration-[#5865F2]/60 hover:decoration-white transition-all cursor-pointer"
-                              title="Click to join Discord"
-                            >
-                              <span>{s.metaValue}</span>
-                              <ExternalLink className="size-3.5 text-[#5865F2]" />
-                            </a>
-                            <button
-                              type="button"
-                              onClick={handleCopyDiscord}
-                              className="inline-flex items-center gap-1 rounded bg-[#5865F2]/20 border border-[#5865F2]/40 px-2 py-0.5 text-[10px] font-bold text-[#7289da] hover:bg-[#5865F2]/40 hover:text-white transition-colors cursor-pointer"
-                            >
-                              {copiedDiscord ? (
-                                <>
-                                  <Check className="size-3 text-emerald-400" />
-                                  <span className="text-emerald-400">Copied!</span>
-                                </>
-                              ) : (
-                                <>
-                                  <Copy className="size-3" />
-                                  <span>Copy Link</span>
-                                </>
-                              )}
-                            </button>
-                          </div>
-                        </div>
-                      ) : s.id === 0 ? (
-                        <div
-                          onClick={handleCopyIp}
-                          className="group flex cursor-pointer flex-col justify-center border-l-2 border-[#ff6b00]/40 pl-4 transition-colors hover:border-[#ff6b00]"
-                        >
-                          <span className="text-xs font-bold uppercase tracking-wider text-stone-400 group-hover:text-stone-300">
-                            {s.metaLabel}
-                          </span>
-                          <div className="flex items-center gap-2 mt-0.5">
-                            <span className="font-mono text-sm sm:text-base font-extrabold text-white">
-                              {s.metaValue}
-                            </span>
-                            {copied ? (
-                              <span className="inline-flex items-center gap-1 rounded bg-emerald-500/20 px-1.5 py-0.5 text-[10px] font-bold text-emerald-400">
-                                <Check className="size-3" /> Copied
-                              </span>
-                            ) : (
-                              <span className="inline-flex items-center gap-1 rounded bg-stone-800 px-1.5 py-0.5 text-[10px] font-bold text-stone-300 group-hover:bg-[#ff6b00]/20 group-hover:text-[#ff8c38]">
-                                <Copy className="size-3" /> Copy IP
-                              </span>
-                            )}
-                          </div>
-                        </div>
-                      ) : (
-                        <div className="group flex flex-col justify-center border-l-2 border-emerald-500/60 pl-4 transition-colors hover:border-emerald-400">
-                          <span className="text-xs font-bold uppercase tracking-wider text-stone-400">
-                            {s.metaLabel}
-                          </span>
-                          <div className="flex items-center gap-2 mt-0.5">
-                            <span className="font-mono text-sm sm:text-base font-extrabold text-emerald-400">
-                              {s.metaValue}
-                            </span>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )
-              })}
+            {/* Footnote Micro-copy */}
+            <div className="mt-8 pt-4 border-t border-stone-200/60 dark:border-stone-800/60 flex items-center gap-2 text-xs font-semibold text-stone-500 dark:text-stone-400">
+              <Sparkles className="size-3.5 text-[#ff6b00]" />
+              <span>{currentSlide.microCopy}</span>
             </div>
           </div>
 
-          <div className="relative flex flex-col justify-end overflow-hidden lg:col-span-5 min-h-[380px] lg:min-h-full">
-            
-            <div className="absolute inset-0 z-0 overflow-hidden">
-              {slides.map((s, i) => {
-                const isFirst = i === 0
-                return (
-                  <div
-                    key={s.id}
-                    id={`hero-slide-img-${i}`}
-                    className={`absolute inset-0 transition-all duration-700 ${
-                      isFirst ? 'z-10 opacity-100 scale-100' : 'z-0 opacity-0 scale-105'
-                    }`}
-                    style={{
-                      transition: 'opacity 700ms cubic-bezier(0.16, 1, 0.3, 1), transform 900ms cubic-bezier(0.16, 1, 0.3, 1)',
-                    }}
-                  >
-                    <img
-                      src={s.image}
-                      alt={s.title}
-                      className={`h-full w-full ${
-                        s.image.endsWith('.png')
-                          ? 'object-contain p-6 bg-[#0a0a0d]'
-                          : 'object-cover object-center'
-                      }`}
-                    />
-                    {/* Left gradient transition so left text column blends smoothly with right image */}
-                    <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#0d0c11] to-transparent hidden lg:block" />
-                    {/* Top/Bottom subtle gradient for framing */}
-                    <div className="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-[#0d0c11] via-[#0d0c11]/60 to-transparent" />
-                    <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#0d0c11]/60 to-transparent" />
-                  </div>
-                )
-              })}
-            </div>
+          {/* Right Column: Framed Minecraft Artwork & Carousel Navigation */}
+          <div className="relative flex flex-col justify-between lg:col-span-5 h-full min-h-[340px] sm:min-h-[400px]">
+            <div className="relative w-full h-full min-h-[300px] sm:min-h-[360px] rounded-3xl overflow-hidden border border-stone-300/70 dark:border-stone-800/80 shadow-2xl bg-stone-900 group">
+              <AnimatePresence mode="wait">
+                <motion.img
+                  key={currentSlide.id}
+                  src={currentSlide.image}
+                  alt={currentSlide.titleLine1}
+                  initial={{ opacity: 0, scale: 1.05 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.98 }}
+                  transition={{ duration: 0.5 }}
+                  className="h-full w-full object-cover object-center absolute inset-0"
+                />
+              </AnimatePresence>
 
-            {/* Pagination / Carousel Slider Counter at Bottom Right (like <- 01 02 03 ->) */}
-            <div className="relative z-20 flex items-center justify-center lg:justify-end gap-3 p-8">
-              <button
-                id="hero-btn-prev"
-                type="button"
-                onClick={prevSlide}
-                aria-label="Previous Slide"
-                className="flex size-9 items-center justify-center rounded-full bg-black/60 border border-stone-800 text-white transition-colors hover:border-[#ff6b00] hover:text-[#ff6b00]"
-              >
-                <ArrowLeft className="size-4" />
-              </button>
+              {/* Gradient shading for framing */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none" />
 
-              <div className="flex items-center gap-3 font-mono text-base font-extrabold">
-                {slides.map((s, idx) => {
-                  const isActive = activeSlide === idx
-                  return (
+              {/* Bottom right slide counter controls inside the image frame */}
+              <div className="absolute bottom-4 right-4 z-20 flex items-center gap-2 rounded-full bg-black/70 backdrop-blur-md border border-white/20 px-3 py-1.5">
+                <button
+                  type="button"
+                  onClick={prevSlide}
+                  aria-label="Previous Slide"
+                  className="flex size-7 items-center justify-center rounded-full text-white hover:text-[#ff6b00] transition-colors"
+                >
+                  <ArrowLeft className="size-3.5" />
+                </button>
+
+                <div className="flex items-center gap-2 font-mono text-xs font-bold text-white px-1">
+                  {slides.map((s, idx) => (
                     <button
-                      id={`hero-num-btn-${idx}`}
                       key={s.id}
                       type="button"
-                      onClick={() => {
-                        setActiveSlide(idx)
-                        if (typeof window !== 'undefined' && (window as any).__switchHeroSlide) {
-                          (window as any).__switchHeroSlide(idx)
-                        }
-                      }}
-                      className={`transition-all duration-300 ${
-                        isActive
-                          ? 'text-2xl font-black text-[#ff6b00] scale-110 drop-shadow-[0_0_10px_rgba(255,107,0,0.8)]'
-                          : 'text-sm text-stone-500 hover:text-stone-300'
+                      onClick={() => setActiveSlide(idx)}
+                      className={`transition-all ${
+                        activeSlide === idx
+                          ? 'text-[#ff6b00] font-black text-sm'
+                          : 'text-stone-400 hover:text-white'
                       }`}
                     >
                       {s.number}
                     </button>
-                  )
-                })}
-              </div>
+                  ))}
+                </div>
 
-              <button
-                id="hero-btn-next"
-                type="button"
-                onClick={nextSlide}
-                aria-label="Next Slide"
-                className="flex size-9 items-center justify-center rounded-full bg-black/60 border border-stone-800 text-white transition-colors hover:border-[#ff6b00] hover:text-[#ff6b00]"
-              >
-                <ArrowRight className="size-4" />
-              </button>
+                <button
+                  type="button"
+                  onClick={nextSlide}
+                  aria-label="Next Slide"
+                  className="flex size-7 items-center justify-center rounded-full text-white hover:text-[#ff6b00] transition-colors"
+                >
+                  <ArrowRight className="size-3.5" />
+                </button>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function() {
-              if (typeof window === 'undefined') return;
-              var slidesData = [
-                { title: 'XD VERSE SMP' },
-                { title: 'JOIN OUR DISCORD' },
-                { title: 'EVENTS & ACTIVE MEMBERS' }
-              ];
 
-              window.__heroActiveIndex = 0;
-              window.__switchHeroSlide = function(index) {
-                if (index < 0) index = slidesData.length - 1;
-                if (index >= slidesData.length) index = 0;
-                window.__heroActiveIndex = index;
-
-                [0, 1, 2].forEach(function(i) {
-                  var textEl = document.getElementById('hero-slide-text-' + i);
-                  var imgEl = document.getElementById('hero-slide-img-' + i);
-                  var btnEl = document.getElementById('hero-num-btn-' + i);
-
-                  if (i === index) {
-                    if (textEl) {
-                      textEl.style.opacity = '1';
-                      textEl.style.transform = 'translateY(0px) scale(1)';
-                      textEl.style.pointerEvents = 'auto';
-                      textEl.style.zIndex = '10';
-                    }
-                    if (imgEl) {
-                      imgEl.style.opacity = '1';
-                      imgEl.style.transform = 'scale(1)';
-                      imgEl.style.zIndex = '10';
-                    }
-                    if (btnEl) {
-                      btnEl.className = 'transition-all duration-300 text-2xl font-black text-[#ff6b00] scale-110 drop-shadow-[0_0_10px_rgba(255,107,0,0.8)]';
-                    }
-                  } else {
-                    if (textEl) {
-                      textEl.style.opacity = '0';
-                      textEl.style.transform = 'translateY(16px) scale(0.96)';
-                      textEl.style.pointerEvents = 'none';
-                      textEl.style.zIndex = '0';
-                    }
-                    if (imgEl) {
-                      imgEl.style.opacity = '0';
-                      imgEl.style.transform = 'scale(1.05)';
-                      imgEl.style.zIndex = '0';
-                    }
-                    if (btnEl) {
-                      btnEl.className = 'transition-all duration-300 text-sm text-stone-500 hover:text-stone-300';
-                    }
-                  }
-                });
-              };
-
-              document.addEventListener('click', function(e) {
-                var numBtn = e.target ? e.target.closest('[id^="hero-num-btn-"]') : null;
-                if (numBtn && numBtn.id) {
-                  var idx = parseInt(numBtn.id.replace('hero-num-btn-', ''), 10);
-                  if (!isNaN(idx)) window.__switchHeroSlide(idx);
-                }
-                var prevBtn = e.target ? e.target.closest('#hero-btn-prev') : null;
-                if (prevBtn) {
-                  window.__switchHeroSlide(window.__heroActiveIndex - 1);
-                }
-                var nextBtn = e.target ? e.target.closest('#hero-btn-next') : null;
-                if (nextBtn) {
-                  window.__switchHeroSlide(window.__heroActiveIndex + 1);
-                }
-              });
-
-              if (!window.__heroTimer) {
-                window.__heroTimer = setInterval(function() {
-                  window.__switchHeroSlide((window.__heroActiveIndex + 1) % 3);
-                }, 7000);
-              }
-            })();
-          `,
-        }}
-      />
+      {/* Bottom Requirement / Feature Cards Grid (CherryCraft Reference Bottom Bar) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+        {bottomPills.map((pill, idx) => {
+          const IconComp = pill.icon
+          return (
+            <div
+              key={idx}
+              className="group flex items-center gap-4 rounded-2xl border border-stone-200/80 bg-white/90 p-4 sm:p-5 shadow-sm transition-all hover:border-[#ff6b00]/50 hover:shadow-md dark:border-stone-800/90 dark:bg-[#111219]/90"
+            >
+              <div className="flex size-11 items-center justify-center rounded-xl bg-[#ff6b00]/10 text-[#ff6b00] transition-transform group-hover:scale-110">
+                <IconComp className="size-5" />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif font-black text-stone-900 dark:text-white text-base sm:text-lg leading-tight group-hover:text-[#ff6b00] transition-colors">
+                  {pill.title}
+                </span>
+                <span className="text-xs font-medium text-stone-500 dark:text-stone-400">
+                  {pill.subtitle}
+                </span>
+              </div>
+            </div>
+          )
+        })}
+      </div>
     </section>
   )
+}
+ )
 }
