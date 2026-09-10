@@ -9,7 +9,6 @@ import {
   Copy,
   Sparkles,
   MessageSquare,
-  Flame,
   Users,
   Zap,
   ShieldCheck,
@@ -114,13 +113,8 @@ const bottomPills = [
 export function HeroSection() {
   const [activeSlide, setActiveSlide] = useState(0)
   const [copied, setCopied] = useState(false)
-  const [hasMounted, setHasMounted] = useState(false)
 
   const slidesCount = slides.length
-
-  useEffect(() => {
-    setHasMounted(true)
-  }, [])
 
   useEffect(() => {
     const timer = setInterval(() => {
