@@ -9,11 +9,11 @@ import {
   Copy,
   Sparkles,
   MessageSquare,
-  Heart,
-  ClipboardList,
-  ShieldCheck,
   Flame,
-  Users
+  Users,
+  Zap,
+  ShieldCheck,
+  Gamepad2
 } from 'lucide-react'
 
 interface Slide {
@@ -38,77 +38,76 @@ const slides: Slide[] = [
   {
     id: 0,
     number: '01',
-    eyebrow: '✦ XD VERSE COMMUNITY',
-    titleLine1: 'Survival',
-    titleLine2: 'Experience',
-    subhead: 'Help us build a better XD VERSE community.',
+    eyebrow: '✦ MINECRAFT SURVIVAL SMP',
+    titleLine1: 'Ultimate',
+    titleLine2: 'SMP Survival',
+    subhead: 'Welcome to XD VERSE Minecraft Server.',
     description:
-      'We are looking for active, passionate players who want to help create a welcoming, fair and enjoyable survival experience for everyone on XD VERSE.',
+      'Experience classic survival enhanced with custom crafting recipes, land protection, quality of life features, and a thriving gaming community!',
     image: './images/mc-squad-hero.jpg',
-    primaryCtaText: 'Play now',
+    primaryCtaText: 'Get Whitelisted',
     primaryCtaHref: '#how-to-join',
     secondaryCtaText: 'Join Discord',
     secondaryCtaHref: 'https://discord.gg/csZuFW2UM3',
     isExternalSecondary: true,
-    microCopy: '✦ Thoughtful people make welcoming communities.'
+    microCopy: '✦ Friendly players, custom SMP gameplay & 24/7 uptime.'
   },
   {
     id: 1,
     number: '02',
-    eyebrow: '✦ OFFICIAL DISCORD HUB',
-    titleLine1: 'Staff',
-    titleLine2: 'Recruitment',
-    subhead: 'Become a part of our staff team.',
+    eyebrow: '✦ EXCLUSIVE CRAFTING',
+    titleLine1: 'Custom',
+    titleLine2: 'SMP Recipes',
+    subhead: 'Craft Golden Apples, Cobwebs & Special Items.',
     description:
-      'We are recruiting mature and dedicated staff members to assist players, moderate chat, host events, and foster a friendly environment.',
+      'Enhance your survival gameplay with server-exclusive custom recipes! Check out our recipe guide right here on the website.',
     image: './images/mc-error-desk.jpg',
-    primaryCtaText: 'Apply now',
-    primaryCtaHref: 'https://discord.gg/csZuFW2UM3',
+    primaryCtaText: 'View Recipes',
+    primaryCtaHref: '#recipes',
     secondaryCtaText: 'Join Discord',
     secondaryCtaHref: 'https://discord.gg/csZuFW2UM3',
-    isExternalPrimary: true,
     isExternalSecondary: true,
-    microCopy: '✦ Responsible and active members welcome.'
+    microCopy: '✦ Custom recipes designed for the best survival balance.'
   },
   {
     id: 2,
     number: '03',
-    eyebrow: '✦ EVENTS & CUSTOM SMP',
-    titleLine1: 'Community',
-    titleLine2: 'Events & PvP',
-    subhead: 'Thriving multiplayer experience 24/7.',
+    eyebrow: '✦ COMMUNITY & EVENTS',
+    titleLine1: 'PvP & Build',
+    titleLine2: 'Tournaments',
+    subhead: 'Compete in exciting community events.',
     description:
-      'Join build battles, parkour courses, custom recipes, and PvP tournaments with smooth 24/7 performance and dedicated staff support.',
+      'Join build battles, parkour challenges, and epic PvP tournaments with active players and 24/7 server performance!',
     image: './images/mc-library-hub.jpg',
-    primaryCtaText: 'Explore Server',
+    primaryCtaText: 'Explore Features',
     primaryCtaHref: '#features',
     secondaryCtaText: 'Join Discord',
     secondaryCtaHref: 'https://discord.gg/csZuFW2UM3',
     isExternalSecondary: true,
-    microCopy: '✦ Active members, custom recipes & 24/7 uptime.'
+    microCopy: '✦ Active members, anti-cheat protection & helpful staff.'
   }
 ]
 
 const bottomPills = [
   {
-    icon: Heart,
-    title: '18+',
-    subtitle: 'Mature Community'
+    icon: Gamepad2,
+    title: 'Java & Bedrock',
+    subtitle: 'Cross-Play Supported'
   },
   {
-    icon: ClipboardList,
-    title: '10 questions',
-    subtitle: 'Easy Whitelist'
-  },
-  {
-    icon: MessageSquare,
-    title: 'Discord required',
-    subtitle: 'Stay Connected'
+    icon: Zap,
+    title: 'Custom Recipes',
+    subtitle: 'Golden Apples & Cobwebs'
   },
   {
     icon: ShieldCheck,
-    title: 'Manual review',
-    subtitle: 'No Lag & Anti-Cheat'
+    title: '24/7 Online',
+    subtitle: 'High FPS & Zero Lag'
+  },
+  {
+    icon: Users,
+    title: 'Active Community',
+    subtitle: 'Events, PvP & Clans'
   }
 ]
 
