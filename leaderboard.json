@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:34 AM",
+  "updatedAt": "11:04 AM",
   "kills": [
     {
       "rank": "1.",
@@ -86,7 +86,7 @@
       "rank": "10.",
       "name": "ReiyanAsura",
       "score": "3 Kills",
-      "subtitle": "10.5 hrs played",
+      "subtitle": "10.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -115,7 +115,7 @@
       "rank": "3.",
       "name": "ARENTOIS",
       "score": "27 Deaths",
-      "subtitle": "19.3 hrs played",
+      "subtitle": "19.5 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "ARENTOIS",
-      "score": "19.3 hrs",
+      "score": "19.5 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "ReiyanAsura",
-      "score": "10.5 hrs",
+      "score": "10.6 hrs",
       "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
