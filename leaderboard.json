@@ -1,11 +1,11 @@
 {
-  "updatedAt": "03:55 PM",
+  "updatedAt": "04:25 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "PROBotX11",
       "score": "11 Kills",
-      "subtitle": "7.2 hrs played",
+      "subtitle": "7.3 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -160,7 +160,7 @@
       "rank": "8.",
       "name": "PROBotX11",
       "score": "9 Deaths",
-      "subtitle": "7.2 hrs played",
+      "subtitle": "7.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -232,6 +232,15 @@
     },
     {
       "rank": "6.",
+      "name": "SurvileGaming",
+      "score": "8.8 hrs",
+      "subtitle": "0 Kills",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
       "name": "Samuel_Sexy",
       "score": "8.6 hrs",
       "subtitle": "3 Kills",
@@ -240,18 +249,9 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
-      "name": "SurvileGaming",
-      "score": "8.5 hrs",
-      "subtitle": "0 Kills",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
       "rank": "8.",
       "name": "INVIXEE",
-      "score": "7.9 hrs",
+      "score": "8.5 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -260,7 +260,7 @@
     {
       "rank": "9.",
       "name": "PROBotX11",
-      "score": "7.2 hrs",
+      "score": "7.3 hrs",
       "subtitle": "11 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
