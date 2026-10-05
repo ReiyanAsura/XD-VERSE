@@ -1,5 +1,5 @@
 {
-  "updatedAt": "04:25 PM",
+  "updatedAt": "04:55 PM",
   "kills": [
     {
       "rank": "1.",
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "SurvileGaming",
-      "score": "8.8 hrs",
+      "score": "9.0 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -241,18 +241,18 @@
     },
     {
       "rank": "7.",
-      "name": "Samuel_Sexy",
-      "score": "8.6 hrs",
-      "subtitle": "3 Kills",
+      "name": "INVIXEE",
+      "score": "8.9 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "8.",
-      "name": "INVIXEE",
-      "score": "8.5 hrs",
-      "subtitle": "0 Kills",
+      "name": "Samuel_Sexy",
+      "score": "8.6 hrs",
+      "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
