@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:54 AM",
+  "updatedAt": "11:24 AM",
   "kills": [
     {
       "rank": "1.",
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "Samuel_Sexy",
       "score": "3 Kills",
-      "subtitle": "7.7 hrs played",
+      "subtitle": "8.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -122,6 +122,15 @@
     },
     {
       "rank": "4.",
+      "name": "Samuel_Sexy",
+      "score": "10 Deaths",
+      "subtitle": "8.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
       "name": "Pankaj2323",
       "score": "9 Deaths",
       "subtitle": "3.8 hrs played",
@@ -130,7 +139,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "5.",
+      "rank": "6.",
       "name": "ItzKrynis",
       "score": "9 Deaths",
       "subtitle": "9.9 hrs played",
@@ -139,7 +148,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "6.",
+      "rank": "7.",
       "name": "PROBotX11",
       "score": "9 Deaths",
       "subtitle": "7.2 hrs played",
@@ -148,19 +157,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
-      "name": "Samuel_Sexy",
-      "score": "9 Deaths",
-      "subtitle": "7.7 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
       "rank": "8.",
       "name": "AstroAbhi",
       "score": "8 Deaths",
-      "subtitle": "11.3 hrs played",
+      "subtitle": "11.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "AstroAbhi",
-      "score": "11.3 hrs",
+      "score": "11.6 hrs",
       "subtitle": "1 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "Samuel_Sexy",
-      "score": "7.7 hrs",
+      "score": "8.2 hrs",
       "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -259,8 +259,8 @@
     },
     {
       "rank": "9.",
-      "name": "ReiyanAsura",
-      "score": "5.8 hrs",
+      "name": "INVIXEE",
+      "score": "6.1 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -268,8 +268,8 @@
     },
     {
       "rank": "10.",
-      "name": "INVIXEE",
-      "score": "5.8 hrs",
+      "name": "SurvileGaming",
+      "score": "5.9 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
