@@ -1,5 +1,5 @@
 {
-  "updatedAt": "09:26 AM",
+  "updatedAt": "09:56 AM",
   "kills": [
     {
       "rank": "1.",
@@ -66,6 +66,15 @@
     },
     {
       "rank": "8.",
+      "name": "Pankaj2323",
+      "score": "2 Kills",
+      "subtitle": "3.8 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
       "name": "BANGLA_PRO",
       "score": "2 Kills",
       "subtitle": "1.9 hrs played",
@@ -74,19 +83,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "JayVerse_Yt",
       "score": "2 Kills",
       "subtitle": "0.3 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "Sword5000",
-      "score": "2 Kills",
-      "subtitle": "1.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -122,6 +122,15 @@
     },
     {
       "rank": "4.",
+      "name": "Pankaj2323",
+      "score": "9 Deaths",
+      "subtitle": "3.8 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "5.",
       "name": "ItzKrynis",
       "score": "9 Deaths",
       "subtitle": "9.9 hrs played",
@@ -130,7 +139,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "5.",
+      "rank": "6.",
       "name": "PROBotX11",
       "score": "9 Deaths",
       "subtitle": "7.2 hrs played",
@@ -139,7 +148,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "6.",
+      "rank": "7.",
       "name": "Samuel_Sexy",
       "score": "9 Deaths",
       "subtitle": "7.7 hrs played",
@@ -148,7 +157,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "AstroAbhi",
       "score": "8 Deaths",
       "subtitle": "11.3 hrs played",
@@ -157,19 +166,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "8.",
+      "rank": "9.",
       "name": "ARENTOIS",
       "score": "7 Deaths",
       "subtitle": "16.4 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "9.",
-      "name": "Pankaj2323",
-      "score": "6 Deaths",
-      "subtitle": "3.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -259,7 +259,7 @@
     },
     {
       "rank": "9.",
-      "name": "INVIXEE",
+      "name": "ReiyanAsura",
       "score": "5.8 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
@@ -268,8 +268,8 @@
     },
     {
       "rank": "10.",
-      "name": "ReiyanAsura",
-      "score": "5.6 hrs",
+      "name": "INVIXEE",
+      "score": "5.8 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
