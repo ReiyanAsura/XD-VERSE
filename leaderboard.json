@@ -1,5 +1,5 @@
 {
-  "updatedAt": "02:55 PM",
+  "updatedAt": "03:25 PM",
   "kills": [
     {
       "rank": "1.",
@@ -250,18 +250,18 @@
     },
     {
       "rank": "8.",
-      "name": "PROBotX11",
-      "score": "7.2 hrs",
-      "subtitle": "11 Kills",
+      "name": "INVIXEE",
+      "score": "7.6 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "9.",
-      "name": "INVIXEE",
+      "name": "PROBotX11",
       "score": "7.2 hrs",
-      "subtitle": "0 Kills",
+      "subtitle": "11 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
