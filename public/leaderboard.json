@@ -1,11 +1,11 @@
 {
-  "updatedAt": "12:55 PM",
+  "updatedAt": "01:25 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "AzureCreekYT",
       "score": "12 Kills",
-      "subtitle": "11.3 hrs played",
+      "subtitle": "11.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "NOT_INVIXEE",
       "score": "4 Kills",
-      "subtitle": "10.9 hrs played",
+      "subtitle": "11.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -140,6 +140,15 @@
     },
     {
       "rank": "6.",
+      "name": "NOT_INVIXEE",
+      "score": "11 Deaths",
+      "subtitle": "11.3 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
       "name": "Tenveer_2094",
       "score": "11 Deaths",
       "subtitle": "2.7 hrs played",
@@ -148,19 +157,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "aloobhujiya",
       "score": "11 Deaths",
       "subtitle": "0.5 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "8.",
-      "name": "NOT_INVIXEE",
-      "score": "10 Deaths",
-      "subtitle": "10.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "AzureCreekYT",
-      "score": "11.3 hrs",
+      "score": "11.4 hrs",
       "subtitle": "12 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "NOT_INVIXEE",
-      "score": "10.9 hrs",
+      "score": "11.3 hrs",
       "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -233,7 +233,7 @@
     {
       "rank": "6.",
       "name": "INVIXEE",
-      "score": "10.9 hrs",
+      "score": "11.1 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
