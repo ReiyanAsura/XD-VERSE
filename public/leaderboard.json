@@ -1,11 +1,11 @@
 {
-  "updatedAt": "01:25 PM",
+  "updatedAt": "01:55 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "AzureCreekYT",
       "score": "12 Kills",
-      "subtitle": "11.4 hrs played",
+      "subtitle": "11.7 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "NOT_INVIXEE",
       "score": "4 Kills",
-      "subtitle": "11.3 hrs played",
+      "subtitle": "11.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -95,18 +95,18 @@
   "deaths": [
     {
       "rank": "1.",
-      "name": "misible",
-      "score": "20 Deaths",
-      "subtitle": "4.7 hrs played",
+      "name": "Itsdnplayy",
+      "score": "21 Deaths",
+      "subtitle": "5.8 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "Itsdnplayy",
+      "name": "misible",
       "score": "20 Deaths",
-      "subtitle": "5.4 hrs played",
+      "subtitle": "4.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -142,7 +142,7 @@
       "rank": "6.",
       "name": "NOT_INVIXEE",
       "score": "11 Deaths",
-      "subtitle": "11.3 hrs played",
+      "subtitle": "11.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -205,27 +205,27 @@
     },
     {
       "rank": "3.",
-      "name": "SurvileGaming",
-      "score": "11.4 hrs",
-      "subtitle": "0 Kills",
+      "name": "AzureCreekYT",
+      "score": "11.7 hrs",
+      "subtitle": "12 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "AzureCreekYT",
-      "score": "11.4 hrs",
-      "subtitle": "12 Kills",
+      "name": "NOT_INVIXEE",
+      "score": "11.6 hrs",
+      "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "5.",
-      "name": "NOT_INVIXEE",
-      "score": "11.3 hrs",
-      "subtitle": "4 Kills",
+      "name": "SurvileGaming",
+      "score": "11.5 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
