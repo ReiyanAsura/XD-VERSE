@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07:55 AM",
+  "updatedAt": "08:25 AM",
   "kills": [
     {
       "rank": "1.",
@@ -158,6 +158,15 @@
     },
     {
       "rank": "8.",
+      "name": "Ch4ch4_op",
+      "score": "9 Deaths",
+      "subtitle": "4.0 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "9.",
       "name": "ItzKrynis",
       "score": "9 Deaths",
       "subtitle": "9.9 hrs played",
@@ -166,19 +175,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "PROBotX11",
       "score": "9 Deaths",
       "subtitle": "8.0 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "AstroAbhi",
-      "score": "8 Deaths",
-      "subtitle": "13.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
