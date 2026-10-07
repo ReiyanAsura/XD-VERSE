@@ -1,5 +1,5 @@
 {
-  "updatedAt": "02:34 PM",
+  "updatedAt": "03:04 PM",
   "kills": [
     {
       "rank": "1.",
@@ -59,7 +59,7 @@
       "rank": "7.",
       "name": "WhyNotVecna",
       "score": "4 Kills",
-      "subtitle": "4.6 hrs played",
+      "subtitle": "5.0 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -86,7 +86,7 @@
       "rank": "10.",
       "name": "Pankaj2323",
       "score": "2 Kills",
-      "subtitle": "7.0 hrs played",
+      "subtitle": "7.5 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -95,18 +95,18 @@
   "deaths": [
     {
       "rank": "1.",
-      "name": "Tenveer_2094",
+      "name": "Pankaj2323",
       "score": "23 Deaths",
-      "subtitle": "3.5 hrs played",
+      "subtitle": "7.5 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "Pankaj2323",
-      "score": "21 Deaths",
-      "subtitle": "7.0 hrs played",
+      "name": "Tenveer_2094",
+      "score": "23 Deaths",
+      "subtitle": "3.5 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -242,7 +242,7 @@
     {
       "rank": "7.",
       "name": "Onetaggamer1",
-      "score": "10.1 hrs",
+      "score": "10.6 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
