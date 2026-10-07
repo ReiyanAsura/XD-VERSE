@@ -1,11 +1,11 @@
 {
-  "updatedAt": "12:04 PM",
+  "updatedAt": "12:34 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "AzureCreekYT",
-      "score": "15 Kills",
-      "subtitle": "12.7 hrs played",
+      "score": "16 Kills",
+      "subtitle": "13.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -13,8 +13,8 @@
     {
       "rank": "2.",
       "name": "lts_OxY",
-      "score": "15 Kills",
-      "subtitle": "2.2 hrs played",
+      "score": "16 Kills",
+      "subtitle": "2.7 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -57,6 +57,15 @@
     },
     {
       "rank": "7.",
+      "name": "WhyNotVecna",
+      "score": "4 Kills",
+      "subtitle": "3.8 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "8.",
       "name": "GHOST_1569",
       "score": "4 Kills",
       "subtitle": "0.8 hrs played",
@@ -65,7 +74,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "8.",
+      "rank": "9.",
       "name": "Samuel_Sexy",
       "score": "3 Kills",
       "subtitle": "8.7 hrs played",
@@ -74,19 +83,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
-      "name": "WhyNotVecna",
-      "score": "3 Kills",
-      "subtitle": "3.3 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
       "rank": "10.",
       "name": "Pankaj2323",
       "score": "2 Kills",
-      "subtitle": "5.0 hrs played",
+      "subtitle": "5.6 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -97,43 +97,43 @@
       "rank": "1.",
       "name": "Tenveer_2094",
       "score": "23 Deaths",
-      "subtitle": "3.3 hrs played",
+      "subtitle": "3.5 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "Itsdnplayy",
+      "name": "Pankaj2323",
       "score": "21 Deaths",
-      "subtitle": "6.3 hrs played",
+      "subtitle": "5.6 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "misible",
-      "score": "20 Deaths",
-      "subtitle": "4.7 hrs played",
+      "name": "Itsdnplayy",
+      "score": "21 Deaths",
+      "subtitle": "6.3 hrs played",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "Ch4ch4_op",
-      "score": "19 Deaths",
-      "subtitle": "6.1 hrs played",
+      "name": "misible",
+      "score": "20 Deaths",
+      "subtitle": "4.7 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "5.",
-      "name": "Pankaj2323",
-      "score": "18 Deaths",
-      "subtitle": "5.0 hrs played",
+      "name": "Ch4ch4_op",
+      "score": "19 Deaths",
+      "subtitle": "6.2 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -206,26 +206,26 @@
     {
       "rank": "3.",
       "name": "AzureCreekYT",
-      "score": "12.7 hrs",
-      "subtitle": "15 Kills",
+      "score": "13.2 hrs",
+      "subtitle": "16 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "4.",
-      "name": "NOT_INVIXEE",
-      "score": "12.0 hrs",
-      "subtitle": "4 Kills",
+      "name": "SurvileGaming",
+      "score": "12.3 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "5.",
-      "name": "SurvileGaming",
-      "score": "11.8 hrs",
-      "subtitle": "0 Kills",
+      "name": "NOT_INVIXEE",
+      "score": "12.0 hrs",
+      "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -259,18 +259,18 @@
     },
     {
       "rank": "9.",
-      "name": "PROBotX11",
-      "score": "8.1 hrs",
-      "subtitle": "11 Kills",
+      "name": "Onetaggamer1",
+      "score": "8.4 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "Onetaggamer1",
-      "score": "7.9 hrs",
-      "subtitle": "0 Kills",
+      "name": "PROBotX11",
+      "score": "8.1 hrs",
+      "subtitle": "11 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
