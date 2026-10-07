@@ -1,11 +1,11 @@
 {
-  "updatedAt": "06:04 PM",
+  "updatedAt": "06:34 PM",
   "kills": [
     {
       "rank": "1.",
       "name": "AzureCreekYT",
       "score": "16 Kills",
-      "subtitle": "13.9 hrs played",
+      "subtitle": "14.3 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -196,18 +196,18 @@
     },
     {
       "rank": "2.",
-      "name": "SurvileGaming",
-      "score": "13.9 hrs",
-      "subtitle": "0 Kills",
+      "name": "AzureCreekYT",
+      "score": "14.3 hrs",
+      "subtitle": "16 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "AzureCreekYT",
-      "score": "13.9 hrs",
-      "subtitle": "16 Kills",
+      "name": "SurvileGaming",
+      "score": "14.0 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -259,18 +259,18 @@
     },
     {
       "rank": "9.",
-      "name": "Samuel_Sexy",
-      "score": "8.7 hrs",
-      "subtitle": "3 Kills",
+      "name": "ReiyanAsura",
+      "score": "8.8 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "ReiyanAsura",
-      "score": "8.4 hrs",
-      "subtitle": "0 Kills",
+      "name": "Samuel_Sexy",
+      "score": "8.7 hrs",
+      "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
