@@ -1,5 +1,5 @@
 {
-  "updatedAt": "12:04 PM",
+  "updatedAt": "12:34 PM",
   "kills": [
     {
       "rank": "1.",
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "NOT_INVIXEE",
       "score": "4 Kills",
-      "subtitle": "12.6 hrs played",
+      "subtitle": "13.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -151,7 +151,7 @@
       "rank": "7.",
       "name": "NOT_INVIXEE",
       "score": "12 Deaths",
-      "subtitle": "12.6 hrs played",
+      "subtitle": "13.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -196,18 +196,18 @@
     },
     {
       "rank": "2.",
-      "name": "AzureCreekYT",
-      "score": "15.2 hrs",
-      "subtitle": "16 Kills",
+      "name": "SurvileGaming",
+      "score": "15.5 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "3.",
-      "name": "SurvileGaming",
-      "score": "15.0 hrs",
-      "subtitle": "0 Kills",
+      "name": "AzureCreekYT",
+      "score": "15.2 hrs",
+      "subtitle": "16 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -223,18 +223,18 @@
     },
     {
       "rank": "5.",
-      "name": "Onetaggamer1",
+      "name": "NOT_INVIXEE",
       "score": "13.1 hrs",
-      "subtitle": "0 Kills",
+      "subtitle": "4 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "6.",
-      "name": "NOT_INVIXEE",
-      "score": "12.6 hrs",
-      "subtitle": "4 Kills",
+      "name": "Onetaggamer1",
+      "score": "13.1 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
