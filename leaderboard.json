@@ -1,11 +1,11 @@
 {
-  "updatedAt": "07:04 AM",
+  "updatedAt": "07:34 AM",
   "kills": [
     {
       "rank": "1.",
       "name": "AzureCreekYT",
       "score": "16 Kills",
-      "subtitle": "14.9 hrs played",
+      "subtitle": "15.2 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -197,7 +197,7 @@
     {
       "rank": "2.",
       "name": "AzureCreekYT",
-      "score": "14.9 hrs",
+      "score": "15.2 hrs",
       "subtitle": "16 Kills",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
@@ -206,7 +206,7 @@
     {
       "rank": "3.",
       "name": "SurvileGaming",
-      "score": "14.0 hrs",
+      "score": "14.1 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-700 via-amber-600 to-amber-700",
       "ribbonText": "text-white",
@@ -250,18 +250,18 @@
     },
     {
       "rank": "8.",
-      "name": "ItzKrynis",
+      "name": "ReiyanAsura",
       "score": "9.9 hrs",
-      "subtitle": "1 Kills",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "9.",
-      "name": "ReiyanAsura",
-      "score": "9.4 hrs",
-      "subtitle": "0 Kills",
+      "name": "ItzKrynis",
+      "score": "9.9 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
