@@ -1,5 +1,5 @@
 {
-  "updatedAt": "11:12 AM",
+  "updatedAt": "11:42 AM",
   "kills": [
     {
       "rank": "1.",
@@ -250,18 +250,18 @@
     },
     {
       "rank": "8.",
-      "name": "INVIXEE",
-      "score": "11.9 hrs",
-      "subtitle": "0 Kills",
+      "name": "ARENTOIS",
+      "score": "12.0 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "9.",
-      "name": "ARENTOIS",
-      "score": "11.5 hrs",
-      "subtitle": "1 Kills",
+      "name": "INVIXEE",
+      "score": "11.9 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
