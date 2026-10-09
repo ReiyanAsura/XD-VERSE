@@ -1,5 +1,5 @@
 {
-  "updatedAt": "04:27 PM",
+  "updatedAt": "04:57 PM",
   "kills": [
     {
       "rank": "1.",
@@ -32,7 +32,7 @@
       "rank": "4.",
       "name": "whyalwaysinvixee",
       "score": "10 Kills",
-      "subtitle": "1.1 hrs played",
+      "subtitle": "1.3 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -41,7 +41,7 @@
       "rank": "5.",
       "name": "misible",
       "score": "9 Kills",
-      "subtitle": "6.4 hrs played",
+      "subtitle": "6.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -96,8 +96,8 @@
     {
       "rank": "1.",
       "name": "misible",
-      "score": "40 Deaths",
-      "subtitle": "6.4 hrs played",
+      "score": "44 Deaths",
+      "subtitle": "6.8 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "SurvileGaming",
-      "score": "17.8 hrs",
+      "score": "17.9 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -215,7 +215,7 @@
     {
       "rank": "4.",
       "name": "Onetaggamer1",
-      "score": "14.6 hrs",
+      "score": "14.8 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -241,18 +241,18 @@
     },
     {
       "rank": "7.",
-      "name": "ReiyanAsura",
-      "score": "13.4 hrs",
-      "subtitle": "0 Kills",
+      "name": "ARENTOIS",
+      "score": "13.7 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "8.",
-      "name": "ARENTOIS",
-      "score": "13.2 hrs",
-      "subtitle": "1 Kills",
+      "name": "ReiyanAsura",
+      "score": "13.4 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
