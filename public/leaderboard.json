@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10:54 AM",
+  "updatedAt": "11:12 AM",
   "kills": [
     {
       "rank": "1.",
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Onetaggamer1",
-      "score": "13.9 hrs",
+      "score": "14.0 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -259,18 +259,18 @@
     },
     {
       "rank": "9.",
-      "name": "NoMorePROBot",
-      "score": "11.4 hrs",
-      "subtitle": "0 Kills",
+      "name": "ARENTOIS",
+      "score": "11.5 hrs",
+      "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "10.",
-      "name": "ARENTOIS",
-      "score": "11.3 hrs",
-      "subtitle": "1 Kills",
+      "name": "NoMorePROBot",
+      "score": "11.4 hrs",
+      "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
