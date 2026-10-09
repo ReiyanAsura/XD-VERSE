@@ -1,5 +1,5 @@
 {
-  "updatedAt": "03:27 PM",
+  "updatedAt": "03:57 PM",
   "kills": [
     {
       "rank": "1.",
@@ -32,13 +32,22 @@
       "rank": "4.",
       "name": "misible",
       "score": "9 Kills",
-      "subtitle": "5.4 hrs played",
+      "subtitle": "5.9 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
       "rank": "5.",
+      "name": "whyalwaysinvixee",
+      "score": "7 Kills",
+      "subtitle": "0.6 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "6.",
       "name": "NOT_INVIXEE",
       "score": "4 Kills",
       "subtitle": "14.3 hrs played",
@@ -47,7 +56,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "6.",
+      "rank": "7.",
       "name": "Sakura_manav",
       "score": "4 Kills",
       "subtitle": "8.8 hrs played",
@@ -56,7 +65,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "WhyNotVecna",
       "score": "4 Kills",
       "subtitle": "5.2 hrs played",
@@ -65,7 +74,7 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "8.",
+      "rank": "9.",
       "name": "GHOST_1569",
       "score": "4 Kills",
       "subtitle": "0.8 hrs played",
@@ -74,19 +83,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "Pankaj2323",
       "score": "3 Kills",
       "subtitle": "11.5 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "Samuel_Sexy",
-      "score": "3 Kills",
-      "subtitle": "8.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -96,8 +96,8 @@
     {
       "rank": "1.",
       "name": "misible",
-      "score": "26 Deaths",
-      "subtitle": "5.4 hrs played",
+      "score": "35 Deaths",
+      "subtitle": "5.9 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
@@ -224,7 +224,7 @@
     {
       "rank": "5.",
       "name": "Onetaggamer1",
-      "score": "14.0 hrs",
+      "score": "14.3 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
@@ -251,7 +251,7 @@
     {
       "rank": "8.",
       "name": "ARENTOIS",
-      "score": "12.6 hrs",
+      "score": "12.7 hrs",
       "subtitle": "1 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
