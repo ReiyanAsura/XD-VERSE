@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01:57 PM",
+  "updatedAt": "02:27 PM",
   "kills": [
     {
       "rank": "1.",
@@ -77,7 +77,7 @@
       "rank": "9.",
       "name": "Pankaj2323",
       "score": "3 Kills",
-      "subtitle": "11.3 hrs played",
+      "subtitle": "11.4 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -95,18 +95,18 @@
   "deaths": [
     {
       "rank": "1.",
-      "name": "Pankaj2323",
-      "score": "24 Deaths",
-      "subtitle": "11.3 hrs played",
+      "name": "misible",
+      "score": "26 Deaths",
+      "subtitle": "5.4 hrs played",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
       "cardBg": "bg-amber-50/40 border-amber-200/80 hover:border-amber-300 shadow-md hover:shadow-xl"
     },
     {
       "rank": "2.",
-      "name": "misible",
+      "name": "Pankaj2323",
       "score": "24 Deaths",
-      "subtitle": "5.4 hrs played",
+      "subtitle": "11.4 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -268,9 +268,9 @@
     },
     {
       "rank": "10.",
-      "name": "NoMorePROBot",
+      "name": "Pankaj2323",
       "score": "11.4 hrs",
-      "subtitle": "0 Kills",
+      "subtitle": "3 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
