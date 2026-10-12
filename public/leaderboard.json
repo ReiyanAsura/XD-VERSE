@@ -1,5 +1,5 @@
 {
-  "updatedAt": "02:36 PM",
+  "updatedAt": "03:06 PM",
   "kills": [
     {
       "rank": "1.",
@@ -48,6 +48,15 @@
     },
     {
       "rank": "6.",
+      "name": "Pankaj2323",
+      "score": "7 Kills",
+      "subtitle": "13.2 hrs played",
+      "ribbonBg": "from-stone-500 to-stone-600",
+      "ribbonText": "text-white",
+      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
+    },
+    {
+      "rank": "7.",
       "name": "NOT_INVIXEE",
       "score": "4 Kills",
       "subtitle": "14.3 hrs played",
@@ -56,16 +65,16 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "7.",
+      "rank": "8.",
       "name": "Sakura_manav",
       "score": "4 Kills",
-      "subtitle": "9.0 hrs played",
+      "subtitle": "9.1 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "8.",
+      "rank": "9.",
       "name": "WhyNotVecna",
       "score": "4 Kills",
       "subtitle": "5.2 hrs played",
@@ -74,19 +83,10 @@
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
     },
     {
-      "rank": "9.",
+      "rank": "10.",
       "name": "GHOST_1569",
       "score": "4 Kills",
       "subtitle": "0.8 hrs played",
-      "ribbonBg": "from-stone-500 to-stone-600",
-      "ribbonText": "text-white",
-      "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
-    },
-    {
-      "rank": "10.",
-      "name": "Pankaj2323",
-      "score": "3 Kills",
-      "subtitle": "12.8 hrs played",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -105,8 +105,8 @@
     {
       "rank": "2.",
       "name": "Pankaj2323",
-      "score": "24 Deaths",
-      "subtitle": "12.8 hrs played",
+      "score": "25 Deaths",
+      "subtitle": "13.2 hrs played",
       "ribbonBg": "from-slate-400 via-slate-300 to-slate-400",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
@@ -188,7 +188,7 @@
     {
       "rank": "1.",
       "name": "SurvileGaming",
-      "score": "22.2 hrs",
+      "score": "22.3 hrs",
       "subtitle": "0 Kills",
       "ribbonBg": "from-amber-400 via-yellow-400 to-amber-500",
       "ribbonText": "text-white",
@@ -260,8 +260,8 @@
     {
       "rank": "9.",
       "name": "Pankaj2323",
-      "score": "12.8 hrs",
-      "subtitle": "3 Kills",
+      "score": "13.2 hrs",
+      "subtitle": "7 Kills",
       "ribbonBg": "from-stone-500 to-stone-600",
       "ribbonText": "text-white",
       "cardBg": "bg-white border-stone-200 hover:border-stone-300 shadow-sm hover:shadow-md"
